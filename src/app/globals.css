@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f8fb;
+  --foreground: #101b33;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* Brand: navy (primary), sampled from the InNederland.ai wordmark */
+  --color-navy-50: #eef1f7;
+  --color-navy-100: #d9deec;
+  --color-navy-200: #b3bdd9;
+  --color-navy-300: #8798c2;
+  --color-navy-400: #5a6ea4;
+  --color-navy-500: #3a4c80;
+  --color-navy-600: #283760;
+  --color-navy-700: #1c2749;
+  --color-navy-800: #141c37;
+  --color-navy-900: #0f1526;
+  --color-navy-950: #0a0e1a;
+
+  /* Brand: orange (accent), sampled from the ".nl" / dot mark */
+  --color-orange-50: #fef3e8;
+  --color-orange-100: #fde3c4;
+  --color-orange-200: #fbc688;
+  --color-orange-300: #f8a54f;
+  --color-orange-400: #f6912f;
+  --color-orange-500: #f5821f;
+  --color-orange-600: #dd6b12;
+  --color-orange-700: #b8550e;
+  --color-orange-800: #8f4110;
+  --color-orange-900: #723510;
+
+  /* Dutch flag accents, used sparingly (badges, level indicators) */
+  --color-flag-red: #c8102e;
+  --color-flag-blue: #21468b;
+
+  --radius-card: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0e1a;
+    --foreground: #eef1f7;
+  }
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+}
