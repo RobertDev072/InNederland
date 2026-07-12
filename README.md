@@ -33,13 +33,17 @@ volledig op gratis tiers — zie [Kosten](#kosten--gratis-tier) hieronder.
      LanguageTool host
 
 3. Voer de database-migraties uit tegen je Supabase project, in volgorde, via de SQL Editor in het Supabase
-   dashboard (of via de Supabase CLI):
+   dashboard, of in één keer via `npx supabase db push --db-url "<connection-string>"`:
 
    ```text
-   supabase/migrations/0001_init.sql        -- schema + RLS-policies
-   supabase/seed.sql                        -- niveaus (A1–B2) en vaardigheden
-   supabase/migrations/0002_seed_a2_content.sql  -- A2-lessen, oefeningen en KNM-hoofdstukken
+   supabase/migrations/0001_init.sql               -- schema + RLS-policies
+   supabase/migrations/0002_seed_reference_data.sql -- niveaus (A1–B2) en vaardigheden
+   supabase/migrations/0003_seed_a2_content.sql     -- A2-lessen, oefeningen en KNM-hoofdstukken
    ```
+
+   `supabase/seed.sql` bevat dezelfde referentiedata als `0002_seed_reference_data.sql` en wordt alleen
+   gebruikt door de Supabase CLI's lokale `db reset`-workflow (met een lokale Docker-database) — voor een
+   remote project via `db push` doorloop je gewoon de migraties hierboven.
 
 4. Start de dev server:
 

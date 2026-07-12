@@ -1,6 +1,6 @@
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { getLessonWithExercises } from "@/lib/exercises/queries";
-import { getCurrentProfile } from "@/lib/profile/queries";
+import { getCurrentProfile, hasFullAccess } from "@/lib/profile/queries";
 import { LessonClient } from "../_components/lesson-client";
 
 export default async function LuisterenLessonPage({
@@ -26,6 +26,10 @@ export default async function LuisterenLessonPage({
   }
 
   const questionExercises = exercises.filter((exercise) => exercise.type === "multiple_choice");
+
+  if (!lesson.isFree && !hasFullAccess(profile)) {
+    redirect("/toegang");
+  }
 
   return (
     <div className="mx-auto flex max-w-3xl flex-col gap-6">

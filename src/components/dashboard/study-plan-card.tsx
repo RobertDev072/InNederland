@@ -2,6 +2,7 @@
 
 import { useTransition } from "react";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import { BookOpenText, Ear, Landmark, Mic, PenLine } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ProgressBar } from "@/components/ui/progress-bar";
@@ -18,6 +19,7 @@ const SKILL_ICON = {
 } as const;
 
 export function StudyPlanCard({ plan }: { plan: StudyPlanView }) {
+  const t = useTranslations("Dashboard");
   const [isPending, startTransition] = useTransition();
   const done = plan.items.filter((item) => item.status === "done").length;
   const progress = plan.items.length > 0 ? (done / plan.items.length) * 100 : 0;
@@ -26,9 +28,9 @@ export function StudyPlanCard({ plan }: { plan: StudyPlanView }) {
     <Card>
       <CardHeader className="flex-row items-center justify-between">
         <div>
-          <CardTitle>Studieplan — week {plan.weekNumber}</CardTitle>
+          <CardTitle>{t("studyPlanTitle", { week: plan.weekNumber })}</CardTitle>
           <CardDescription>
-            {done} van {plan.items.length} onderdelen afgerond
+            {t("studyPlanProgress", { done, total: plan.items.length })}
           </CardDescription>
         </div>
       </CardHeader>

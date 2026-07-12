@@ -1,9 +1,10 @@
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
+import { getTranslations } from "next-intl/server";
 import { createClient } from "@/lib/supabase/server";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MultipleChoiceQuestion } from "@/components/exercises/multiple-choice-question";
-import { getCurrentProfile } from "@/lib/profile/queries";
+import { getCurrentProfile, hasFullAccess } from "@/lib/profile/queries";
 import type { KnmTopicContent } from "@/types/exercise-content";
 
 export default async function KnmTopicPage({
@@ -13,11 +14,12 @@ export default async function KnmTopicPage({
 }) {
   const { topicId } = await params;
 
+  const t = await getTranslations("Skills");
   const supabase = await createClient();
   const [{ data: topic }, profile] = await Promise.all([
     supabase
       .from("knm_topics")
-      .select("id, category, title, content, sort_order")
+      .select("id, category, title, content, sort_order, is_free")
       .eq("id", topicId)
       .single(),
     getCurrentProfile(),
@@ -25,6 +27,10 @@ export default async function KnmTopicPage({
 
   if (!topic) {
     notFound();
+  }
+
+  if (!topic.is_free && !hasFullAccess(profile)) {
+    redirect("/toegang");
   }
 
   const content = topic.content as unknown as KnmTopicContent;
@@ -51,7 +57,7 @@ export default async function KnmTopicPage({
 
       {content.checkQuestions && content.checkQuestions.length > 0 ? (
         <div className="flex flex-col gap-4">
-          <h2 className="text-lg font-semibold text-navy-900">Controlevragen</h2>
+          <h2 className="text-lg font-semibold text-navy-900">{t("comprehensionQuestions")}</h2>
           {content.checkQuestions.map((question, index) => (
             <Card key={index}>
               <CardContent>

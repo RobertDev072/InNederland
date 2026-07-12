@@ -3,7 +3,6 @@ import { createServerClient } from "@supabase/ssr";
 
 const PROTECTED_PREFIXES = [
   "/dashboard",
-  "/onboarding",
   "/niveau",
   "/spreken",
   "/luisteren",
@@ -12,6 +11,7 @@ const PROTECTED_PREFIXES = [
   "/knm",
   "/proefexamen",
   "/coach",
+  "/admin",
 ];
 
 const AUTH_PREFIXES = ["/login", "/registreren"];

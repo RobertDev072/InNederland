@@ -1,5 +1,6 @@
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { getLessonWithExercises } from "@/lib/exercises/queries";
+import { getCurrentProfile, hasFullAccess } from "@/lib/profile/queries";
 import { asContent } from "@/types/exercise-content";
 import { SprekenLessonClient } from "../_components/lesson-client";
 
@@ -10,7 +11,7 @@ export default async function SprekenLessonPage({
 }) {
   const { lessonId } = await params;
 
-  const data = await getLessonWithExercises(lessonId);
+  const [data, profile] = await Promise.all([getLessonWithExercises(lessonId), getCurrentProfile()]);
 
   if (!data) {
     notFound();
@@ -21,6 +22,10 @@ export default async function SprekenLessonPage({
 
   if (!primary) {
     notFound();
+  }
+
+  if (!lesson.isFree && !hasFullAccess(profile)) {
+    redirect("/toegang");
   }
 
   const content = asContent("speaking_prompt", primary.content);
@@ -35,6 +40,8 @@ export default async function SprekenLessonPage({
         exerciseId={primary.id}
         scenario={content.scenario}
         expectedPoints={content.expectedPoints}
+        youtubeVideoId={content.youtubeVideoId}
+        imageUrl={content.imageUrl}
       />
     </div>
   );

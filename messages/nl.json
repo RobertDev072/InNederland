@@ -1,0 +1,171 @@
+{
+  "Common": {
+    "start": "Start",
+    "save": "Opslaan",
+    "cancel": "Annuleren",
+    "delete": "Verwijderen",
+    "edit": "Bewerken",
+    "back": "Terug",
+    "loading": "Bezig met laden…",
+    "free": "Gratis",
+    "locked": "Op slot",
+    "comingSoon": "Binnenkort",
+    "signOut": "Uitloggen",
+    "language": "Taal"
+  },
+  "Nav": {
+    "dashboard": "Dashboard",
+    "spreken": "Spreken",
+    "luisteren": "Luisteren",
+    "lezen": "Lezen",
+    "schrijven": "Schrijven",
+    "knm": "KNM",
+    "proefexamen": "Proefexamen",
+    "coach": "AI-coach",
+    "admin": "Admin",
+    "backToDashboard": "← Terug naar dashboard"
+  },
+  "Marketing": {
+    "login": "Inloggen",
+    "startFree": "Gratis starten",
+    "eyebrow": "Inburgering & Staatsexamen NT2",
+    "heroTitle": "Jouw weg naar een nieuwe toekomst",
+    "heroSubtitle": "Bereid je stap voor stap voor op Spreken, Luisteren, Lezen, Schrijven en Kennis van de Nederlandse Maatschappij — met eigen oefenmateriaal, directe AI-feedback en een persoonlijk studieplan.",
+    "ctaStartFree": "Start gratis",
+    "ctaHaveAccount": "Ik heb al een account",
+    "trustNoCopiedExams": "Eigen oefenmateriaal, geen gekopieerde examenvragen",
+    "trustAiFeedback": "Directe AI-feedback op elke oefening",
+    "trustStudyPlan": "Persoonlijk studieplan, aangepast op jouw tempo",
+    "levelsTitle": "Kies je niveau",
+    "levelsSubtitle": "Van je eerste woorden Nederlands tot het Staatsexamen NT2 Programma II.",
+    "skillsTitle": "Alle examenonderdelen",
+    "skillSprekenDesc": "Oefen gesprekken uit het dagelijks leven en ontvang directe feedback.",
+    "skillLuisterenDesc": "Luister naar realistische fragmenten en beantwoord interactieve vragen.",
+    "skillLezenDesc": "Lees e-mails, brieven en advertenties — moeilijke woorden worden direct uitgelegd.",
+    "skillSchrijvenDesc": "Schrijf e-mails en formulieren en krijg feedback op grammatica en opbouw.",
+    "skillKnmDesc": "Leer hoe Nederland werkt: wonen, werken, zorg, DigiD en meer.",
+    "ctaSectionTitle": "Elke dag een stap dichter bij je doel",
+    "ctaSectionBody": "Na registratie stel je jouw studieplan samen: moedertaal, gewenst niveau, examendatum en beschikbare tijd per dag. Wij passen je leerplan automatisch aan op je voortgang.",
+    "ctaSectionButton": "Begin vandaag",
+    "disclaimer": "Eigen oefenmateriaal — geen gekopieerde examenvragen, geen garantie op slagen.",
+    "footerTagline": "Jouw weg naar een nieuwe toekomst."
+  },
+  "Auth": {
+    "loginTitle": "Welkom terug",
+    "loginSubtitle": "Log in om verder te gaan met je studieplan.",
+    "email": "E-mailadres",
+    "password": "Wachtwoord",
+    "loginButton": "Inloggen",
+    "noAccount": "Nog geen account?",
+    "registerLink": "Registreer gratis",
+    "registerTitle": "Maak je gratis account",
+    "registerSubtitle": "Start met je persoonlijke leerplan voor inburgering of Staatsexamen NT2.",
+    "passwordHint": "Minimaal 8 tekens.",
+    "registerButton": "Account aanmaken",
+    "haveAccount": "Heb je al een account?",
+    "loginLink": "Log in"
+  },
+  "Dashboard": {
+    "welcomeBack": "Welkom terug",
+    "goal": "Doel",
+    "goalNotChosen": "nog niet gekozen",
+    "examOn": "Examen op",
+    "minutesPerDay": "min/dag",
+    "studyPlanTitle": "Studieplan — week {week}",
+    "studyPlanProgress": "{done} van {total} onderdelen afgerond",
+    "noContentForLevel": "Content voor {level} is nog in ontwikkeling. Je kunt je doel later aanpassen zodra dit niveau beschikbaar is.",
+    "noStudyPlanYet": "We stellen je studieplan samen zodra er content beschikbaar is.",
+    "accessBannerText": "Je gebruikt nu de gratis preview (1 les per vaardigheid). Activeer je account voor volledige toegang.",
+    "accessBannerCta": "Toegang activeren →",
+    "examVideoTitle": "Wat is het inburgeringsexamen?",
+    "examVideoSubtitle": "Een korte uitleg over wat je te wachten staat."
+  },
+  "LockedLevel": {
+    "chooseLevelFirst": "Kies eerst je niveau in je studieplan om oefeningen te zien.",
+    "notAvailableYet": "Content voor {level} is nog in ontwikkeling. Je kunt alvast starten met A2 — Inburgering."
+  },
+  "Upgrade": {
+    "examMessage": "Het proefexamen is onderdeel van volledige toegang.",
+    "coachMessage": "De AI-examencoach is onderdeel van volledige toegang.",
+    "activateButton": "Toegang activeren"
+  },
+  "Skills": {
+    "lezenTitle": "Lezen",
+    "luisterenTitle": "Luisteren",
+    "schrijvenTitle": "Schrijven",
+    "sprekenTitle": "Spreken",
+    "knmTitle": "Kennis van de Nederlandse Maatschappij",
+    "knmSubtitle": "Leer over Nederland: geschiedenis, wonen, werken en de Nederlandse samenleving.",
+    "noLessonsForLevel": "Nog geen lessen voor dit niveau.",
+    "noContentYet": "Nog geen inhoud beschikbaar.",
+    "comprehensionQuestions": "Begripsvragen",
+    "adminLevelLabel": "Niveau (admin)"
+  },
+  "Lezen": {
+    "correct": "Goed gedaan!",
+    "explanationLoading": "Uitleg wordt opgehaald…",
+    "incorrectFallback": "Dat is helaas niet juist."
+  },
+  "Luisteren": {
+    "listenButton": "Beluister het fragment",
+    "playing": "Bezig met afspelen…",
+    "showTranscript": "Toon transcript",
+    "hideTranscript": "Verberg transcript",
+    "unsupported": "Je browser ondersteunt geen gesproken audio. Lees het fragment hieronder."
+  },
+  "Schrijven": {
+    "checkButton": "Controleer",
+    "checking": "Bezig met controleren…",
+    "wordsMinimum": "minimaal {count} woorden",
+    "score": "Score",
+    "strengths": "Sterke punten",
+    "improvements": "Verbeterpunten",
+    "correctedText": "Verbeterde versie"
+  },
+  "Spreken": {
+    "situation": "Situatie",
+    "disclaimer": "We beoordelen de tekst die door spraakherkenning wordt herkend, niet je uitspraak zelf.",
+    "startRecording": "Start opname",
+    "stopRecording": "Stop opname",
+    "listening": "Luisteren…",
+    "transcriptPlaceholder": "Je gesproken tekst verschijnt hier zodra je begint met opnemen.",
+    "unsupported": "Spraakherkenning wordt niet ondersteund in deze browser. Typ hieronder wat je zou zeggen.",
+    "typePlaceholder": "Typ hier je antwoord…",
+    "submit": "Verstuur",
+    "tryAgain": "Opnieuw proberen",
+    "feedback": "Feedback",
+    "strengths": "Sterke punten",
+    "improvements": "Verbeterpunten",
+    "missedPoints": "Gemiste punten"
+  },
+  "Proefexamen": {
+    "title": "Proefexamen",
+    "noExamYet": "Nog geen proefexamen beschikbaar.",
+    "sectionsFor": "Dit proefexamen bevat onderdelen voor: {skills}.",
+    "testYourKnowledge": "Test je kennis voor {level}.",
+    "questionCounter": "Vraag {current} van {total}",
+    "next": "Volgende",
+    "finish": "Voltooien",
+    "missingAnswer": "Deze vraag ontbreekt een antwoord.",
+    "answerPlaceholder": "Typ hier je antwoord…"
+  },
+  "Coach": {
+    "title": "AI-examencoach",
+    "inputPlaceholder": "Typ je vraag…",
+    "send": "Versturen",
+    "suggestionWhyWrong": "Waarom is dit antwoord fout?",
+    "suggestionSimplify": "Leg dit makkelijker uit",
+    "suggestionPractice": "Oefen een gesprek met mij"
+  },
+  "Toegang": {
+    "title": "Toegang activeren",
+    "body": "Je hebt alvast een gratis les per vaardigheid geprobeerd. Voor volledige toegang tot alle lessen, proefexamens en de AI-examencoach verlopen betalingen bij InNederland.ai handmatig via WhatsApp — geen creditcard of automatische incasso nodig.",
+    "whatsappButton": "Neem contact op via WhatsApp",
+    "activationNote": "Zodra je betaling is verwerkt, activeren we je account handmatig — meestal binnen enkele uren."
+  },
+  "Geblokkeerd": {
+    "title": "Je account is geblokkeerd",
+    "body": "Neem contact op via WhatsApp als je denkt dat dit niet klopt, of als je vragen hebt over je account.",
+    "whatsappButton": "Neem contact op via WhatsApp"
+  }
+}

@@ -1,5 +1,5 @@
-import { notFound } from "next/navigation";
-import { getCurrentProfile } from "@/lib/profile/queries";
+import { notFound, redirect } from "next/navigation";
+import { getCurrentProfile, hasFullAccess } from "@/lib/profile/queries";
 import { getLessonWithExercises } from "@/lib/exercises/queries";
 import { asContent } from "@/types/exercise-content";
 import { LessonClient } from "../_components/lesson-client";
@@ -25,6 +25,10 @@ export default async function SchrijvenLessonPage({
 
   if (!writingExercise) {
     notFound();
+  }
+
+  if (!lesson.isFree && !hasFullAccess(profile)) {
+    redirect("/toegang");
   }
 
   const content = asContent("writing_task", writingExercise.content);

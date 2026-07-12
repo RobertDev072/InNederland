@@ -1,6 +1,6 @@
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { getMockExamById, getExamExercises } from "@/lib/mock-exam/queries";
-import { getCurrentProfile } from "@/lib/profile/queries";
+import { getCurrentProfile, hasFullAccess } from "@/lib/profile/queries";
 import { LockedLevelNotice } from "@/components/dashboard/locked-level-notice";
 import { AVAILABLE_LEVELS, type LevelCode } from "@/types/content";
 import { ExamRunner } from "../_components/exam-runner";
@@ -21,6 +21,10 @@ export default async function ProefexamenDetailPage({
   const targetLevel = (profile?.targetLevel as LevelCode | null) ?? null;
   if (!targetLevel || !AVAILABLE_LEVELS.includes(targetLevel)) {
     return <LockedLevelNotice targetLevel={targetLevel} />;
+  }
+
+  if (!hasFullAccess(profile)) {
+    redirect("/toegang");
   }
 
   const exercises = await getExamExercises(targetLevel, exam.structure);

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
 import type { MultipleChoiceAnswer, MultipleChoiceContent } from "@/types/exercise-content";
 
@@ -15,6 +16,7 @@ export function MultipleChoiceQuestion({
   nativeLanguage?: string | null;
   onAnswered?: (correct: boolean, chosenIndex: number) => void;
 }) {
+  const t = useTranslations("Lezen");
   const [chosen, setChosen] = useState<number | null>(null);
   const [explanation, setExplanation] = useState<string | null>(null);
   const [loadingExplanation, setLoadingExplanation] = useState(false);
@@ -44,7 +46,7 @@ export function MultipleChoiceQuestion({
         const data = (await res.json()) as { explanation?: string };
         setExplanation(data.explanation ?? correctAnswer.explanation ?? null);
       } catch {
-        setExplanation(correctAnswer.explanation ?? "Dat is helaas niet juist.");
+        setExplanation(correctAnswer.explanation ?? t("incorrectFallback"));
       } finally {
         setLoadingExplanation(false);
       }
@@ -86,10 +88,10 @@ export function MultipleChoiceQuestion({
           )}
         >
           {isCorrect
-            ? "Goed gedaan!"
+            ? t("correct")
             : loadingExplanation
-              ? "Uitleg wordt opgehaald…"
-              : (explanation ?? correctAnswer.explanation ?? "Dat is helaas niet juist.")}
+              ? t("explanationLoading")
+              : (explanation ?? correctAnswer.explanation ?? t("incorrectFallback"))}
         </div>
       ) : null}
     </div>

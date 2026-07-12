@@ -1,11 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import { Button, LinkButton } from "@/components/ui/button";
 import { Card, CardContent, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ProgressBar } from "@/components/ui/progress-bar";
 import { MultipleChoiceQuestion } from "@/components/exercises/multiple-choice-question";
+import { YouTubeEmbed } from "@/components/exercises/youtube-embed";
 import { asAnswer, asContent } from "@/types/exercise-content";
 import { submitMockExam } from "@/lib/mock-exam/actions";
 import { SKILL_LABELS, type SkillCode } from "@/types/content";
@@ -39,7 +41,7 @@ function getDisplayText(exercise: MockExamExercise): string {
     case "reading_text":
       return asContent("reading_text", exercise.content).text;
     case "listening_clip":
-      return asContent("listening_clip", exercise.content).script;
+      return asContent("listening_clip", exercise.content).script ?? "";
     case "writing_task":
       return asContent("writing_task", exercise.content).instructions;
     case "speaking_prompt":
@@ -51,6 +53,16 @@ function getDisplayText(exercise: MockExamExercise): string {
   }
 }
 
+function getDisplayVideoId(exercise: MockExamExercise): string | undefined {
+  if (exercise.type === "listening_clip") {
+    return asContent("listening_clip", exercise.content).youtubeVideoId;
+  }
+  if (exercise.type === "speaking_prompt") {
+    return asContent("speaking_prompt", exercise.content).youtubeVideoId;
+  }
+  return undefined;
+}
+
 export function ExamRunner({
   mockExamId,
   exercises,
@@ -60,6 +72,7 @@ export function ExamRunner({
   exercises: MockExamExercise[];
   nativeLanguage: string | null;
 }) {
+  const t = useTranslations("Proefexamen");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<ExerciseAnswer[]>([]);
   const [freeText, setFreeText] = useState("");
@@ -280,20 +293,22 @@ export function ExamRunner({
         onAnswered={(correct) => setMcCorrect(correct)}
       />
     ) : (
-      <p className="text-sm text-flag-red">Deze vraag ontbreekt een antwoord.</p>
+      <p className="text-sm text-flag-red">{t("missingAnswer")}</p>
     );
   } else {
     const displayText = getDisplayText(exercise);
+    const videoId = getDisplayVideoId(exercise);
     body = (
       <>
         <p className="font-medium text-navy-900">{exercise.prompt}</p>
+        {videoId ? <YouTubeEmbed videoId={videoId} title={exercise.prompt} /> : null}
         {displayText ? <p className="whitespace-pre-line text-navy-700">{displayText}</p> : null}
         <textarea
           key={exercise.id}
           value={freeText}
           onChange={(event) => setFreeText(event.target.value)}
           rows={5}
-          placeholder="Typ hier je antwoord…"
+          placeholder={t("answerPlaceholder")}
           className="w-full rounded-lg border border-navy-200 bg-white px-3.5 py-3 text-sm text-navy-900 placeholder:text-navy-300 focus:border-navy-400 focus:outline-none focus:ring-2 focus:ring-navy-100"
         />
       </>
@@ -303,9 +318,7 @@ export function ExamRunner({
   return (
     <div className="flex flex-col gap-4">
       <div className="flex items-center justify-between text-sm text-navy-500">
-        <span>
-          Vraag {currentIndex + 1} van {exercises.length}
-        </span>
+        <span>{t("questionCounter", { current: currentIndex + 1, total: exercises.length })}</span>
         <Badge variant="neutral">{SKILL_LABELS[exercise.skillCode]}</Badge>
       </div>
       <ProgressBar value={(currentIndex / exercises.length) * 100} />
@@ -315,7 +328,7 @@ export function ExamRunner({
       </Card>
 
       <Button onClick={handleNext} disabled={!canAdvance || submitting} loading={submitting}>
-        {isLast ? "Voltooien" : "Volgende"}
+        {isLast ? t("finish") : t("next")}
       </Button>
     </div>
   );

@@ -20,4 +20,4 @@ export const SKILL_LABELS: Record<SkillCode, string> = {
 };
 
 /** Levels with real content in this build. Others render as "binnenkort beschikbaar". */
-export const AVAILABLE_LEVELS: LevelCode[] = ["A2"];
+export const AVAILABLE_LEVELS: LevelCode[] = ["A1", "A2"];

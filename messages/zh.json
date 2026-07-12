@@ -1,0 +1,171 @@
+{
+  "Common": {
+    "start": "开始",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "back": "返回",
+    "loading": "加载中…",
+    "free": "免费",
+    "locked": "已锁定",
+    "comingSoon": "即将推出",
+    "signOut": "退出登录",
+    "language": "语言"
+  },
+  "Nav": {
+    "dashboard": "仪表盘",
+    "spreken": "口语",
+    "luisteren": "听力",
+    "lezen": "阅读",
+    "schrijven": "写作",
+    "knm": "荷兰社会知识",
+    "proefexamen": "模拟考试",
+    "coach": "AI 助教",
+    "admin": "管理后台",
+    "backToDashboard": "← 返回仪表盘"
+  },
+  "Marketing": {
+    "login": "登录",
+    "startFree": "免费开始",
+    "eyebrow": "入籍融入考试与 NT2 国家考试",
+    "heroTitle": "通往崭新未来的道路",
+    "heroSubtitle": "循序渐进地准备口语、听力、阅读、写作以及荷兰社会知识 —— 配备专属练习材料、即时 AI 反馈和个性化学习计划。",
+    "ctaStartFree": "免费开始",
+    "ctaHaveAccount": "我已有账户",
+    "trustNoCopiedExams": "自有练习材料，绝无抄袭的考试题目",
+    "trustAiFeedback": "每道练习都有即时 AI 反馈",
+    "trustStudyPlan": "个性化学习计划，按你的节奏调整",
+    "levelsTitle": "选择你的等级",
+    "levelsSubtitle": "从最初的荷兰语单词到 NT2 国家考试第二阶段。",
+    "skillsTitle": "考试全部组成部分",
+    "skillSprekenDesc": "练习日常对话，获得即时反馈。",
+    "skillLuisterenDesc": "聆听真实场景片段，回答互动问题。",
+    "skillLezenDesc": "阅读邮件、信件和广告 —— 难词会立即得到解释。",
+    "skillSchrijvenDesc": "撰写邮件和表格，获得语法与结构方面的反馈。",
+    "skillKnmDesc": "了解荷兰的运作方式：住房、工作、医疗、DigiD 等等。",
+    "ctaSectionTitle": "每天都离目标更近一步",
+    "ctaSectionBody": "注册后，你将设置自己的学习计划：母语、目标等级、考试日期以及每天可用的学习时间。我们会根据你的进度自动调整计划。",
+    "ctaSectionButton": "今天就开始",
+    "disclaimer": "自有练习材料 —— 绝无抄袭的考试题目，不保证通过考试。",
+    "footerTagline": "通往崭新未来的道路。"
+  },
+  "Auth": {
+    "loginTitle": "欢迎回来",
+    "loginSubtitle": "登录以继续你的学习计划。",
+    "email": "电子邮箱",
+    "password": "密码",
+    "loginButton": "登录",
+    "noAccount": "还没有账户？",
+    "registerLink": "免费注册",
+    "registerTitle": "创建你的免费账户",
+    "registerSubtitle": "开始你的入籍融入或 NT2 国家考试个人学习计划。",
+    "passwordHint": "至少 8 个字符。",
+    "registerButton": "创建账户",
+    "haveAccount": "已经有账户了？",
+    "loginLink": "登录"
+  },
+  "Dashboard": {
+    "welcomeBack": "欢迎回来",
+    "goal": "目标",
+    "goalNotChosen": "尚未选择",
+    "examOn": "考试日期",
+    "minutesPerDay": "分钟/天",
+    "studyPlanTitle": "学习计划 — 第 {week} 周",
+    "studyPlanProgress": "已完成 {total} 项中的 {done} 项",
+    "noContentForLevel": "{level} 的内容仍在开发中。等该等级上线后，你可以再调整目标。",
+    "noStudyPlanYet": "一旦有内容可用，我们会立即为你安排学习计划。",
+    "accessBannerText": "你目前使用的是免费试用版（每项技能 1 节课）。激活账户以获得完整访问权限。",
+    "accessBannerCta": "激活访问权限 →",
+    "examVideoTitle": "什么是入籍融入考试？",
+    "examVideoSubtitle": "简短说明你将面对的内容。"
+  },
+  "LockedLevel": {
+    "chooseLevelFirst": "请先在学习计划中选择你的等级以查看练习。",
+    "notAvailableYet": "{level} 的内容仍在开发中。你可以先从 A2 —— 入籍融入 开始。"
+  },
+  "Upgrade": {
+    "examMessage": "模拟考试是完整访问权限的一部分。",
+    "coachMessage": "AI 考试助教是完整访问权限的一部分。",
+    "activateButton": "激活访问权限"
+  },
+  "Skills": {
+    "lezenTitle": "阅读",
+    "luisterenTitle": "听力",
+    "schrijvenTitle": "写作",
+    "sprekenTitle": "口语",
+    "knmTitle": "荷兰社会知识",
+    "knmSubtitle": "了解荷兰：历史、住房、工作与荷兰社会。",
+    "noLessonsForLevel": "该等级暂无课程。",
+    "noContentYet": "暂无可用内容。",
+    "comprehensionQuestions": "理解性问题",
+    "adminLevelLabel": "等级（管理员）"
+  },
+  "Lezen": {
+    "correct": "做得好！",
+    "explanationLoading": "正在获取解释…",
+    "incorrectFallback": "很遗憾，这不正确。"
+  },
+  "Luisteren": {
+    "listenButton": "收听片段",
+    "playing": "正在播放…",
+    "showTranscript": "显示文字稿",
+    "hideTranscript": "隐藏文字稿",
+    "unsupported": "你的浏览器不支持语音播放，请阅读下方的文字内容。"
+  },
+  "Schrijven": {
+    "checkButton": "检查",
+    "checking": "正在检查…",
+    "wordsMinimum": "至少 {count} 个单词",
+    "score": "得分",
+    "strengths": "优点",
+    "improvements": "改进之处",
+    "correctedText": "改进后的版本"
+  },
+  "Spreken": {
+    "situation": "情境",
+    "disclaimer": "我们评估的是语音识别出的文字内容，而非你的发音本身。",
+    "startRecording": "开始录音",
+    "stopRecording": "停止录音",
+    "listening": "正在聆听…",
+    "transcriptPlaceholder": "开始录音后，你说的内容会显示在这里。",
+    "unsupported": "此浏览器不支持语音识别。请在下方输入你想说的内容。",
+    "typePlaceholder": "在此输入你的答案…",
+    "submit": "提交",
+    "tryAgain": "重新尝试",
+    "feedback": "反馈",
+    "strengths": "优点",
+    "improvements": "改进之处",
+    "missedPoints": "遗漏的要点"
+  },
+  "Proefexamen": {
+    "title": "模拟考试",
+    "noExamYet": "暂无可用的模拟考试。",
+    "sectionsFor": "本次模拟考试包含以下部分：{skills}。",
+    "testYourKnowledge": "测试你对 {level} 的掌握程度。",
+    "questionCounter": "第 {current} 题，共 {total} 题",
+    "next": "下一题",
+    "finish": "完成",
+    "missingAnswer": "此题尚未作答。",
+    "answerPlaceholder": "在此输入你的答案…"
+  },
+  "Coach": {
+    "title": "AI 考试助教",
+    "inputPlaceholder": "输入你的问题…",
+    "send": "发送",
+    "suggestionWhyWrong": "为什么这个答案是错的？",
+    "suggestionSimplify": "请更简单地解释一下",
+    "suggestionPractice": "和我练习一段对话"
+  },
+  "Toegang": {
+    "title": "激活访问权限",
+    "body": "你已经体验过每项技能的一节免费课程。要获得所有课程、模拟考试和 AI 考试助教的完整访问权限，InNederland.ai 的付款需通过 WhatsApp 手动处理 —— 无需信用卡或自动扣款。",
+    "whatsappButton": "通过 WhatsApp 联系我们",
+    "activationNote": "付款处理完成后，我们会手动激活你的账户 —— 通常在几小时内完成。"
+  },
+  "Geblokkeerd": {
+    "title": "你的账户已被封锁",
+    "body": "如果你认为这是误判，或对你的账户有任何疑问，请通过 WhatsApp 联系我们。",
+    "whatsappButton": "通过 WhatsApp 联系我们"
+  }
+}

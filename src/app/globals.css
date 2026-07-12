@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f7f8fb;
-  --foreground: #101b33;
+  --background: #f8faff;
+  --foreground: #14264d;
 }
 
 @theme inline {
@@ -11,18 +11,18 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 
-  /* Brand: navy (primary), sampled from the InNederland.ai wordmark */
-  --color-navy-50: #eef1f7;
-  --color-navy-100: #d9deec;
-  --color-navy-200: #b3bdd9;
-  --color-navy-300: #8798c2;
-  --color-navy-400: #5a6ea4;
-  --color-navy-500: #3a4c80;
-  --color-navy-600: #283760;
-  --color-navy-700: #1c2749;
-  --color-navy-800: #141c37;
-  --color-navy-900: #0f1526;
-  --color-navy-950: #0a0e1a;
+  /* Brand: trust blue (primary) — clean, modern, "digital government service" feel */
+  --color-navy-50: #eef4ff;
+  --color-navy-100: #dce9fe;
+  --color-navy-200: #bfd7fd;
+  --color-navy-300: #93bafa;
+  --color-navy-400: #5f95f5;
+  --color-navy-500: #3672e8;
+  --color-navy-600: #2557c7;
+  --color-navy-700: #1f469e;
+  --color-navy-800: #1c3a7d;
+  --color-navy-900: #1a2f5c;
+  --color-navy-950: #101c3a;
 
   /* Brand: orange (accent), sampled from the ".nl" / dot mark */
   --color-orange-50: #fef3e8;
@@ -45,8 +45,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0e1a;
-    --foreground: #eef1f7;
+    --background: #101c3a;
+    --foreground: #eef4ff;
   }
 }
 

@@ -8,10 +8,15 @@ import type { ExerciseType, Json } from "@/types/database";
 
 export interface ReadingTextContent {
   text: string;
+  /** Optional admin-uploaded illustrative image (public URL from the lesson-media storage bucket). */
+  imageUrl?: string;
 }
 
 export interface ListeningClipContent {
-  script: string;
+  /** Read aloud via browser text-to-speech. Optional when a youtubeVideoId is provided instead. */
+  script?: string;
+  /** YouTube video id (not a full URL) — rendered as an embedded, playable iframe. */
+  youtubeVideoId?: string;
 }
 
 export interface WritingTaskContent {
@@ -22,6 +27,10 @@ export interface WritingTaskContent {
 export interface SpeakingPromptContent {
   scenario: string;
   expectedPoints?: string[];
+  /** Optional reference/example YouTube video shown above the recording UI. */
+  youtubeVideoId?: string;
+  /** Optional admin-uploaded illustrative image (public URL from the lesson-media storage bucket). */
+  imageUrl?: string;
 }
 
 export interface MultipleChoiceContent {

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, type FormEvent } from "react";
+import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
@@ -10,13 +11,13 @@ interface CoachMessage {
   content: string;
 }
 
-const SUGGESTED_QUESTIONS = [
-  "Waarom is dit antwoord fout?",
-  "Leg dit makkelijker uit",
-  "Oefen een gesprek met mij",
-];
-
 export function CoachChat({ nativeLanguage }: { nativeLanguage: string | null }) {
+  const t = useTranslations("Coach");
+  const SUGGESTED_QUESTIONS = [
+    t("suggestionWhyWrong"),
+    t("suggestionSimplify"),
+    t("suggestionPractice"),
+  ];
   const [messages, setMessages] = useState<CoachMessage[]>([
     {
       role: "assistant",
@@ -142,11 +143,11 @@ export function CoachChat({ nativeLanguage }: { nativeLanguage: string | null })
           <Input
             value={input}
             onChange={(event) => setInput(event.target.value)}
-            placeholder="Typ je vraag aan de coach…"
+            placeholder={t("inputPlaceholder")}
             disabled={isStreaming}
           />
           <Button type="submit" disabled={isStreaming || !input.trim()} loading={isStreaming}>
-            Verstuur
+            {t("send")}
           </Button>
         </form>
       </div>

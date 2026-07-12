@@ -1,9 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ClickableText } from "@/components/exercises/clickable-text";
+import { YouTubeEmbed } from "@/components/exercises/youtube-embed";
 import { MultipleChoiceQuestion } from "@/components/exercises/multiple-choice-question";
 import { recordExerciseAttempt } from "@/lib/exercises/actions";
 import { useSpeechSynthesis } from "@/lib/speech/useSpeechSynthesis";
@@ -19,6 +21,7 @@ export function LessonClient({
   questionExercises: ExerciseView[];
   nativeLanguage: string | null;
 }) {
+  const t = useTranslations("Luisteren");
   const { speak, isSpeaking, isSupported } = useSpeechSynthesis();
   const [hasPlayed, setHasPlayed] = useState(false);
   const [showTranscript, setShowTranscript] = useState(false);
@@ -26,8 +29,10 @@ export function LessonClient({
   const clipContent = asContent("listening_clip", clipExercise.content);
 
   function handlePlay() {
-    speak(clipContent.script);
-    setHasPlayed(true);
+    if (clipContent.script) {
+      speak(clipContent.script);
+      setHasPlayed(true);
+    }
   }
 
   function handleAnswered(exerciseId: string, correct: boolean, chosenIndex: number) {
@@ -44,10 +49,12 @@ export function LessonClient({
     <div className="flex flex-col gap-6">
       <Card>
         <CardContent className="flex flex-col items-center gap-4 py-8 text-center">
-          {isSupported ? (
+          {clipContent.youtubeVideoId ? (
+            <YouTubeEmbed videoId={clipContent.youtubeVideoId} title="Luisterfragment" />
+          ) : isSupported ? (
             <>
               <Button size="lg" onClick={handlePlay} disabled={isSpeaking}>
-                {isSpeaking ? "Bezig met afspelen…" : "Beluister het fragment"}
+                {isSpeaking ? t("playing") : t("listenButton")}
               </Button>
               {hasPlayed ? (
                 <button
@@ -55,10 +62,10 @@ export function LessonClient({
                   onClick={() => setShowTranscript((visible) => !visible)}
                   className="text-sm font-medium text-navy-500 underline hover:text-navy-700"
                 >
-                  {showTranscript ? "Verberg transcript" : "Toon transcript"}
+                  {showTranscript ? t("hideTranscript") : t("showTranscript")}
                 </button>
               ) : null}
-              {showTranscript ? (
+              {showTranscript && clipContent.script ? (
                 <div className="mt-2 w-full max-w-xl text-left">
                   <ClickableText text={clipContent.script} nativeLanguage={nativeLanguage} />
                 </div>
@@ -66,10 +73,10 @@ export function LessonClient({
             </>
           ) : (
             <div className="flex w-full flex-col gap-4 text-left">
-              <p className="text-center text-navy-600">
-                Je browser ondersteunt geen gesproken audio. Lees het fragment hieronder.
-              </p>
-              <ClickableText text={clipContent.script} nativeLanguage={nativeLanguage} />
+              <p className="text-center text-navy-600">{t("unsupported")}</p>
+              {clipContent.script ? (
+                <ClickableText text={clipContent.script} nativeLanguage={nativeLanguage} />
+              ) : null}
             </div>
           )}
         </CardContent>

@@ -1,0 +1,171 @@
+{
+  "Common": {
+    "start": "Start",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "loading": "Loading…",
+    "free": "Free",
+    "locked": "Locked",
+    "comingSoon": "Coming soon",
+    "signOut": "Sign out",
+    "language": "Language"
+  },
+  "Nav": {
+    "dashboard": "Dashboard",
+    "spreken": "Speaking",
+    "luisteren": "Listening",
+    "lezen": "Reading",
+    "schrijven": "Writing",
+    "knm": "KNM",
+    "proefexamen": "Mock exam",
+    "coach": "AI coach",
+    "admin": "Admin",
+    "backToDashboard": "← Back to dashboard"
+  },
+  "Marketing": {
+    "login": "Log in",
+    "startFree": "Start for free",
+    "eyebrow": "Civic integration & NT2 state exam",
+    "heroTitle": "Your path to a new future",
+    "heroSubtitle": "Prepare step by step for Speaking, Listening, Reading, Writing and Knowledge of Dutch Society — with our own practice material, instant AI feedback and a personal study plan.",
+    "ctaStartFree": "Start for free",
+    "ctaHaveAccount": "I already have an account",
+    "trustNoCopiedExams": "Our own practice material, no copied exam questions",
+    "trustAiFeedback": "Instant AI feedback on every exercise",
+    "trustStudyPlan": "Personal study plan, adapted to your pace",
+    "levelsTitle": "Choose your level",
+    "levelsSubtitle": "From your first Dutch words to the NT2 State Exam Programme II.",
+    "skillsTitle": "All exam components",
+    "skillSprekenDesc": "Practice everyday conversations and get instant feedback.",
+    "skillLuisterenDesc": "Listen to realistic audio fragments and answer interactive questions.",
+    "skillLezenDesc": "Read emails, letters and ads — difficult words are explained right away.",
+    "skillSchrijvenDesc": "Write emails and forms and get feedback on grammar and structure.",
+    "skillKnmDesc": "Learn how the Netherlands works: housing, work, healthcare, DigiD and more.",
+    "ctaSectionTitle": "One step closer to your goal, every day",
+    "ctaSectionBody": "After registering, you'll set up your study plan: native language, target level, exam date and time available per day. We automatically adjust your plan as you progress.",
+    "ctaSectionButton": "Start today",
+    "disclaimer": "Our own practice material — no copied exam questions, no guarantee of passing.",
+    "footerTagline": "Your path to a new future."
+  },
+  "Auth": {
+    "loginTitle": "Welcome back",
+    "loginSubtitle": "Log in to continue with your study plan.",
+    "email": "Email address",
+    "password": "Password",
+    "loginButton": "Log in",
+    "noAccount": "Don't have an account yet?",
+    "registerLink": "Register for free",
+    "registerTitle": "Create your free account",
+    "registerSubtitle": "Start your personal learning plan for civic integration or the NT2 state exam.",
+    "passwordHint": "At least 8 characters.",
+    "registerButton": "Create account",
+    "haveAccount": "Already have an account?",
+    "loginLink": "Log in"
+  },
+  "Dashboard": {
+    "welcomeBack": "Welcome back",
+    "goal": "Goal",
+    "goalNotChosen": "not chosen yet",
+    "examOn": "Exam on",
+    "minutesPerDay": "min/day",
+    "studyPlanTitle": "Study plan — week {week}",
+    "studyPlanProgress": "{done} of {total} items completed",
+    "noContentForLevel": "Content for {level} is still in development. You can adjust your goal later once this level becomes available.",
+    "noStudyPlanYet": "We'll put together your study plan as soon as content is available.",
+    "accessBannerText": "You're currently using the free preview (1 lesson per skill). Activate your account for full access.",
+    "accessBannerCta": "Activate access →",
+    "examVideoTitle": "What is the civic integration exam?",
+    "examVideoSubtitle": "A short explanation of what to expect."
+  },
+  "LockedLevel": {
+    "chooseLevelFirst": "Choose your level in your study plan first to see exercises.",
+    "notAvailableYet": "Content for {level} is still in development. You can already get started with A2 — Civic Integration."
+  },
+  "Upgrade": {
+    "examMessage": "The mock exam is part of full access.",
+    "coachMessage": "The AI exam coach is part of full access.",
+    "activateButton": "Activate access"
+  },
+  "Skills": {
+    "lezenTitle": "Reading",
+    "luisterenTitle": "Listening",
+    "schrijvenTitle": "Writing",
+    "sprekenTitle": "Speaking",
+    "knmTitle": "Knowledge of Dutch Society",
+    "knmSubtitle": "Learn about the Netherlands: history, housing, work and Dutch society.",
+    "noLessonsForLevel": "No lessons for this level yet.",
+    "noContentYet": "No content available yet.",
+    "comprehensionQuestions": "Comprehension questions",
+    "adminLevelLabel": "Level (admin)"
+  },
+  "Lezen": {
+    "correct": "Well done!",
+    "explanationLoading": "Fetching explanation…",
+    "incorrectFallback": "Unfortunately, that's not correct."
+  },
+  "Luisteren": {
+    "listenButton": "Listen to the fragment",
+    "playing": "Playing…",
+    "showTranscript": "Show transcript",
+    "hideTranscript": "Hide transcript",
+    "unsupported": "Your browser doesn't support spoken audio. Read the fragment below instead."
+  },
+  "Schrijven": {
+    "checkButton": "Check",
+    "checking": "Checking…",
+    "wordsMinimum": "at least {count} words",
+    "score": "Score",
+    "strengths": "Strengths",
+    "improvements": "Areas to improve",
+    "correctedText": "Improved version"
+  },
+  "Spreken": {
+    "situation": "Situation",
+    "disclaimer": "We evaluate the text recognized by speech recognition, not your pronunciation itself.",
+    "startRecording": "Start recording",
+    "stopRecording": "Stop recording",
+    "listening": "Listening…",
+    "transcriptPlaceholder": "Your spoken text will appear here once you start recording.",
+    "unsupported": "Speech recognition isn't supported in this browser. Type below what you would say.",
+    "typePlaceholder": "Type your answer here…",
+    "submit": "Submit",
+    "tryAgain": "Try again",
+    "feedback": "Feedback",
+    "strengths": "Strengths",
+    "improvements": "Areas to improve",
+    "missedPoints": "Missed points"
+  },
+  "Proefexamen": {
+    "title": "Mock exam",
+    "noExamYet": "No mock exam available yet.",
+    "sectionsFor": "This mock exam includes sections for: {skills}.",
+    "testYourKnowledge": "Test your knowledge for {level}.",
+    "questionCounter": "Question {current} of {total}",
+    "next": "Next",
+    "finish": "Finish",
+    "missingAnswer": "This question is missing an answer.",
+    "answerPlaceholder": "Type your answer here…"
+  },
+  "Coach": {
+    "title": "AI exam coach",
+    "inputPlaceholder": "Type your question…",
+    "send": "Send",
+    "suggestionWhyWrong": "Why is this answer wrong?",
+    "suggestionSimplify": "Explain this more simply",
+    "suggestionPractice": "Practice a conversation with me"
+  },
+  "Toegang": {
+    "title": "Activate access",
+    "body": "You've already tried a free lesson per skill. For full access to all lessons, mock exams and the AI exam coach, payments at InNederland.ai are handled manually via WhatsApp — no credit card or automatic payments needed.",
+    "whatsappButton": "Contact us via WhatsApp",
+    "activationNote": "Once your payment is processed, we'll activate your account manually — usually within a few hours."
+  },
+  "Geblokkeerd": {
+    "title": "Your account is blocked",
+    "body": "Contact us via WhatsApp if you think this is a mistake, or if you have questions about your account.",
+    "whatsappButton": "Contact us via WhatsApp"
+  }
+}

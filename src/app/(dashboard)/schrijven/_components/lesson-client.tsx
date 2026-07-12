@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { useTranslations } from "next-intl";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -26,6 +27,7 @@ export function LessonClient({
   minWords?: number;
   nativeLanguage?: string | null;
 }) {
+  const t = useTranslations("Schrijven");
   const [text, setText] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -82,7 +84,7 @@ export function LessonClient({
           <p className="whitespace-pre-line text-navy-700">{instructions}</p>
           {typeof minWords === "number" ? (
             <Badge variant="outline" className="w-fit">
-              Minimaal {minWords} woorden
+              {t("wordsMinimum", { count: minWords })}
             </Badge>
           ) : null}
         </CardContent>
@@ -109,7 +111,7 @@ export function LessonClient({
               {typeof minWords === "number" ? ` (minimaal ${minWords})` : ""}
             </span>
             <Button onClick={handleSubmit} loading={loading} disabled={!text.trim() || loading}>
-              Controleer
+              {loading ? t("checking") : t("checkButton")}
             </Button>
           </div>
           {error ? <p className="text-sm text-flag-red">{error}</p> : null}
@@ -119,7 +121,7 @@ export function LessonClient({
       {feedback ? (
         <Card>
           <CardHeader className="flex flex-row items-center justify-between gap-4">
-            <CardTitle className="text-base">Feedback</CardTitle>
+            <CardTitle className="text-base">{t("score")}</CardTitle>
             <Badge variant={feedback.score >= 70 ? "success" : "orange"}>{feedback.score}/100</Badge>
           </CardHeader>
           <CardContent className="flex flex-col gap-5">
@@ -128,7 +130,7 @@ export function LessonClient({
             {feedback.strengths.length > 0 ? (
               <div>
                 <CardDescription className="mb-1 font-medium text-navy-700">
-                  Wat goed ging
+                  {t("strengths")}
                 </CardDescription>
                 <ul className="list-inside list-disc text-sm text-navy-700">
                   {feedback.strengths.map((strength, index) => (
@@ -141,7 +143,7 @@ export function LessonClient({
             {feedback.improvements.length > 0 ? (
               <div>
                 <CardDescription className="mb-1 font-medium text-navy-700">
-                  Verbeterpunten
+                  {t("improvements")}
                 </CardDescription>
                 <ul className="list-inside list-disc text-sm text-navy-700">
                   {feedback.improvements.map((improvement, index) => (
@@ -154,7 +156,7 @@ export function LessonClient({
             {feedback.correctedText ? (
               <div>
                 <CardDescription className="mb-1 font-medium text-navy-700">
-                  Verbeterde versie
+                  {t("correctedText")}
                 </CardDescription>
                 <div className="whitespace-pre-line rounded-lg bg-navy-50 p-3 text-sm text-navy-800">
                   {feedback.correctedText}

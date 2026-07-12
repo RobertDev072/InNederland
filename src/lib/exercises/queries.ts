@@ -7,6 +7,7 @@ export interface LessonSummary {
   title: string;
   description: string | null;
   sortOrder: number;
+  isFree: boolean;
 }
 
 export interface ExerciseView {
@@ -25,7 +26,7 @@ export async function getLessonsForSkill(
   const supabase = await createClient();
   const { data } = await supabase
     .from("lessons")
-    .select("id, title, description, sort_order")
+    .select("id, title, description, sort_order, is_free")
     .eq("level_code", levelCode)
     .eq("skill_code", skillCode)
     .order("sort_order", { ascending: true });
@@ -35,17 +36,25 @@ export async function getLessonsForSkill(
     title: lesson.title,
     description: lesson.description,
     sortOrder: lesson.sort_order,
+    isFree: lesson.is_free,
   }));
 }
 
 export async function getLessonWithExercises(lessonId: string): Promise<{
-  lesson: { id: string; title: string; description: string | null; levelCode: string; skillCode: string };
+  lesson: {
+    id: string;
+    title: string;
+    description: string | null;
+    levelCode: string;
+    skillCode: string;
+    isFree: boolean;
+  };
   exercises: ExerciseView[];
 } | null> {
   const supabase = await createClient();
   const { data: lesson } = await supabase
     .from("lessons")
-    .select("id, title, description, level_code, skill_code")
+    .select("id, title, description, level_code, skill_code, is_free")
     .eq("id", lessonId)
     .single();
 
@@ -64,6 +73,7 @@ export async function getLessonWithExercises(lessonId: string): Promise<{
       description: lesson.description,
       levelCode: lesson.level_code,
       skillCode: lesson.skill_code,
+      isFree: lesson.is_free,
     },
     exercises: (exercises ?? []).map((exercise) => ({
       id: exercise.id,

@@ -10,6 +10,8 @@ export type ExerciseType =
 
 export type StudyPlanItemStatus = "todo" | "done";
 export type CoachRole = "user" | "assistant";
+export type UserRole = "user" | "admin";
+export type AccessStatus = "pending" | "active" | "blocked";
 
 export interface Database {
   public: {
@@ -23,6 +25,8 @@ export interface Database {
           target_exam_date: string | null;
           minutes_per_day: number | null;
           onboarding_completed: boolean;
+          role: UserRole;
+          access_status: AccessStatus;
           created_at: string;
         };
         Insert: Partial<Database["public"]["Tables"]["profiles"]["Row"]> & { id: string };
@@ -49,11 +53,13 @@ export interface Database {
           title: string;
           description: string | null;
           sort_order: number;
+          is_free: boolean;
           created_at: string;
         };
-        Insert: Omit<Database["public"]["Tables"]["lessons"]["Row"], "id" | "created_at"> & {
+        Insert: Omit<Database["public"]["Tables"]["lessons"]["Row"], "id" | "created_at" | "is_free"> & {
           id?: string;
           created_at?: string;
+          is_free?: boolean;
         };
         Update: Partial<Database["public"]["Tables"]["lessons"]["Row"]>;
         Relationships: [];
@@ -145,8 +151,18 @@ export interface Database {
         Relationships: [];
       };
       knm_topics: {
-        Row: { id: string; category: string; title: string; content: Json; sort_order: number };
-        Insert: Omit<Database["public"]["Tables"]["knm_topics"]["Row"], "id"> & { id?: string };
+        Row: {
+          id: string;
+          category: string;
+          title: string;
+          content: Json;
+          sort_order: number;
+          is_free: boolean;
+        };
+        Insert: Omit<Database["public"]["Tables"]["knm_topics"]["Row"], "id" | "is_free"> & {
+          id?: string;
+          is_free?: boolean;
+        };
         Update: Partial<Database["public"]["Tables"]["knm_topics"]["Row"]>;
         Relationships: [];
       };

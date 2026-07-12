@@ -1,0 +1,171 @@
+{
+  "Common": {
+    "start": "Empezar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "back": "Atrás",
+    "loading": "Cargando…",
+    "free": "Gratis",
+    "locked": "Bloqueado",
+    "comingSoon": "Próximamente",
+    "signOut": "Cerrar sesión",
+    "language": "Idioma"
+  },
+  "Nav": {
+    "dashboard": "Panel",
+    "spreken": "Hablar",
+    "luisteren": "Comprensión auditiva",
+    "lezen": "Lectura",
+    "schrijven": "Escritura",
+    "knm": "KNM",
+    "proefexamen": "Examen de prueba",
+    "coach": "Asistente de IA",
+    "admin": "Admin",
+    "backToDashboard": "← Volver al panel"
+  },
+  "Marketing": {
+    "login": "Iniciar sesión",
+    "startFree": "Empezar gratis",
+    "eyebrow": "Integración cívica y examen estatal NT2",
+    "heroTitle": "Tu camino hacia un nuevo futuro",
+    "heroSubtitle": "Prepárate paso a paso para Hablar, Escuchar, Leer, Escribir y Conocimiento de la Sociedad Neerlandesa — con material propio, feedback instantáneo de IA y un plan de estudio personalizado.",
+    "ctaStartFree": "Empezar gratis",
+    "ctaHaveAccount": "Ya tengo una cuenta",
+    "trustNoCopiedExams": "Material propio, sin preguntas de examen copiadas",
+    "trustAiFeedback": "Feedback instantáneo de IA en cada ejercicio",
+    "trustStudyPlan": "Plan de estudio personal, adaptado a tu ritmo",
+    "levelsTitle": "Elige tu nivel",
+    "levelsSubtitle": "Desde tus primeras palabras en neerlandés hasta el Examen Estatal NT2 Programa II.",
+    "skillsTitle": "Todos los componentes del examen",
+    "skillSprekenDesc": "Practica conversaciones cotidianas y recibe feedback instantáneo.",
+    "skillLuisterenDesc": "Escucha fragmentos realistas y responde preguntas interactivas.",
+    "skillLezenDesc": "Lee correos, cartas y anuncios — las palabras difíciles se explican al instante.",
+    "skillSchrijvenDesc": "Escribe correos y formularios y recibe feedback sobre gramática y estructura.",
+    "skillKnmDesc": "Aprende cómo funciona los Países Bajos: vivienda, trabajo, sanidad, DigiD y más.",
+    "ctaSectionTitle": "Un paso más cerca de tu objetivo, cada día",
+    "ctaSectionBody": "Después de registrarte, creas tu plan de estudio: idioma materno, nivel deseado, fecha del examen y tiempo disponible al día. Ajustamos automáticamente tu plan según tu progreso.",
+    "ctaSectionButton": "Empieza hoy",
+    "disclaimer": "Material propio — sin preguntas de examen copiadas, sin garantía de aprobar.",
+    "footerTagline": "Tu camino hacia un nuevo futuro."
+  },
+  "Auth": {
+    "loginTitle": "Bienvenido de nuevo",
+    "loginSubtitle": "Inicia sesión para continuar con tu plan de estudio.",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "loginButton": "Iniciar sesión",
+    "noAccount": "¿Aún no tienes cuenta?",
+    "registerLink": "Regístrate gratis",
+    "registerTitle": "Crea tu cuenta gratuita",
+    "registerSubtitle": "Empieza tu plan de aprendizaje personal para la integración cívica o el examen estatal NT2.",
+    "passwordHint": "Mínimo 8 caracteres.",
+    "registerButton": "Crear cuenta",
+    "haveAccount": "¿Ya tienes una cuenta?",
+    "loginLink": "Iniciar sesión"
+  },
+  "Dashboard": {
+    "welcomeBack": "Bienvenido de nuevo",
+    "goal": "Objetivo",
+    "goalNotChosen": "aún no elegido",
+    "examOn": "Examen el",
+    "minutesPerDay": "min/día",
+    "studyPlanTitle": "Plan de estudio — semana {week}",
+    "studyPlanProgress": "{done} de {total} elementos completados",
+    "noContentForLevel": "El contenido para {level} todavía está en desarrollo. Podrás ajustar tu objetivo más adelante cuando este nivel esté disponible.",
+    "noStudyPlanYet": "Prepararemos tu plan de estudio en cuanto haya contenido disponible.",
+    "accessBannerText": "Ahora mismo usas la vista previa gratuita (1 lección por destreza). Activa tu cuenta para el acceso completo.",
+    "accessBannerCta": "Activar acceso →",
+    "examVideoTitle": "¿Qué es el examen de integración cívica?",
+    "examVideoSubtitle": "Una breve explicación de lo que te espera."
+  },
+  "LockedLevel": {
+    "chooseLevelFirst": "Elige primero tu nivel en tu plan de estudio para ver ejercicios.",
+    "notAvailableYet": "El contenido para {level} todavía está en desarrollo. Ya puedes empezar con A2 — Integración cívica."
+  },
+  "Upgrade": {
+    "examMessage": "El examen de prueba forma parte del acceso completo.",
+    "coachMessage": "El asistente de examen con IA forma parte del acceso completo.",
+    "activateButton": "Activar acceso"
+  },
+  "Skills": {
+    "lezenTitle": "Lectura",
+    "luisterenTitle": "Comprensión auditiva",
+    "schrijvenTitle": "Escritura",
+    "sprekenTitle": "Hablar",
+    "knmTitle": "Conocimiento de la Sociedad Neerlandesa",
+    "knmSubtitle": "Aprende sobre los Países Bajos: historia, vivienda, trabajo y la sociedad neerlandesa.",
+    "noLessonsForLevel": "Todavía no hay lecciones para este nivel.",
+    "noContentYet": "Todavía no hay contenido disponible.",
+    "comprehensionQuestions": "Preguntas de comprensión",
+    "adminLevelLabel": "Nivel (admin)"
+  },
+  "Lezen": {
+    "correct": "¡Muy bien!",
+    "explanationLoading": "Obteniendo explicación…",
+    "incorrectFallback": "Lamentablemente, eso no es correcto."
+  },
+  "Luisteren": {
+    "listenButton": "Escuchar el fragmento",
+    "playing": "Reproduciendo…",
+    "showTranscript": "Mostrar transcripción",
+    "hideTranscript": "Ocultar transcripción",
+    "unsupported": "Tu navegador no admite audio hablado. Lee el fragmento a continuación."
+  },
+  "Schrijven": {
+    "checkButton": "Comprobar",
+    "checking": "Comprobando…",
+    "wordsMinimum": "mínimo {count} palabras",
+    "score": "Puntuación",
+    "strengths": "Puntos fuertes",
+    "improvements": "Puntos a mejorar",
+    "correctedText": "Versión mejorada"
+  },
+  "Spreken": {
+    "situation": "Situación",
+    "disclaimer": "Evaluamos el texto reconocido por el reconocimiento de voz, no tu pronunciación en sí.",
+    "startRecording": "Iniciar grabación",
+    "stopRecording": "Detener grabación",
+    "listening": "Escuchando…",
+    "transcriptPlaceholder": "Tu texto hablado aparecerá aquí en cuanto empieces a grabar.",
+    "unsupported": "El reconocimiento de voz no es compatible con este navegador. Escribe abajo lo que dirías.",
+    "typePlaceholder": "Escribe aquí tu respuesta…",
+    "submit": "Enviar",
+    "tryAgain": "Intentar de nuevo",
+    "feedback": "Feedback",
+    "strengths": "Puntos fuertes",
+    "improvements": "Puntos a mejorar",
+    "missedPoints": "Puntos omitidos"
+  },
+  "Proefexamen": {
+    "title": "Examen de prueba",
+    "noExamYet": "Todavía no hay examen de prueba disponible.",
+    "sectionsFor": "Este examen de prueba incluye secciones de: {skills}.",
+    "testYourKnowledge": "Pon a prueba tus conocimientos para {level}.",
+    "questionCounter": "Pregunta {current} de {total}",
+    "next": "Siguiente",
+    "finish": "Finalizar",
+    "missingAnswer": "Falta una respuesta para esta pregunta.",
+    "answerPlaceholder": "Escribe aquí tu respuesta…"
+  },
+  "Coach": {
+    "title": "Asistente de examen con IA",
+    "inputPlaceholder": "Escribe tu pregunta…",
+    "send": "Enviar",
+    "suggestionWhyWrong": "¿Por qué está mal esta respuesta?",
+    "suggestionSimplify": "Explícamelo de forma más sencilla",
+    "suggestionPractice": "Practica una conversación conmigo"
+  },
+  "Toegang": {
+    "title": "Activar acceso",
+    "body": "Ya has probado una lección gratuita por destreza. Para el acceso completo a todas las lecciones, exámenes de prueba y el asistente de examen con IA, los pagos en InNederland.ai se gestionan manualmente por WhatsApp — sin tarjeta de crédito ni domiciliaciones automáticas.",
+    "whatsappButton": "Contáctanos por WhatsApp",
+    "activationNote": "En cuanto se procese tu pago, activaremos tu cuenta manualmente — normalmente en pocas horas."
+  },
+  "Geblokkeerd": {
+    "title": "Tu cuenta está bloqueada",
+    "body": "Contáctanos por WhatsApp si crees que esto es un error, o si tienes preguntas sobre tu cuenta.",
+    "whatsappButton": "Contáctanos por WhatsApp"
+  }
+}

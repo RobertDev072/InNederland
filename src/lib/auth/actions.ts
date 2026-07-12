@@ -35,7 +35,7 @@ export async function signUp(
     };
   }
 
-  redirect("/onboarding");
+  redirect("/dashboard");
 }
 
 export async function signIn(
@@ -56,17 +56,7 @@ export async function signIn(
     return { error: "Onjuist e-mailadres of wachtwoord." };
   }
 
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-
-  const { data: profile } = await supabase
-    .from("profiles")
-    .select("onboarding_completed")
-    .eq("id", user!.id)
-    .single();
-
-  redirect(profile?.onboarding_completed ? "/dashboard" : "/onboarding");
+  redirect("/dashboard");
 }
 
 export async function signOut() {

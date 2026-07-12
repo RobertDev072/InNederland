@@ -1,33 +1,47 @@
-import { getCurrentProfile } from "@/lib/profile/queries";
+import { getTranslations } from "next-intl/server";
+import { getCurrentProfile, hasFullAccess, isLevelAvailable, resolveViewLevel } from "@/lib/profile/queries";
 import { getLessonsForSkill } from "@/lib/exercises/queries";
 import { LockedLevelNotice } from "@/components/dashboard/locked-level-notice";
-import { Card, CardContent, CardTitle, CardDescription } from "@/components/ui/card";
-import { LinkButton } from "@/components/ui/button";
-import { AVAILABLE_LEVELS, type LevelCode } from "@/types/content";
+import { LessonListItem } from "@/components/dashboard/lesson-list-item";
+import { LevelSwitcher } from "@/components/dashboard/level-switcher";
 
-export default async function SchrijvenPage() {
+export default async function SchrijvenPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ level?: string }>;
+}) {
+  const t = await getTranslations("Skills");
+  const { level } = await searchParams;
   const profile = await getCurrentProfile();
-  const targetLevel = (profile?.targetLevel as LevelCode | null) ?? null;
-  if (!targetLevel || !AVAILABLE_LEVELS.includes(targetLevel)) {
+  const targetLevel = resolveViewLevel(profile, level);
+  const isAdmin = profile?.role === "admin";
+
+  if (!targetLevel || !isLevelAvailable(targetLevel, profile)) {
     return <LockedLevelNotice targetLevel={targetLevel} />;
   }
+
   const lessons = await getLessonsForSkill(targetLevel, "schrijven");
+  const fullAccess = hasFullAccess(profile);
+
   return (
     <div className="mx-auto flex max-w-4xl flex-col gap-4">
-      <h1 className="text-2xl font-bold text-navy-900">Schrijven</h1>
-      {lessons.map((lesson) => (
-        <Card key={lesson.id}>
-          <CardContent className="flex items-center justify-between gap-4">
-            <div>
-              <CardTitle className="text-base">{lesson.title}</CardTitle>
-              {lesson.description ? <CardDescription>{lesson.description}</CardDescription> : null}
-            </div>
-            <LinkButton href={`/schrijven/${lesson.id}`} size="sm" variant="outline">
-              Start
-            </LinkButton>
-          </CardContent>
-        </Card>
-      ))}
+      <h1 className="text-2xl font-bold text-navy-900">{t("schrijvenTitle")}</h1>
+      {isAdmin ? <LevelSwitcher basePath="/schrijven" activeLevel={targetLevel} /> : null}
+      {lessons.length === 0 ? (
+        <p className="text-navy-500">{t("noLessonsForLevel")}</p>
+      ) : (
+        lessons.map((lesson) => (
+          <LessonListItem
+            key={lesson.id}
+            id={lesson.id}
+            title={lesson.title}
+            description={lesson.description}
+            isFree={lesson.isFree}
+            hasFullAccess={fullAccess}
+            hrefBase="/schrijven"
+          />
+        ))
+      )}
     </div>
   );
 }

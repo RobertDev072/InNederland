@@ -1,8 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/card";
+import { YouTubeEmbed } from "@/components/exercises/youtube-embed";
 import { useSpeechRecognition } from "@/lib/speech/useSpeechRecognition";
 import { recordExerciseAttempt } from "@/lib/exercises/actions";
 import type { SpeakingFeedback } from "@/types/feedback";
@@ -13,11 +16,16 @@ export function SprekenLessonClient({
   exerciseId,
   scenario,
   expectedPoints,
+  youtubeVideoId,
+  imageUrl,
 }: {
   exerciseId: string;
   scenario: string;
   expectedPoints?: string[];
+  youtubeVideoId?: string;
+  imageUrl?: string;
 }) {
+  const t = useTranslations("Spreken");
   const { transcript, isListening, isSupported, start, stop, reset } = useSpeechRecognition("nl-NL");
   const [manualText, setManualText] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -82,13 +90,23 @@ export function SprekenLessonClient({
 
   return (
     <div className="flex flex-col gap-4">
+      {youtubeVideoId ? <YouTubeEmbed videoId={youtubeVideoId} title="Voorbeeldgesprek" /> : null}
+
       <Card>
         <CardContent className="flex flex-col gap-3">
-          <CardTitle className="text-base">Situatie</CardTitle>
+          <CardTitle className="text-base">{t("situation")}</CardTitle>
+          {imageUrl ? (
+            <Image
+              src={imageUrl}
+              alt=""
+              width={800}
+              height={450}
+              className="w-full rounded-lg object-cover"
+              unoptimized
+            />
+          ) : null}
           <p className="text-navy-700">{scenario}</p>
-          <p className="text-sm text-navy-500">
-            We beoordelen de tekst die door spraakherkenning wordt herkend, niet je uitspraak zelf.
-          </p>
+          <p className="text-sm text-navy-500">{t("disclaimer")}</p>
         </CardContent>
       </Card>
 
@@ -102,27 +120,25 @@ export function SprekenLessonClient({
                   variant={isListening ? "danger" : "primary"}
                   onClick={handleToggleRecording}
                 >
-                  {isListening ? "Stop opname" : "Start opname"}
+                  {isListening ? t("stopRecording") : t("startRecording")}
                 </Button>
                 {isListening ? (
-                  <span className="text-sm text-navy-500">Luisteren…</span>
+                  <span className="text-sm text-navy-500">{t("listening")}</span>
                 ) : null}
               </div>
               <div className="min-h-16 rounded-lg border border-navy-100 bg-navy-50 p-3 text-sm text-navy-700">
-                {transcript || "Je gesproken tekst verschijnt hier zodra je begint met opnemen."}
+                {transcript || t("transcriptPlaceholder")}
               </div>
             </>
           ) : (
             <div className="flex flex-col gap-2">
-              <p className="text-sm text-navy-500">
-                Spraakherkenning wordt niet ondersteund in deze browser. Typ hieronder wat je zou zeggen.
-              </p>
+              <p className="text-sm text-navy-500">{t("unsupported")}</p>
               <textarea
                 value={manualText}
                 onChange={(event) => setManualText(event.target.value)}
                 rows={4}
                 className="rounded-lg border border-navy-200 p-3 text-sm text-navy-900 focus:border-navy-400 focus:outline-none"
-                placeholder="Typ hier je antwoord…"
+                placeholder={t("typePlaceholder")}
               />
             </div>
           )}
@@ -131,11 +147,11 @@ export function SprekenLessonClient({
 
           <div className="flex items-center gap-3">
             <Button type="button" onClick={handleSubmit} disabled={!canSubmit} loading={isSubmitting}>
-              Verstuur
+              {t("submit")}
             </Button>
             {feedback ? (
               <Button type="button" variant="outline" onClick={handleOpnieuw}>
-                Opnieuw proberen
+                {t("tryAgain")}
               </Button>
             ) : null}
           </div>
@@ -146,7 +162,7 @@ export function SprekenLessonClient({
         <Card>
           <CardContent className="flex flex-col gap-4">
             <div className="flex items-center justify-between">
-              <CardTitle className="text-base">Feedback</CardTitle>
+              <CardTitle className="text-base">{t("feedback")}</CardTitle>
               <span
                 className={cn(
                   "rounded-full px-3 py-1 text-sm font-semibold",
@@ -161,7 +177,7 @@ export function SprekenLessonClient({
 
             {feedback.strengths.length > 0 ? (
               <div>
-                <CardDescription className="mb-1 font-medium text-navy-700">Sterke punten</CardDescription>
+                <CardDescription className="mb-1 font-medium text-navy-700">{t("strengths")}</CardDescription>
                 <ul className="list-disc pl-5 text-sm text-navy-700">
                   {feedback.strengths.map((item, index) => (
                     <li key={index}>{item}</li>
@@ -172,7 +188,7 @@ export function SprekenLessonClient({
 
             {feedback.improvements.length > 0 ? (
               <div>
-                <CardDescription className="mb-1 font-medium text-navy-700">Verbeterpunten</CardDescription>
+                <CardDescription className="mb-1 font-medium text-navy-700">{t("improvements")}</CardDescription>
                 <ul className="list-disc pl-5 text-sm text-navy-700">
                   {feedback.improvements.map((item, index) => (
                     <li key={index}>{item}</li>
@@ -183,7 +199,7 @@ export function SprekenLessonClient({
 
             {feedback.missedPoints.length > 0 ? (
               <div>
-                <CardDescription className="mb-1 font-medium text-navy-700">Gemiste punten</CardDescription>
+                <CardDescription className="mb-1 font-medium text-navy-700">{t("missedPoints")}</CardDescription>
                 <ul className="list-disc pl-5 text-sm text-navy-700">
                   {feedback.missedPoints.map((item, index) => (
                     <li key={index}>{item}</li>
