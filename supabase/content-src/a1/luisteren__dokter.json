@@ -1,0 +1,162 @@
+{
+  "skill": "luisteren",
+  "topic": "Bij de dokter",
+  "slug": "dokter",
+  "title": "Bij de dokter",
+  "description": "Je leert luisteren naar een gesprek bij de dokter en over je klachten praten.",
+  "content": {
+    "intro": "In deze les ga je naar de dokter. Je hoort een gesprek in de wachtkamer en bij de dokter. Je leert simpele woorden over je lichaam en over pijn.",
+    "learningGoals": [
+      "Je begrijpt een kort gesprek bij de dokter.",
+      "Je kent woorden over pijn en over je lichaam.",
+      "Je kunt zeggen wat je hebt.",
+      "Je begrijpt vragen van de dokter."
+    ],
+    "vocabulary": [
+      {
+        "word": "de dokter",
+        "explanation": "Een dokter helpt je als je ziek bent.",
+        "example": "Ik ga naar de dokter."
+      },
+      {
+        "word": "ziek",
+        "explanation": "Je voelt je niet goed. Je bent niet gezond.",
+        "example": "Ik ben ziek en blijf thuis."
+      },
+      {
+        "word": "de pijn",
+        "explanation": "Iets doet zeer. Het voelt niet fijn.",
+        "example": "Ik heb pijn in mijn arm."
+      },
+      {
+        "word": "de afspraak",
+        "explanation": "Je maakt een tijd om te komen. De dokter weet dan dat je komt.",
+        "example": "Ik heb een afspraak om tien uur."
+      },
+      {
+        "word": "de koorts",
+        "explanation": "Je lichaam is heel warm. Je bent dan vaak ziek.",
+        "example": "Het kind heeft koorts."
+      },
+      {
+        "word": "het hoofd",
+        "explanation": "Je hoofd zit boven op je lichaam. Daarin zitten je ogen en je mond.",
+        "example": "Mijn hoofd doet pijn."
+      },
+      {
+        "word": "de keel",
+        "explanation": "De keel zit in je hals. Je eet en drinkt door je keel.",
+        "example": "Ik heb pijn in mijn keel."
+      },
+      {
+        "word": "de wachtkamer",
+        "explanation": "Hier zit je en wacht je op de dokter.",
+        "example": "In de wachtkamer zitten veel mensen."
+      },
+      {
+        "word": "het medicijn",
+        "explanation": "Dit neem je als je ziek bent. Het maakt je beter.",
+        "example": "Neem dit medicijn drie keer per dag."
+      },
+      {
+        "word": "beter",
+        "explanation": "Je bent niet meer ziek. Je voelt je weer goed.",
+        "example": "Ik voel me nu weer beter."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Ik heb pijn in mijn ...",
+        "body": "Je zegt waar je pijn hebt met 'in mijn'. Bijvoorbeeld: 'Ik heb pijn in mijn buik.' of 'Ik heb pijn in mijn been.'"
+      },
+      {
+        "heading": "Vragen met 'wat' en 'hoe'",
+        "body": "De dokter stelt vragen. Bijvoorbeeld: 'Wat heeft u?' en 'Hoe voelt u zich?' Je antwoordt kort: 'Ik heb koorts.' of 'Ik voel me ziek.'"
+      }
+    ],
+    "exampleSentences": [
+      "Ik ben ziek.",
+      "Ik heb pijn in mijn hoofd.",
+      "Ik heb een afspraak bij de dokter.",
+      "Het kind heeft koorts.",
+      "Neem dit medicijn en rust goed uit."
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "v",
+      "name": "Fatima",
+      "text": "Goedemorgen, ik heb een afspraak om negen uur."
+    },
+    {
+      "speaker": "m",
+      "name": "Dokter Jansen",
+      "text": "Goedemorgen. Kom binnen en ga zitten. Wat heeft u?"
+    },
+    {
+      "speaker": "v",
+      "name": "Fatima",
+      "text": "Ik ben ziek. Ik heb veel pijn in mijn keel."
+    },
+    {
+      "speaker": "m",
+      "name": "Dokter Jansen",
+      "text": "Heeft u ook koorts?"
+    },
+    {
+      "speaker": "v",
+      "name": "Fatima",
+      "text": "Ja, sinds gisteren. En mijn hoofd doet ook pijn."
+    },
+    {
+      "speaker": "m",
+      "name": "Dokter Jansen",
+      "text": "Ik kijk even in uw keel. Doe uw mond open, alstublieft."
+    },
+    {
+      "speaker": "v",
+      "name": "Fatima",
+      "text": "Is het erg, dokter?"
+    },
+    {
+      "speaker": "m",
+      "name": "Dokter Jansen",
+      "text": "Nee, het is niet erg. Neem dit medicijn en drink veel water."
+    },
+    {
+      "speaker": "v",
+      "name": "Fatima",
+      "text": "Dank u wel. Hoelang moet ik het medicijn nemen?"
+    },
+    {
+      "speaker": "m",
+      "name": "Dokter Jansen",
+      "text": "Drie dagen. Dan voelt u zich weer beter."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Hoe laat is de afspraak van Fatima?",
+      "options": ["Om acht uur", "Om negen uur", "Om tien uur", "Om elf uur"],
+      "correctIndex": 1,
+      "explanation": "Fatima zegt: 'Ik heb een afspraak om negen uur.'"
+    },
+    {
+      "question": "Waar heeft Fatima pijn?",
+      "options": ["In haar been", "In haar buik", "In haar keel", "In haar arm"],
+      "correctIndex": 2,
+      "explanation": "Fatima zegt dat ze veel pijn heeft in haar keel."
+    },
+    {
+      "question": "Wat moet Fatima doen van de dokter?",
+      "options": [
+        "Naar het ziekenhuis gaan",
+        "Medicijn nemen en veel water drinken",
+        "Veel eten",
+        "Naar huis gaan en slapen"
+      ],
+      "correctIndex": 1,
+      "explanation": "De dokter zegt: 'Neem dit medicijn en drink veel water.'"
+    }
+  ]
+}

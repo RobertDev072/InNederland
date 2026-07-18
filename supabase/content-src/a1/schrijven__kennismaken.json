@@ -1,0 +1,79 @@
+{
+  "skill": "schrijven",
+  "topic": "Kennismaken",
+  "slug": "kennismaken",
+  "title": "Kennismaken: jezelf voorstellen",
+  "description": "Je leert korte zinnen schrijven om jezelf voor te stellen aan een nieuw persoon.",
+  "content": {
+    "intro": "In deze les leer je hoe je jezelf voorstelt. Je oefent met korte zinnen over je naam, je land en waar je woont. Zo kun je een kort bericht schrijven aan iemand die je nog niet kent.",
+    "learningGoals": [
+      "Je kunt je naam en leeftijd opschrijven.",
+      "Je kunt schrijven waar je vandaan komt.",
+      "Je kunt schrijven waar je woont.",
+      "Je kunt een korte begroeting schrijven."
+    ],
+    "vocabulary": [
+      {
+        "word": "hallo",
+        "explanation": "Dit zeg of schrijf je als je iemand begroet.",
+        "example": "Hallo, ik ben Sara."
+      },
+      {
+        "word": "de naam",
+        "explanation": "Zo heet je. Andere mensen roepen je met je naam.",
+        "example": "Mijn naam is Omar."
+      },
+      {
+        "word": "wonen",
+        "explanation": "In een huis of stad zijn waar je slaapt en leeft.",
+        "example": "Ik woon in Utrecht."
+      },
+      {
+        "word": "het land",
+        "explanation": "Een groot gebied met een naam, zoals Nederland of Marokko.",
+        "example": "Mijn land is Syrië."
+      },
+      {
+        "word": "komen uit",
+        "explanation": "Zeggen waar je geboren bent of waar je vandaan gaat.",
+        "example": "Ik kom uit Polen."
+      },
+      {
+        "word": "de leeftijd",
+        "explanation": "Hoeveel jaar je oud bent.",
+        "example": "Mijn leeftijd is dertig jaar."
+      },
+      {
+        "word": "aangenaam",
+        "explanation": "Dit schrijf je als je blij bent om iemand te leren kennen.",
+        "example": "Aangenaam, ik ben Lin."
+      },
+      {
+        "word": "de groetjes",
+        "explanation": "Dit schrijf je aan het einde van een bericht.",
+        "example": "Groetjes, Ahmed."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Ik ben en ik heet",
+        "body": "Met 'ik ben' en 'ik heet' zeg je je naam. Bijvoorbeeld: Ik ben Fatima. Ik heet Fatima. Beide zinnen zijn goed."
+      },
+      {
+        "heading": "Werkwoord op plaats twee",
+        "body": "In een zin staat het werkwoord op de tweede plaats. Bijvoorbeeld: Ik woon in Rotterdam. Nu woon ik in Rotterdam. Het woord 'woon' blijft op plaats twee."
+      }
+    ],
+    "exampleSentences": [
+      "Hallo, ik ben Nadia.",
+      "Ik kom uit Irak.",
+      "Ik woon nu in Den Haag.",
+      "Ik ben achtentwintig jaar oud.",
+      "Aangenaam kennis te maken!"
+    ]
+  },
+  "writing": {
+    "instructions": "Schrijf een kort bericht aan een nieuwe klasgenoot. Stel jezelf voor. Schrijf je naam, hoe oud je bent, uit welk land je komt en waar je nu woont. Begin met 'Hallo' en eindig met 'Groetjes' en je naam.",
+    "minWords": 35
+  }
+}

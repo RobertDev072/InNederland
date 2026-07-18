@@ -1,5 +1,10 @@
 const DEFAULT_MODEL = process.env.GEMINI_MODEL || "gemini-2.0-flash";
 
+/** Whether the optional Gemini-powered features (live feedback, coach, word explanation) are usable. */
+export function isAiConfigured(): boolean {
+  return Boolean(process.env.GEMINI_API_KEY);
+}
+
 interface GeminiContent {
   role: "user" | "model";
   parts: { text: string }[];

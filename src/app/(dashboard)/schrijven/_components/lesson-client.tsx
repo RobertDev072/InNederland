@@ -20,11 +20,13 @@ export function LessonClient({
   exerciseId,
   instructions,
   minWords,
+  modelAnswer,
   nativeLanguage,
 }: {
   exerciseId: string;
   instructions: string;
   minWords?: number;
+  modelAnswer?: string;
   nativeLanguage?: string | null;
 }) {
   const t = useTranslations("Schrijven");
@@ -33,6 +35,7 @@ export function LessonClient({
   const [error, setError] = useState<string | null>(null);
   const [feedback, setFeedback] = useState<WritingFeedback | null>(null);
   const [saved, setSaved] = useState(false);
+  const [showModel, setShowModel] = useState(false);
 
   const wordCount = useMemo(() => countWords(text), [text]);
   const belowMinimum = typeof minWords === "number" && wordCount < minWords;
@@ -115,6 +118,25 @@ export function LessonClient({
             </Button>
           </div>
           {error ? <p className="text-sm text-flag-red">{error}</p> : null}
+
+          {modelAnswer ? (
+            showModel ? (
+              <div className="rounded-lg bg-navy-50 p-3 text-sm">
+                <p className="mb-1 font-medium text-navy-700">Voorbeeldantwoord</p>
+                <p className="whitespace-pre-line text-navy-700">{modelAnswer}</p>
+              </div>
+            ) : (
+              <Button
+                type="button"
+                size="sm"
+                variant="outline"
+                className="w-fit"
+                onClick={() => setShowModel(true)}
+              >
+                Bekijk voorbeeldantwoord
+              </Button>
+            )
+          ) : null}
         </CardContent>
       </Card>
 

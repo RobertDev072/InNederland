@@ -1,0 +1,89 @@
+{
+  "skill": "schrijven",
+  "topic": "Wonen",
+  "slug": "wonen",
+  "title": "Wonen: schrijven over je huis",
+  "description": "Je leert korte zinnen schrijven over je huis en je kamers.",
+  "content": {
+    "intro": "In deze les leer je schrijven over wonen. Je leert woorden voor je huis en de kamers. Je schrijft korte, simpele zinnen over waar je woont.",
+    "learningGoals": [
+      "Je kent woorden voor het huis en de kamers.",
+      "Je schrijft korte zinnen over waar je woont.",
+      "Je kunt je adres opschrijven.",
+      "Je schrijft een kort bericht over je huis."
+    ],
+    "vocabulary": [
+      {
+        "word": "het huis",
+        "explanation": "de plek waar je woont",
+        "example": "Ik woon in een klein huis."
+      },
+      {
+        "word": "de kamer",
+        "explanation": "een ruimte in het huis",
+        "example": "Mijn kamer is niet groot."
+      },
+      {
+        "word": "de keuken",
+        "explanation": "de kamer waar je eten maakt",
+        "example": "In de keuken staat een tafel."
+      },
+      {
+        "word": "de slaapkamer",
+        "explanation": "de kamer waar je slaapt",
+        "example": "Mijn slaapkamer is boven."
+      },
+      {
+        "word": "de badkamer",
+        "explanation": "de kamer met de douche en de wc",
+        "example": "De badkamer is klein."
+      },
+      {
+        "word": "de woonkamer",
+        "explanation": "de kamer waar je zit en tv kijkt",
+        "example": "In de woonkamer staat een bank."
+      },
+      {
+        "word": "de tuin",
+        "explanation": "een stuk grond buiten bij het huis",
+        "example": "Wij hebben een kleine tuin."
+      },
+      {
+        "word": "de buurt",
+        "explanation": "de straten dicht bij je huis",
+        "example": "De buurt is rustig en fijn."
+      },
+      {
+        "word": "het adres",
+        "explanation": "de straat en het nummer waar je woont",
+        "example": "Mijn adres is Kerkstraat 12."
+      },
+      {
+        "word": "huren",
+        "explanation": "elke maand geld betalen voor een huis",
+        "example": "Wij huren een klein appartement."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Er is en er zijn",
+        "body": "Je gebruikt 'er is' voor een ding en 'er zijn' voor meer dingen. Bijvoorbeeld: In mijn huis is er een keuken. In de tuin zijn er twee stoelen."
+      },
+      {
+        "heading": "Het werkwoord wonen",
+        "body": "Wonen zegt waar je bent thuis. Ik woon, jij woont, hij woont, wij wonen. Bijvoorbeeld: Ik woon in Utrecht. Wij wonen in een flat."
+      }
+    ],
+    "exampleSentences": [
+      "Ik woon in een klein huis in de stad.",
+      "Mijn huis heeft drie kamers en een tuin.",
+      "In de keuken staat een grote tafel.",
+      "De slaapkamer is boven en de woonkamer is beneden.",
+      "Ik vind mijn buurt heel rustig en fijn."
+    ]
+  },
+  "writing": {
+    "instructions": "Schrijf een kort bericht aan een vriend over je huis. Vertel waar je woont, hoeveel kamers je huis heeft en welke kamer jij het fijnst vindt. Gebruik korte, simpele zinnen. Begin met 'Hoi' en eindig met je naam.",
+    "minWords": 40
+  }
+}

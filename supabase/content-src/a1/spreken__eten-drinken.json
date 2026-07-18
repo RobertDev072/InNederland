@@ -1,0 +1,94 @@
+{
+  "skill": "spreken",
+  "topic": "Eten en drinken",
+  "slug": "eten-drinken",
+  "title": "Eten en drinken: iets bestellen",
+  "description": "In deze les leer je praten over eten en drinken en iets bestellen in een café.",
+  "content": {
+    "intro": "In deze les leer je woorden over eten en drinken. Je leert vragen wat iets kost. Je leert ook iets bestellen in een café of restaurant.",
+    "learningGoals": [
+      "Je kent woorden voor eten en drinken.",
+      "Je kunt zeggen wat je lekker vindt.",
+      "Je kunt iets bestellen in een café.",
+      "Je kunt vragen wat iets kost."
+    ],
+    "vocabulary": [
+      {
+        "word": "het brood",
+        "explanation": "Dit eet je vaak bij het ontbijt.",
+        "example": "Ik eet een boterham met kaas."
+      },
+      {
+        "word": "het water",
+        "explanation": "Dit drink je als je dorst hebt.",
+        "example": "Mag ik een glas water?"
+      },
+      {
+        "word": "de koffie",
+        "explanation": "Een warme drank. Veel mensen drinken dit in de ochtend.",
+        "example": "Ik drink graag koffie met melk."
+      },
+      {
+        "word": "de thee",
+        "explanation": "Ook een warme drank, maar niet van koffiebonen.",
+        "example": "Wil je een kopje thee?"
+      },
+      {
+        "word": "het fruit",
+        "explanation": "Bijvoorbeeld een appel of een banaan. Dit is gezond.",
+        "example": "Ik eet elke dag fruit."
+      },
+      {
+        "word": "lekker",
+        "explanation": "Zeg je als eten of drinken heel goed smaakt.",
+        "example": "De soep is heel lekker."
+      },
+      {
+        "word": "bestellen",
+        "explanation": "Zeggen wat je wilt eten of drinken in een café.",
+        "example": "Ik wil graag een broodje bestellen."
+      },
+      {
+        "word": "de rekening",
+        "explanation": "Hier staat op hoeveel je moet betalen.",
+        "example": "Mag ik de rekening, alstublieft?"
+      },
+      {
+        "word": "de honger",
+        "explanation": "Dit heb je als je wilt eten.",
+        "example": "Ik heb honger. Ik wil een broodje."
+      },
+      {
+        "word": "de dorst",
+        "explanation": "Dit heb je als je wilt drinken.",
+        "example": "Ik heb dorst. Mag ik water?"
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Ik wil / Ik wil graag",
+        "body": "Met 'ik wil' zeg je wat je graag hebt. Met 'graag' is het beleefd. Voorbeeld: 'Ik wil een koffie.' of 'Ik wil graag een broodje kaas.'"
+      },
+      {
+        "heading": "Mag ik ...?",
+        "body": "Met 'Mag ik ...?' vraag je beleefd om iets. Voorbeeld: 'Mag ik een glas water?' of 'Mag ik de rekening, alstublieft?'"
+      }
+    ],
+    "exampleSentences": [
+      "Ik heb honger en dorst.",
+      "Mag ik een kopje koffie, alstublieft?",
+      "Ik wil graag een broodje kaas.",
+      "De thee is heel lekker.",
+      "Hoeveel kost een glas water?"
+    ]
+  },
+  "speaking": {
+    "scenario": "Je bent in een café. Je wilt iets eten en drinken bestellen. De ober komt naar je tafel en vraagt wat je wilt. Je bestelt iets en vraagt daarna om de rekening.",
+    "expectedPoints": [
+      "Zeg gedag: 'Hallo, goedemiddag.'",
+      "Bestel iets te drinken: 'Ik wil graag een koffie.'",
+      "Bestel iets te eten: 'Mag ik ook een broodje kaas?'",
+      "Vraag om de rekening: 'Mag ik de rekening, alstublieft?'"
+    ]
+  }
+}

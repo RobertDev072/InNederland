@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { generateJson } from "@/lib/ai/gemini";
+import { generateJson, isAiConfigured } from "@/lib/ai/llm";
 import type { SpeakingFeedback } from "@/types/feedback";
 
 interface FeedbackSpeakingBody {
@@ -14,6 +14,16 @@ export async function POST(request: Request) {
 
   if (!scenario || !transcript) {
     return NextResponse.json({ error: "Ongeldige aanvraag." }, { status: 400 });
+  }
+
+  if (!isAiConfigured()) {
+    return NextResponse.json(
+      {
+        error:
+          "Automatische AI-beoordeling is nu niet beschikbaar. Je kunt wel oefenen en je antwoord vergelijken met de punten in de opdracht.",
+      },
+      { status: 503 },
+    );
   }
 
   const prompt = `Je bent een NT2-docent Nederlands die spreekvaardigheid beoordeelt voor het inburgeringsexamen.

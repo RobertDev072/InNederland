@@ -1,0 +1,96 @@
+{
+  "skill": "lezen",
+  "topic": "Kennismaken",
+  "slug": "kennismaken",
+  "title": "Kennismaken: wie ben jij?",
+  "description": "Je leert een korte tekst lezen waarin mensen zich aan elkaar voorstellen.",
+  "content": {
+    "intro": "In deze les lees je over kennismaken. Je leert hoe mensen zeggen wie zij zijn en waar zij wonen. Je oefent met heel simpele zinnen.",
+    "learningGoals": [
+      "Je begrijpt een korte tekst over kennismaken.",
+      "Je herkent woorden zoals naam, wonen en komen uit.",
+      "Je begrijpt vragen zoals Hoe heet je? en Waar woon je?",
+      "Je vindt informatie over een persoon in een tekst."
+    ],
+    "vocabulary": [
+      {
+        "word": "kennismaken",
+        "explanation": "Voor de eerste keer met iemand praten. Je leert een nieuw persoon kennen.",
+        "example": "Ik wil graag kennismaken met de buren."
+      },
+      {
+        "word": "heten",
+        "explanation": "De naam hebben. Je zegt zo hoe je naam is.",
+        "example": "Ik heet Sara en jij?"
+      },
+      {
+        "word": "aangenaam",
+        "explanation": "Dit zeg je als je iemand voor de eerste keer ontmoet. Het is beleefd.",
+        "example": "Hallo, ik ben Tom. Aangenaam."
+      },
+      {
+        "word": "wonen",
+        "explanation": "Op een plek zijn waar je slaapt en leeft, bijvoorbeeld in een stad of een huis.",
+        "example": "Wij wonen in Utrecht."
+      },
+      {
+        "word": "komen uit",
+        "explanation": "Zeggen uit welk land of welke stad je bent.",
+        "example": "Ik kom uit Marokko."
+      },
+      {
+        "word": "ontmoeten",
+        "explanation": "Iemand zien en met die persoon praten.",
+        "example": "Ik ontmoet vandaag nieuwe mensen in de klas."
+      },
+      {
+        "word": "aardig",
+        "explanation": "Vriendelijk en lief tegen andere mensen.",
+        "example": "De docent is heel aardig."
+      },
+      {
+        "word": "de klas",
+        "explanation": "De groep mensen die samen les krijgt, of de kamer waar je les krijgt.",
+        "example": "In de klas zitten veel cursisten."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Het werkwoord zijn",
+        "body": "Met het werkwoord zijn zeg je wie of hoe je bent. Ik ben, jij bent, hij/zij is. Voorbeeld: Ik ben Sara. Zij is drie jaar oud."
+      },
+      {
+        "heading": "Vragen met Hoe en Waar",
+        "body": "Met Hoe en Waar stel je een vraag. Voorbeeld: Hoe heet je? Waar woon je? Het werkwoord komt na het vraagwoord."
+      }
+    ],
+    "exampleSentences": [
+      "Hallo, ik ben Nour.",
+      "Ik kom uit Iran en ik woon nu in Rotterdam.",
+      "Hoe heet jij?",
+      "Aangenaam, leuk je te ontmoeten.",
+      "Mijn buurvrouw is heel aardig."
+    ]
+  },
+  "readingText": "Hallo, ik ben Sara. Ik kom uit Syrië. Nu woon ik in Utrecht. Ik ben 28 jaar oud. Ik heb een man en een dochter. Mijn man heet Omar. Onze dochter heet Lina. Zij is drie jaar oud. Vandaag ga ik naar de taalles. Daar leer ik Nederlands. In de klas zitten veel mensen. Zij komen uit veel landen. De docent heet meneer De Vries. Hij is heel aardig. Ik zeg: Hallo, ik ben Sara. Aangenaam. De vrouw naast mij zegt: Hoi, ik ben Fatima. Wij praten samen. Het is leuk om nieuwe mensen te ontmoeten. Ik ben blij.",
+  "questions": [
+    {
+      "question": "Waar komt Sara vandaan?",
+      "options": ["Uit Syrië", "Uit Utrecht", "Uit Nederland", "Uit Marokko"],
+      "correctIndex": 0,
+      "explanation": "In de tekst staat: Ik kom uit Syrië. Utrecht is de stad waar zij nu woont."
+    },
+    {
+      "question": "Hoe heet de dochter van Sara?",
+      "options": ["Fatima", "Lina", "Sara", "Omar"],
+      "correctIndex": 1,
+      "explanation": "In de tekst staat: Onze dochter heet Lina. Omar is haar man."
+    },
+    {
+      "question": "Hoe voelt Sara zich aan het einde van de tekst?",
+      "options": ["Boos", "Moe", "Blij", "Verdrietig"],
+      "correctIndex": 2,
+      "explanation": "De laatste zin is: Ik ben blij. Zij vindt het leuk om nieuwe mensen te ontmoeten."
+    }
+  ]
+}

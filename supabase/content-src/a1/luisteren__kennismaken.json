@@ -1,0 +1,142 @@
+{
+  "skill": "luisteren",
+  "topic": "Kennismaken",
+  "slug": "kennismaken",
+  "title": "Kennismaken: hallo zeggen en jezelf voorstellen",
+  "description": "Je leert luisteren naar een gesprek waarin twee mensen elkaar voor het eerst ontmoeten.",
+  "content": {
+    "intro": "In deze les leer je luisteren als mensen elkaar ontmoeten. Je hoort hoe iemand hallo zegt en zijn naam vertelt. Je leert ook hoe je vraagt hoe iemand heet en waar iemand woont.",
+    "learningGoals": [
+      "Je begrijpt een korte begroeting.",
+      "Je herkent hoe iemand zijn naam zegt.",
+      "Je begrijpt een vraag over waar iemand woont.",
+      "Je begrijpt woorden om afscheid te nemen."
+    ],
+    "vocabulary": [
+      {
+        "word": "hallo",
+        "explanation": "Dit zeg je als je iemand ziet en begroet.",
+        "example": "Hallo, ik ben Sara."
+      },
+      {
+        "word": "hoe heet je?",
+        "explanation": "Zo vraag je wat de naam van iemand is.",
+        "example": "Hoe heet je? Ik heet Tom."
+      },
+      {
+        "word": "ik heet",
+        "explanation": "Zo zeg je wat je naam is.",
+        "example": "Ik heet Lisa."
+      },
+      {
+        "word": "aangenaam",
+        "explanation": "Dit zeg je als je iemand voor het eerst ontmoet. Het is beleefd.",
+        "example": "Aangenaam, ik ben Karim."
+      },
+      {
+        "word": "waar woon je?",
+        "explanation": "Zo vraag je in welke stad of plaats iemand woont.",
+        "example": "Waar woon je? Ik woon in Utrecht."
+      },
+      {
+        "word": "wonen",
+        "explanation": "Dit betekent dat je op een plaats bent waar je slaapt en leeft.",
+        "example": "Ik woon in Amsterdam."
+      },
+      {
+        "word": "tot ziens",
+        "explanation": "Dit zeg je als je weggaat en iemand later weer ziet.",
+        "example": "Tot ziens, tot morgen!"
+      },
+      {
+        "word": "dank je wel",
+        "explanation": "Dit zeg je als iemand aardig voor je is of je iets geeft.",
+        "example": "Dank je wel voor de koffie."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Het werkwoord in de tegenwoordige tijd (ik / jij)",
+        "body": "Bij 'ik' gebruik je de stam: ik woon, ik heet. Bij 'jij' komt er een -t bij: jij woont, jij heet. Bijvoorbeeld: Ik woon in Rotterdam. Jij woont in Den Haag."
+      },
+      {
+        "heading": "Vragen met een vraagwoord",
+        "body": "Een vraag begint vaak met een vraagwoord: hoe, waar, wat. Daarna komt het werkwoord en dan 'je'. Bijvoorbeeld: Hoe heet je? Waar woon je?"
+      }
+    ],
+    "exampleSentences": [
+      "Hallo, ik heet Anna.",
+      "Hoe heet je?",
+      "Ik woon in Eindhoven.",
+      "Aangenaam, leuk je te ontmoeten.",
+      "Tot ziens en fijne dag!"
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "v",
+      "name": "Sara",
+      "text": "Hallo, ik ben Sara. Hoe heet je?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Hallo Sara. Ik heet Tom. Aangenaam."
+    },
+    {
+      "speaker": "v",
+      "name": "Sara",
+      "text": "Aangenaam, Tom. Waar woon je?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Ik woon in Utrecht. En jij?"
+    },
+    {
+      "speaker": "v",
+      "name": "Sara",
+      "text": "Ik woon in Amsterdam. Ben je hier voor de cursus?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Ja, ik leer Nederlands. Jij ook?"
+    },
+    {
+      "speaker": "v",
+      "name": "Sara",
+      "text": "Ja, ik leer ook Nederlands. Het is leuk hier."
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Dat vind ik ook. Tot ziens, Sara!"
+    },
+    {
+      "speaker": "v",
+      "name": "Sara",
+      "text": "Tot ziens, Tom. Fijne dag!"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Hoe heet de vrouw?",
+      "options": ["Anna", "Sara", "Lisa", "Tom"],
+      "correctIndex": 1,
+      "explanation": "De vrouw zegt: 'Hallo, ik ben Sara.' Haar naam is Sara."
+    },
+    {
+      "question": "Waar woont Tom?",
+      "options": ["In Amsterdam", "In Eindhoven", "In Utrecht", "In Rotterdam"],
+      "correctIndex": 2,
+      "explanation": "Tom zegt: 'Ik woon in Utrecht.' Sara woont in Amsterdam."
+    },
+    {
+      "question": "Waarom zijn Sara en Tom hier?",
+      "options": ["Voor het werk", "Voor de cursus Nederlands", "Voor de vakantie", "Voor de familie"],
+      "correctIndex": 1,
+      "explanation": "Tom zegt: 'Ik leer Nederlands.' Sara leert ook Nederlands. Ze zijn hier voor de cursus."
+    }
+  ]
+}

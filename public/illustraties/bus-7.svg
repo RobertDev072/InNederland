@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" role="img" aria-label="Bus lijn 7">
+  <rect width="480" height="260" rx="16" fill="#eef4ff"/>
+  <!-- bus body -->
+  <rect x="60" y="70" width="330" height="110" rx="18" fill="#f5821f"/>
+  <rect x="80" y="92" width="70" height="46" rx="6" fill="#eef4ff"/>
+  <rect x="164" y="92" width="70" height="46" rx="6" fill="#eef4ff"/>
+  <rect x="300" y="92" width="70" height="46" rx="6" fill="#ffffff"/>
+  <text x="335" y="128" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" fill="#1c3a7d">7</text>
+  <circle cx="130" cy="190" r="24" fill="#14264d"/><circle cx="130" cy="190" r="10" fill="#bfd7fd"/>
+  <circle cx="320" cy="190" r="24" fill="#14264d"/><circle cx="320" cy="190" r="10" fill="#bfd7fd"/>
+  <text x="240" y="235" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#1f469e">Neem bus 7</text>
+</svg>

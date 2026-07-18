@@ -1,0 +1,101 @@
+{
+  "skill": "lezen",
+  "topic": "Eten en drinken",
+  "slug": "eten-drinken",
+  "title": "Eten en drinken",
+  "description": "In deze les lees je eenvoudige teksten over eten en drinken in het dagelijks leven.",
+  "content": {
+    "intro": "In deze les leer je woorden over eten en drinken. Je leest korte, makkelijke zinnen over ontbijt, lunch en avondeten. Zo begrijp je snel een simpele tekst over eten.",
+    "learningGoals": [
+      "Je herkent veelgebruikte woorden over eten en drinken.",
+      "Je begrijpt een korte, eenvoudige tekst over maaltijden.",
+      "Je kunt vragen over de tekst beantwoorden.",
+      "Je leest zinnen in de tegenwoordige tijd."
+    ],
+    "vocabulary": [
+      {
+        "word": "het ontbijt",
+        "explanation": "Het eten in de ochtend.",
+        "example": "Ik eet brood bij het ontbijt."
+      },
+      {
+        "word": "de lunch",
+        "explanation": "Het eten in de middag.",
+        "example": "Voor de lunch eet ik een boterham."
+      },
+      {
+        "word": "het avondeten",
+        "explanation": "Het warme eten in de avond.",
+        "example": "Wij koken samen het avondeten."
+      },
+      {
+        "word": "het water",
+        "explanation": "Iets dat je drinkt. Het heeft geen kleur.",
+        "example": "Zij drinkt een glas water."
+      },
+      {
+        "word": "de koffie",
+        "explanation": "Een warme drank, meestal in de ochtend.",
+        "example": "Mijn vader drinkt koffie bij het ontbijt."
+      },
+      {
+        "word": "de appel",
+        "explanation": "Een rond stuk fruit. Het is vaak rood of groen.",
+        "example": "Ik neem een appel mee naar mijn werk."
+      },
+      {
+        "word": "het brood",
+        "explanation": "Eten dat je koopt bij de bakker. Je maakt er boterhammen van.",
+        "example": "Wij kopen elke dag vers brood."
+      },
+      {
+        "word": "de groente",
+        "explanation": "Eten dat gezond is, bijvoorbeeld wortels of sla.",
+        "example": "Bij het avondeten eten we veel groente."
+      },
+      {
+        "word": "lekker",
+        "explanation": "Iets dat je fijn vindt om te eten of te drinken.",
+        "example": "De soep is heel lekker."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Het werkwoord 'eten' en 'drinken' (tegenwoordige tijd)",
+        "body": "Je gebruikt deze werkwoorden vaak. Bijvoorbeeld: ik eet, jij eet, hij eet, wij eten. En: ik drink, jij drinkt, zij drinkt, wij drinken."
+      },
+      {
+        "heading": "Lidwoorden: de, het en een",
+        "body": "Bij een woord staat vaak 'de' of 'het', bijvoorbeeld: de appel, het brood. Weet je het woord nog niet? Dan gebruik je 'een', bijvoorbeeld: een appel, een boterham."
+      }
+    ],
+    "exampleSentences": [
+      "Ik drink 's ochtends een kop koffie.",
+      "Wij eten om zes uur het avondeten.",
+      "Het brood van de bakker is heel lekker.",
+      "Zij neemt een appel en een fles water mee.",
+      "Bij het eten drinken de kinderen melk."
+    ]
+  },
+  "readingText": "Sara woont in Utrecht. Zij begint de dag met een ontbijt. Ze eet twee boterhammen met kaas. Daarbij drinkt ze een kop thee. Sara houdt niet van koffie. Om twaalf uur eet ze de lunch op haar werk. Vaak neemt ze een appel en een boterham mee van huis. Ook drinkt ze veel water. In de avond kookt Sara samen met haar man. Zij eten graag rijst met groente en soms vis. Na het eten drinken ze thee. In het weekend eet Sara een keer buiten de deur. Dan gaat ze naar een klein restaurant. Ze vindt de soep daar heel lekker.",
+  "questions": [
+    {
+      "question": "Wat drinkt Sara bij het ontbijt?",
+      "options": ["Koffie", "Thee", "Water", "Melk"],
+      "correctIndex": 1,
+      "explanation": "In de tekst staat dat Sara bij het ontbijt een kop thee drinkt. Ze houdt niet van koffie."
+    },
+    {
+      "question": "Wat neemt Sara vaak mee voor de lunch?",
+      "options": ["Rijst en vis", "Soep", "Een appel en een boterham", "Kaas en koffie"],
+      "correctIndex": 2,
+      "explanation": "Voor de lunch neemt Sara vaak een appel en een boterham mee van huis."
+    },
+    {
+      "question": "Wat doet Sara in het weekend?",
+      "options": ["Zij eet een keer buiten de deur", "Zij kookt nooit", "Zij drinkt alleen koffie", "Zij eet geen ontbijt"],
+      "correctIndex": 0,
+      "explanation": "In het weekend eet Sara een keer buiten de deur. Ze gaat naar een klein restaurant."
+    }
+  ]
+}

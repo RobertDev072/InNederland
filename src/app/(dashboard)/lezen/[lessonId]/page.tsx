@@ -1,6 +1,8 @@
 import { notFound, redirect } from "next/navigation";
 import { getLessonWithExercises } from "@/lib/exercises/queries";
 import { getCurrentProfile, hasFullAccess } from "@/lib/profile/queries";
+import { asLessonContent } from "@/types/exercise-content";
+import { LessonSections } from "@/components/exercises/lesson-sections";
 import { LessonClient } from "../_components/lesson-client";
 
 export default async function LezenLessonPage({
@@ -20,7 +22,9 @@ export default async function LezenLessonPage({
 
   const { lesson, exercises } = data;
   const readingExercise = exercises.find((exercise) => exercise.type === "reading_text");
-  const questions = exercises.filter((exercise) => exercise.type === "multiple_choice");
+  const questions = exercises.filter(
+    (exercise) => exercise.type === "multiple_choice" || exercise.type === "open_text",
+  );
 
   if (!readingExercise) {
     notFound();
@@ -36,6 +40,10 @@ export default async function LezenLessonPage({
         <h1 className="text-2xl font-bold text-navy-900">{lesson.title}</h1>
         {lesson.description ? <p className="mt-1 text-navy-500">{lesson.description}</p> : null}
       </div>
+      <LessonSections
+        content={asLessonContent(lesson.content)}
+        nativeLanguage={profile?.nativeLanguage ?? null}
+      />
       <LessonClient
         readingExercise={readingExercise}
         questions={questions}

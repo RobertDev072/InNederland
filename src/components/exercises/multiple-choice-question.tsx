@@ -30,6 +30,12 @@ export function MultipleChoiceQuestion({
     onAnswered?.(index === correctAnswer.correctIndex, index);
 
     if (index !== correctAnswer.correctIndex) {
+      // Prefer the explanation stored with the exercise — no AI/API call needed.
+      if (correctAnswer.explanation) {
+        setExplanation(correctAnswer.explanation);
+        return;
+      }
+      // Only when no stored explanation exists, try the AI helper (optional; may be unavailable).
       setLoadingExplanation(true);
       try {
         const res = await fetch("/api/ai/explain-answer", {
@@ -44,9 +50,9 @@ export function MultipleChoiceQuestion({
           }),
         });
         const data = (await res.json()) as { explanation?: string };
-        setExplanation(data.explanation ?? correctAnswer.explanation ?? null);
+        setExplanation(data.explanation ?? t("incorrectFallback"));
       } catch {
-        setExplanation(correctAnswer.explanation ?? t("incorrectFallback"));
+        setExplanation(t("incorrectFallback"));
       } finally {
         setLoadingExplanation(false);
       }

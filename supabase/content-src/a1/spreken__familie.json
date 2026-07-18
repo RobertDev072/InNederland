@@ -1,0 +1,89 @@
+{
+  "skill": "spreken",
+  "topic": "Familie",
+  "slug": "familie",
+  "title": "Praten over je familie",
+  "description": "In deze les leer je in eenvoudig Nederlands over je familie praten.",
+  "content": {
+    "intro": "In deze les leer je woorden over de familie. Je leert vertellen wie er in jouw familie zijn. Je oefent met korte, makkelijke zinnen.",
+    "learningGoals": [
+      "Je kent woorden voor familieleden.",
+      "Je kunt vertellen hoeveel broers en zussen je hebt.",
+      "Je kunt de namen van je familie noemen.",
+      "Je kunt een korte vraag over familie stellen."
+    ],
+    "vocabulary": [
+      {
+        "word": "de familie",
+        "explanation": "alle mensen die bij elkaar horen, zoals ouders en kinderen",
+        "example": "Mijn familie woont in Nederland."
+      },
+      {
+        "word": "de vader",
+        "explanation": "de man, hij is jouw ouder",
+        "example": "Mijn vader heet Jan."
+      },
+      {
+        "word": "de moeder",
+        "explanation": "de vrouw, zij is jouw ouder",
+        "example": "Mijn moeder werkt in een winkel."
+      },
+      {
+        "word": "de broer",
+        "explanation": "een jongen of man met dezelfde ouders als jij",
+        "example": "Ik heb een broer van tien jaar."
+      },
+      {
+        "word": "de zus",
+        "explanation": "een meisje of vrouw met dezelfde ouders als jij",
+        "example": "Mijn zus woont in Amsterdam."
+      },
+      {
+        "word": "het kind",
+        "explanation": "een jongen of meisje, nog niet groot",
+        "example": "Wij hebben een kind."
+      },
+      {
+        "word": "de opa",
+        "explanation": "de vader van jouw vader of moeder",
+        "example": "Mijn opa is zeventig jaar."
+      },
+      {
+        "word": "de oma",
+        "explanation": "de moeder van jouw vader of moeder",
+        "example": "Mijn oma maakt lekkere soep."
+      },
+      {
+        "word": "getrouwd",
+        "explanation": "je hebt een man of een vrouw voor het leven",
+        "example": "Mijn broer is getrouwd."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Bezittelijk voornaamwoord: mijn en jouw",
+        "body": "Je gebruikt 'mijn' voor iets van jou. Je gebruikt 'jouw' voor iets van de ander. Voorbeeld: Mijn moeder heet Anna. Hoe heet jouw broer?"
+      },
+      {
+        "heading": "Het werkwoord hebben",
+        "body": "Met 'hebben' zeg je wat je hebt. Ik heb, jij hebt, hij heeft. Voorbeeld: Ik heb een zus. Zij heeft twee kinderen."
+      }
+    ],
+    "exampleSentences": [
+      "Ik heb een broer en een zus.",
+      "Mijn vader heet Peter.",
+      "Mijn oma woont in Rotterdam.",
+      "Wij zijn thuis met vier mensen.",
+      "Hoeveel kinderen heb jij?"
+    ]
+  },
+  "speaking": {
+    "scenario": "Je bent op een taalles. De docent vraagt je om over je familie te vertellen. Je vertelt wie er in je familie zijn en waar ze wonen.",
+    "expectedPoints": [
+      "Ik heb een vader en een moeder.",
+      "Ik heb een broer en twee zussen.",
+      "Mijn familie woont in Nederland.",
+      "Mijn moeder heet Sara en mijn vader heet Ali."
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "skill": "spreken",
+  "topic": "Kennismaken",
+  "slug": "kennismaken",
+  "title": "Kennismaken: jezelf voorstellen",
+  "description": "Je leert jezelf voorstellen en iemand nieuw begroeten in het Nederlands.",
+  "content": {
+    "intro": "In deze les leer je kennismaken met andere mensen. Je zegt je naam en je vraagt hoe iemand heet. Je leert ook waar je vandaan komt.",
+    "learningGoals": [
+      "Je kunt jezelf voorstellen.",
+      "Je kunt vragen hoe iemand heet.",
+      "Je kunt zeggen waar je vandaan komt.",
+      "Je kunt iemand begroeten en gedag zeggen."
+    ],
+    "vocabulary": [
+      {
+        "word": "hallo",
+        "explanation": "Dit zeg je als je iemand begroet.",
+        "example": "Hallo, ik ben Sara."
+      },
+      {
+        "word": "de naam",
+        "explanation": "Zo heet je. Iedereen heeft een naam.",
+        "example": "Mijn naam is Omar."
+      },
+      {
+        "word": "heten",
+        "explanation": "Dit gebruik je om je naam te zeggen.",
+        "example": "Ik heet Lisa. Hoe heet jij?"
+      },
+      {
+        "word": "aangenaam",
+        "explanation": "Dit zeg je als je iemand nieuw ontmoet. Het is beleefd.",
+        "example": "Aangenaam, ik ben je nieuwe buurman."
+      },
+      {
+        "word": "wonen",
+        "explanation": "Dit is de plek waar je huis is.",
+        "example": "Ik woon in Utrecht."
+      },
+      {
+        "word": "vandaan komen",
+        "explanation": "Dit is het land of de stad waar je geboren bent.",
+        "example": "Ik kom uit Marokko. Waar kom jij vandaan?"
+      },
+      {
+        "word": "de vriend",
+        "explanation": "Een persoon die je aardig vindt en goed kent.",
+        "example": "Dit is mijn vriend Tom."
+      },
+      {
+        "word": "tot ziens",
+        "explanation": "Dit zeg je als je weggaat.",
+        "example": "Tot ziens, tot morgen!"
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Het werkwoord zijn",
+        "body": "Je gebruikt 'zijn' om te zeggen wie je bent. Ik ben, jij bent, hij/zij is. Bijvoorbeeld: Ik ben Ali. Zij is mijn zus."
+      },
+      {
+        "heading": "Vragen met hoe en waar",
+        "body": "Een vraag begint vaak met een vraagwoord. 'Hoe heet je?' vraag je naar de naam. 'Waar woon je?' vraag je naar de plek."
+      }
+    ],
+    "exampleSentences": [
+      "Hallo, ik ben Fatima.",
+      "Hoe heet jij?",
+      "Ik kom uit Syrië en ik woon nu in Amsterdam.",
+      "Aangenaam kennis te maken.",
+      "Tot ziens en fijne dag!"
+    ]
+  },
+  "speaking": {
+    "scenario": "Je bent op een taalcursus. Je ontmoet een nieuwe medecursist. Stel jezelf voor en maak kennis.",
+    "expectedPoints": [
+      "Begroet de ander: 'Hallo' of 'Goedemorgen'.",
+      "Zeg je naam: 'Ik heet ...' of 'Ik ben ...'.",
+      "Vraag naar de ander: 'Hoe heet jij?' en 'Waar kom je vandaan?'.",
+      "Zeg gedag: 'Tot ziens' of 'Tot later'."
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "skill": "schrijven",
+  "topic": "Boodschappen doen",
+  "slug": "boodschappen",
+  "title": "Boodschappen doen: een briefje schrijven",
+  "description": "Je leert eenvoudige woorden en zinnen om over boodschappen te schrijven.",
+  "content": {
+    "intro": "In deze les leer je over boodschappen doen. Je leert woorden voor eten en drinken. Je oefent met een klein briefje schrijven.",
+    "learningGoals": [
+      "Je kent woorden voor eten en drinken.",
+      "Je kunt een klein boodschappenlijstje maken.",
+      "Je kunt een kort briefje schrijven.",
+      "Je gebruikt het woord 'ik koop' in een zin."
+    ],
+    "vocabulary": [
+      {
+        "word": "de winkel",
+        "explanation": "Een plaats waar je iets koopt.",
+        "example": "Ik ga naar de winkel."
+      },
+      {
+        "word": "de supermarkt",
+        "explanation": "Een grote winkel voor eten en drinken.",
+        "example": "De supermarkt is open."
+      },
+      {
+        "word": "het brood",
+        "explanation": "Eten van meel; je eet het vaak 's ochtends.",
+        "example": "Ik koop een brood."
+      },
+      {
+        "word": "de melk",
+        "explanation": "Een witte drank; die komt van de koe.",
+        "example": "De melk is in de koelkast."
+      },
+      {
+        "word": "de appel",
+        "explanation": "Rood of groen fruit; je kunt het eten.",
+        "example": "Ik eet een appel."
+      },
+      {
+        "word": "het geld",
+        "explanation": "Hiermee betaal je in de winkel.",
+        "example": "Ik heb geld bij me."
+      },
+      {
+        "word": "de boodschappen",
+        "explanation": "Het eten en drinken dat je koopt.",
+        "example": "Ik doe boodschappen."
+      },
+      {
+        "word": "het lijstje",
+        "explanation": "Een klein papier met woorden die je koopt.",
+        "example": "Ik maak een lijstje."
+      },
+      {
+        "word": "betalen",
+        "explanation": "Geld geven voor iets in de winkel.",
+        "example": "Ik ga bij de kassa betalen."
+      },
+      {
+        "word": "kopen",
+        "explanation": "Iets krijgen als je geld geeft.",
+        "example": "Ik wil kaas kopen."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Het werkwoord 'kopen' in de tegenwoordige tijd",
+        "body": "Je zegt: ik koop, jij koopt, hij koopt, wij kopen. Voorbeeld: Ik koop brood. Zij koopt melk."
+      },
+      {
+        "heading": "Lidwoord: de of het",
+        "body": "Bij een woord hoort 'de' of 'het'. Je zegt: de appel, de melk, het brood, het geld."
+      }
+    ],
+    "exampleSentences": [
+      "Ik ga naar de supermarkt.",
+      "Ik koop brood, melk en kaas.",
+      "Heb jij ook een appel nodig?",
+      "Ik maak eerst een lijstje.",
+      "Bij de kassa betaal ik met geld."
+    ]
+  },
+  "writing": {
+    "instructions": "Schrijf een kort briefje aan je huisgenoot. Je gaat naar de supermarkt. Schrijf wat je koopt (minstens drie dingen). Vraag of je huisgenoot ook iets nodig heeft. Begin met 'Hoi' en eindig met je naam.",
+    "minWords": 35
+  }
+}

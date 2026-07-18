@@ -22,14 +22,20 @@ export function LessonClient({
   nativeLanguage: string | null;
 }) {
   const t = useTranslations("Luisteren");
-  const { speak, isSpeaking, isSupported } = useSpeechSynthesis();
+  const { speak, speakDialogue, isSpeaking, isSupported } = useSpeechSynthesis();
   const [hasPlayed, setHasPlayed] = useState(false);
   const [showTranscript, setShowTranscript] = useState(false);
 
   const clipContent = asContent("listening_clip", clipExercise.content);
+  const dialogue = clipContent.dialogue ?? [];
+  const hasDialogue = dialogue.length > 0;
+  const hasScript = Boolean(clipContent.script);
 
   function handlePlay() {
-    if (clipContent.script) {
+    if (hasDialogue) {
+      speakDialogue(dialogue);
+      setHasPlayed(true);
+    } else if (clipContent.script) {
       speak(clipContent.script);
       setHasPlayed(true);
     }
@@ -51,7 +57,7 @@ export function LessonClient({
         <CardContent className="flex flex-col items-center gap-4 py-8 text-center">
           {clipContent.youtubeVideoId ? (
             <YouTubeEmbed videoId={clipContent.youtubeVideoId} title="Luisterfragment" />
-          ) : isSupported ? (
+          ) : isSupported && (hasDialogue || hasScript) ? (
             <>
               <Button size="lg" onClick={handlePlay} disabled={isSpeaking}>
                 {isSpeaking ? t("playing") : t("listenButton")}
@@ -65,16 +71,40 @@ export function LessonClient({
                   {showTranscript ? t("hideTranscript") : t("showTranscript")}
                 </button>
               ) : null}
-              {showTranscript && clipContent.script ? (
+              {showTranscript ? (
                 <div className="mt-2 w-full max-w-xl text-left">
-                  <ClickableText text={clipContent.script} nativeLanguage={nativeLanguage} />
+                  {hasDialogue ? (
+                    <div className="flex flex-col gap-3">
+                      {dialogue.map((line, index) => (
+                        <div key={index} className="flex flex-col gap-0.5">
+                          <span className="text-xs font-semibold uppercase tracking-wide text-navy-400">
+                            {line.name ?? (line.speaker === "m" ? "Man" : "Vrouw")}
+                          </span>
+                          <ClickableText text={line.text} nativeLanguage={nativeLanguage} />
+                        </div>
+                      ))}
+                    </div>
+                  ) : clipContent.script ? (
+                    <ClickableText text={clipContent.script} nativeLanguage={nativeLanguage} />
+                  ) : null}
                 </div>
               ) : null}
             </>
           ) : (
             <div className="flex w-full flex-col gap-4 text-left">
               <p className="text-center text-navy-600">{t("unsupported")}</p>
-              {clipContent.script ? (
+              {hasDialogue ? (
+                <div className="flex flex-col gap-3">
+                  {dialogue.map((line, index) => (
+                    <div key={index} className="flex flex-col gap-0.5">
+                      <span className="text-xs font-semibold uppercase tracking-wide text-navy-400">
+                        {line.name ?? (line.speaker === "m" ? "Man" : "Vrouw")}
+                      </span>
+                      <ClickableText text={line.text} nativeLanguage={nativeLanguage} />
+                    </div>
+                  ))}
+                </div>
+              ) : clipContent.script ? (
                 <ClickableText text={clipContent.script} nativeLanguage={nativeLanguage} />
               ) : null}
             </div>

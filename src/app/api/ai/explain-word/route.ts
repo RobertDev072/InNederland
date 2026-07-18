@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { generateText } from "@/lib/ai/gemini";
+import { generateText, isAiConfigured } from "@/lib/ai/llm";
 
 interface ExplainWordBody {
   word: string;
@@ -13,6 +13,13 @@ export async function POST(request: Request) {
 
   if (!word) {
     return NextResponse.json({ error: "Ongeldige aanvraag." }, { status: 400 });
+  }
+
+  if (!isAiConfigured()) {
+    return NextResponse.json(
+      { explanation: "Woorduitleg via AI is nu niet beschikbaar." },
+      { status: 200 },
+    );
   }
 
   const prompt = `Je helpt een inburgeraar (NT2, A2-niveau) die het Nederlandse woord "${word}" niet begrijpt${

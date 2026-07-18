@@ -1,0 +1,116 @@
+{
+  "skill": "lezen",
+  "topic": "Bij de dokter",
+  "slug": "dokter",
+  "title": "Bij de dokter",
+  "description": "In deze les leer je eenvoudige woorden en zinnen voor een bezoek aan de dokter.",
+  "content": {
+    "intro": "In deze les lees je over een bezoek aan de dokter. Je leert woorden over ziek zijn en over de dokter. Je leert ook hoe je een afspraak maakt.",
+    "learningGoals": [
+      "Je leert woorden over ziek zijn.",
+      "Je leert een korte tekst over de dokter lezen.",
+      "Je leert vragen bij de tekst beantwoorden.",
+      "Je leert hoe je vertelt wat je hebt."
+    ],
+    "vocabulary": [
+      {
+        "word": "de dokter",
+        "explanation": "De persoon die je helpt als je ziek bent.",
+        "example": "Ik ga naar de dokter."
+      },
+      {
+        "word": "ziek",
+        "explanation": "Als je niet gezond bent en je voelt je niet goed.",
+        "example": "Ik ben ziek en ik blijf thuis."
+      },
+      {
+        "word": "de afspraak",
+        "explanation": "Een tijd waarop je bij de dokter mag komen.",
+        "example": "Ik heb een afspraak om tien uur."
+      },
+      {
+        "word": "de pijn",
+        "explanation": "Iets doet zeer in je lichaam.",
+        "example": "Ik heb pijn in mijn buik."
+      },
+      {
+        "word": "de koorts",
+        "explanation": "Je lichaam is heel warm als je ziek bent.",
+        "example": "Het kind heeft koorts."
+      },
+      {
+        "word": "het medicijn",
+        "explanation": "Dit neem je in om beter te worden.",
+        "example": "De dokter geeft mij een medicijn."
+      },
+      {
+        "word": "de wachtkamer",
+        "explanation": "De kamer waar je wacht op de dokter.",
+        "example": "Ik zit in de wachtkamer."
+      },
+      {
+        "word": "beter",
+        "explanation": "Als je weer gezond bent en niet meer ziek.",
+        "example": "Na een week ben ik weer beter."
+      },
+      {
+        "word": "de keel",
+        "explanation": "Het deel in je hals waar je mee slikt en praat.",
+        "example": "Mijn keel doet pijn."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Ik heb ... (vertellen wat je voelt)",
+        "body": "Met 'ik heb' vertel je wat er is. Bijvoorbeeld: 'Ik heb pijn.' of 'Ik heb koorts.' Je zegt ook: 'Ik heb pijn in mijn buik.'"
+      },
+      {
+        "heading": "Het werkwoord 'zijn': ik ben ziek",
+        "body": "Je gebruikt 'zijn' om te zeggen hoe je bent. Bijvoorbeeld: 'Ik ben ziek.' en 'Jij bent beter.' We zeggen: ik ben, jij bent, hij is."
+      }
+    ],
+    "exampleSentences": [
+      "Ik voel me niet goed.",
+      "Ik maak een afspraak bij de dokter.",
+      "In de wachtkamer zijn veel mensen.",
+      "De dokter vraagt: wat heeft u?",
+      "Ik neem elke dag een medicijn."
+    ]
+  },
+  "readingText": "Sara voelt zich niet goed. Ze is ziek. Ze heeft pijn in haar keel en ze heeft koorts. Sara belt de dokter. Ze maakt een afspraak voor tien uur. Om tien uur gaat Sara naar de dokter. Eerst zit ze in de wachtkamer. Er zijn veel mensen. Sara wacht tien minuten. Dan komt ze bij de dokter. De dokter kijkt in haar keel. De dokter zegt: u bent een beetje ziek. U hebt een medicijn nodig. Sara krijgt een medicijn. Ze neemt het medicijn elke dag. Na een week is Sara weer beter. Ze is heel blij.",
+  "questions": [
+    {
+      "question": "Wat heeft Sara?",
+      "options": [
+        "Pijn in haar keel en koorts",
+        "Pijn in haar been",
+        "Pijn in haar arm",
+        "Niets, ze is gezond"
+      ],
+      "correctIndex": 0,
+      "explanation": "In de tekst staat dat Sara pijn in haar keel heeft en koorts."
+    },
+    {
+      "question": "Hoe laat is de afspraak bij de dokter?",
+      "options": [
+        "Om negen uur",
+        "Om tien uur",
+        "Om elf uur",
+        "Om twaalf uur"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sara maakt een afspraak voor tien uur en gaat om tien uur naar de dokter."
+    },
+    {
+      "question": "Wat geeft de dokter aan Sara?",
+      "options": [
+        "Een boek",
+        "Een afspraak",
+        "Een medicijn",
+        "Een broodje"
+      ],
+      "correctIndex": 2,
+      "explanation": "De dokter zegt dat Sara een medicijn nodig heeft, en Sara krijgt een medicijn."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "skill": "lezen",
+  "topic": "Familie",
+  "slug": "familie",
+  "title": "Mijn familie",
+  "description": "In deze les leer je eenvoudige woorden en zinnen over de familie te lezen.",
+  "content": {
+    "intro": "In deze les lees je over een familie. Je leert woorden zoals vader, moeder, broer en zus. Je oefent met korte, simpele zinnen.",
+    "learningGoals": [
+      "Je kent belangrijke woorden over de familie.",
+      "Je begrijpt een korte tekst over een gezin.",
+      "Je kunt vragen over de tekst beantwoorden.",
+      "Je leert het werkwoord 'hebben' gebruiken."
+    ],
+    "vocabulary": [
+      {
+        "word": "de familie",
+        "explanation": "alle mensen die bij elkaar horen, zoals vader, moeder en kinderen",
+        "example": "Mijn familie woont in Utrecht."
+      },
+      {
+        "word": "de vader",
+        "explanation": "de man met kinderen; ook: papa",
+        "example": "Mijn vader heet Peter."
+      },
+      {
+        "word": "de moeder",
+        "explanation": "de vrouw met kinderen; ook: mama",
+        "example": "Mijn moeder maakt het eten."
+      },
+      {
+        "word": "de broer",
+        "explanation": "een jongen of man met dezelfde ouders als jij",
+        "example": "Mijn broer is tien jaar."
+      },
+      {
+        "word": "de zus",
+        "explanation": "een meisje of vrouw met dezelfde ouders als jij",
+        "example": "Mijn zus heet Lisa."
+      },
+      {
+        "word": "de oma",
+        "explanation": "de moeder van je vader of je moeder",
+        "example": "Mijn oma maakt lekkere soep."
+      },
+      {
+        "word": "de opa",
+        "explanation": "de vader van je vader of je moeder",
+        "example": "Opa speelt in de tuin."
+      },
+      {
+        "word": "de hond",
+        "explanation": "een dier dat veel mensen thuis hebben",
+        "example": "De hond heet Max."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Het werkwoord 'hebben'",
+        "body": "Je gebruikt 'hebben' om te zeggen wat je bezit. Ik heb een broer. Wij hebben een hond."
+      },
+      {
+        "heading": "Bezittelijk voornaamwoord 'mijn'",
+        "body": "Met 'mijn' zeg je dat iets van jou is. Mijn vader heet Peter. Mijn zus is zestien jaar."
+      }
+    ],
+    "exampleSentences": [
+      "Ik heb een broer en een zus.",
+      "Mijn moeder heet Els.",
+      "Wij hebben een hond.",
+      "Mijn oma en opa wonen in Amsterdam.",
+      "Ik hou veel van mijn familie."
+    ]
+  },
+  "readingText": "Ik heet Sanne. Ik woon in Utrecht met mijn familie. Mijn vader heet Peter en mijn moeder heet Els. Ik heb een broer en een zus. Mijn broer heet Tom. Hij is tien jaar. Mijn zus heet Lisa. Zij is zestien jaar. Ik ben veertien jaar. Wij hebben ook een hond. De hond heet Max. In het weekend gaan wij naar mijn oma en opa. Zij wonen in Amsterdam. Mijn oma maakt lekkere soep. Opa speelt met de hond in de tuin. Ik hou veel van mijn familie. Wij zijn samen heel blij.",
+  "questions": [
+    {
+      "question": "Waar woont Sanne?",
+      "options": ["Amsterdam", "Utrecht", "Rotterdam", "Groningen"],
+      "correctIndex": 1,
+      "explanation": "In de tekst staat: 'Ik woon in Utrecht met mijn familie.'"
+    },
+    {
+      "question": "Hoe heet de hond van Sanne?",
+      "options": ["Tom", "Peter", "Max", "Lisa"],
+      "correctIndex": 2,
+      "explanation": "In de tekst staat: 'De hond heet Max.'"
+    },
+    {
+      "question": "Wie wonen in Amsterdam?",
+      "options": ["De vader en de moeder", "Sanne en Tom", "De buren", "De oma en de opa"],
+      "correctIndex": 3,
+      "explanation": "De oma en opa wonen in Amsterdam. Sanne gaat in het weekend naar hen toe."
+    }
+  ]
+}

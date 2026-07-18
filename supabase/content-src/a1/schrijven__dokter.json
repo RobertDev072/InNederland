@@ -1,0 +1,84 @@
+{
+  "skill": "schrijven",
+  "topic": "Bij de dokter",
+  "slug": "dokter",
+  "title": "Schrijven: Bij de dokter",
+  "description": "Je leert een kort bericht schrijven om een afspraak bij de dokter te maken.",
+  "content": {
+    "intro": "In deze les leer je woorden over ziek zijn en de dokter. Je leert ook hoe je zegt dat je pijn hebt. Aan het einde schrijf je zelf een kort bericht aan de dokter.",
+    "learningGoals": [
+      "Je kent woorden over ziek zijn.",
+      "Je kunt zeggen waar je pijn hebt.",
+      "Je kunt een afspraak vragen.",
+      "Je kunt een kort bericht aan de dokter schrijven."
+    ],
+    "vocabulary": [
+      {
+        "word": "de dokter",
+        "explanation": "De persoon die zieke mensen helpt.",
+        "example": "Ik ga naar de dokter."
+      },
+      {
+        "word": "ziek",
+        "explanation": "Je voelt je niet goed.",
+        "example": "Ik ben ziek en blijf thuis."
+      },
+      {
+        "word": "de pijn",
+        "explanation": "Iets doet zeer aan je lichaam.",
+        "example": "Ik heb pijn in mijn buik."
+      },
+      {
+        "word": "de afspraak",
+        "explanation": "Een tijd waarop je bij de dokter mag komen.",
+        "example": "Ik heb een afspraak om tien uur."
+      },
+      {
+        "word": "de koorts",
+        "explanation": "Je lichaam is te warm als je ziek bent.",
+        "example": "Mijn kind heeft koorts."
+      },
+      {
+        "word": "het medicijn",
+        "explanation": "Iets dat je neemt om beter te worden.",
+        "example": "De dokter geeft mij een medicijn."
+      },
+      {
+        "word": "de hoofdpijn",
+        "explanation": "Pijn in je hoofd.",
+        "example": "Ik heb hoofdpijn en ben moe."
+      },
+      {
+        "word": "beter",
+        "explanation": "Niet meer ziek, weer gezond.",
+        "example": "Ik voel me nu weer beter."
+      },
+      {
+        "word": "de huisarts",
+        "explanation": "De dokter dicht bij je huis.",
+        "example": "Ik bel de huisarts voor een afspraak."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Ik heb pijn ... (met 'in' of 'aan')",
+        "body": "Je zegt waar je pijn hebt met 'in' of 'aan'. Voorbeeld: Ik heb pijn in mijn buik. Ik heb pijn aan mijn arm."
+      },
+      {
+        "heading": "Het werkwoord 'zijn' in de tegenwoordige tijd",
+        "body": "Met het werkwoord 'zijn' zeg je hoe je bent. Voorbeeld: Ik ben ziek. Mijn kind is ziek."
+      }
+    ],
+    "exampleSentences": [
+      "Ik ben ziek en ik heb koorts.",
+      "Ik heb pijn in mijn keel.",
+      "Kan ik een afspraak maken?",
+      "De dokter geeft mij een medicijn.",
+      "Morgen voel ik me hopelijk weer beter."
+    ]
+  },
+  "writing": {
+    "instructions": "Je bent ziek. Schrijf een kort bericht aan de huisarts. Vertel wie je bent, dat je ziek bent en waar je pijn hebt. Vraag om een afspraak en schrijf wanneer je kunt komen.",
+    "minWords": 35
+  }
+}

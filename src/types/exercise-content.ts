@@ -12,9 +12,19 @@ export interface ReadingTextContent {
   imageUrl?: string;
 }
 
+/** One turn in a spoken dialogue. speaker "m" = male voice, "v" = female voice (browser TTS). */
+export interface DialogueLine {
+  speaker: "m" | "v";
+  /** Optional display name/label for the speaker (e.g. "Anna", "Meneer De Vries"). */
+  name?: string;
+  text: string;
+}
+
 export interface ListeningClipContent {
-  /** Read aloud via browser text-to-speech. Optional when a youtubeVideoId is provided instead. */
+  /** Read aloud via browser text-to-speech. Optional when a youtubeVideoId or dialogue is provided instead. */
   script?: string;
+  /** Structured dialogue read aloud with alternating man/woman voices. */
+  dialogue?: DialogueLine[];
   /** YouTube video id (not a full URL) — rendered as an embedded, playable iframe. */
   youtubeVideoId?: string;
 }
@@ -22,6 +32,8 @@ export interface ListeningClipContent {
 export interface WritingTaskContent {
   instructions: string;
   minWords?: number;
+  /** Optional stored example answer, shown for self-check (no AI needed). */
+  modelAnswer?: string;
 }
 
 export interface SpeakingPromptContent {
@@ -31,6 +43,8 @@ export interface SpeakingPromptContent {
   youtubeVideoId?: string;
   /** Optional admin-uploaded illustrative image (public URL from the lesson-media storage bucket). */
   imageUrl?: string;
+  /** Optional stored example answer, shown for self-check (no AI needed). */
+  modelAnswer?: string;
 }
 
 export interface MultipleChoiceContent {
@@ -73,6 +87,31 @@ export function asAnswer<T extends keyof AnswerByType>(
   answer: Json | null,
 ): AnswerByType[T] | null {
   return answer as unknown as AnswerByType[T] | null;
+}
+
+/**
+ * Rich pedagogical sections shown at the top of a lesson (stored in lessons.content jsonb).
+ * The interactive parts (reading text, dialogue, questions, tasks) live in the exercises table.
+ * All content stays in Dutch; the AI "explain word" feature translates on demand.
+ */
+export interface LessonVocabularyItem {
+  word: string;
+  /** Short explanation in simple Dutch (A-level friendly). */
+  explanation?: string;
+  /** Example sentence using the word. */
+  example?: string;
+}
+
+export interface LessonContent {
+  intro?: string;
+  learningGoals?: string[];
+  vocabulary?: LessonVocabularyItem[];
+  grammar?: { heading: string; body: string }[];
+  exampleSentences?: string[];
+}
+
+export function asLessonContent(content: Json | null): LessonContent | null {
+  return content as unknown as LessonContent | null;
 }
 
 /** KNM topics don't use the lessons/exercises tables — they have their own simple content shape. */

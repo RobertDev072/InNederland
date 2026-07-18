@@ -1,0 +1,162 @@
+{
+  "skill": "luisteren",
+  "topic": "Eten en drinken",
+  "slug": "eten-drinken",
+  "title": "Wat eet en drink jij?",
+  "description": "In deze les leer je luisteren naar eenvoudige gesprekken over eten en drinken.",
+  "content": {
+    "intro": "In deze les luister je naar mensen die praten over eten en drinken. Je leert veelvoorkomende woorden en korte zinnen. Zo begrijp je een gesprek in de keuken of in een café.",
+    "learningGoals": [
+      "Je begrijpt eenvoudige vragen over eten en drinken.",
+      "Je herkent namen van eten en drinken.",
+      "Je verstaat wat iemand wil eten of drinken.",
+      "Je begrijpt korte antwoorden met 'ja' en 'nee'."
+    ],
+    "vocabulary": [
+      {
+        "word": "het brood",
+        "explanation": "Dit eet je vaak bij het ontbijt of de lunch.",
+        "example": "Ik eet een boterham met brood."
+      },
+      {
+        "word": "de kaas",
+        "explanation": "Geel eten dat je op brood doet.",
+        "example": "Op mijn brood zit kaas."
+      },
+      {
+        "word": "het water",
+        "explanation": "Dit drink je als je dorst hebt.",
+        "example": "Ik drink een glas water."
+      },
+      {
+        "word": "de koffie",
+        "explanation": "Een warme, bruine drank.",
+        "example": "Wil jij ook koffie?"
+      },
+      {
+        "word": "de thee",
+        "explanation": "Een warme drank, vaak zonder melk.",
+        "example": "Ik neem een kopje thee."
+      },
+      {
+        "word": "de appel",
+        "explanation": "Fruit, rond en vaak rood of groen.",
+        "example": "Ik eet elke dag een appel."
+      },
+      {
+        "word": "lekker",
+        "explanation": "Iets smaakt goed.",
+        "example": "De soep is heel lekker."
+      },
+      {
+        "word": "honger hebben",
+        "explanation": "Je wilt eten.",
+        "example": "Ik heb honger, ik wil eten."
+      },
+      {
+        "word": "dorst hebben",
+        "explanation": "Je wilt drinken.",
+        "example": "Ik heb dorst, ik wil water."
+      },
+      {
+        "word": "het ontbijt",
+        "explanation": "Het eten in de ochtend.",
+        "example": "Bij het ontbijt eet ik brood."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Het werkwoord 'willen'",
+        "body": "Met 'willen' zeg je wat je graag hebt. Ik wil, jij wilt, hij/zij wil. Bijvoorbeeld: 'Ik wil koffie.' en 'Wil jij thee?'"
+      },
+      {
+        "heading": "Ja en nee",
+        "body": "Op een vraag antwoord je met 'ja' of 'nee'. Bijvoorbeeld: 'Wil je melk?' - 'Ja, graag.' of 'Nee, dank je.'"
+      }
+    ],
+    "exampleSentences": [
+      "Ik heb honger.",
+      "Wil jij een kopje koffie?",
+      "De kaas is lekker.",
+      "Ik drink een glas water.",
+      "Bij het ontbijt eet ik een appel."
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Goedemorgen! Heb je honger?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Ja, ik heb honger. Wat is er te eten?"
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Er is brood met kaas. Wil je een boterham?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Ja, graag. Ik neem brood met kaas."
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "En wil je koffie of thee?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Ik wil koffie, alsjeblieft. Ik heb ook dorst."
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Hier is je koffie. Wil je ook een appel?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Nee, dank je. De koffie en het brood zijn genoeg. Het is lekker!"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Wat eet Tom?",
+      "options": [
+        "Brood met kaas",
+        "Een appel",
+        "Soep",
+        "Niets"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tom neemt een boterham met brood en kaas."
+    },
+    {
+      "question": "Wat wil Tom drinken?",
+      "options": [
+        "Thee",
+        "Water",
+        "Koffie",
+        "Melk"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tom zegt: 'Ik wil koffie, alsjeblieft.'"
+    },
+    {
+      "question": "Wil Tom een appel?",
+      "options": [
+        "Ja, hij wil een appel",
+        "Nee, hij wil geen appel",
+        "Hij wil twee appels",
+        "Hij weet het niet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tom zegt: 'Nee, dank je.' Het brood en de koffie zijn genoeg."
+    }
+  ]
+}

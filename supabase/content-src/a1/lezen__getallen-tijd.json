@@ -1,0 +1,106 @@
+{
+  "skill": "lezen",
+  "topic": "Getallen en tijd",
+  "slug": "getallen-tijd",
+  "title": "Getallen en tijd lezen",
+  "description": "Je leert getallen en tijden lezen en begrijpen in het Nederlands.",
+  "content": {
+    "intro": "In deze les leer je over getallen en tijd. Je leert hoe laat het is. Je leest ook over de dagen van de week.",
+    "learningGoals": [
+      "Je kunt getallen van 1 tot 100 lezen.",
+      "Je kunt de tijd op een klok lezen.",
+      "Je kent de dagen van de week.",
+      "Je begrijpt korte zinnen over tijd."
+    ],
+    "vocabulary": [
+      {
+        "word": "het getal",
+        "explanation": "Een getal is bijvoorbeeld 1, 2 of 3.",
+        "example": "Het getal tien is groter dan vijf."
+      },
+      {
+        "word": "de tijd",
+        "explanation": "De tijd is hoe laat het is.",
+        "example": "Ik heb geen tijd, ik ben laat."
+      },
+      {
+        "word": "de klok",
+        "explanation": "Op de klok zie je hoe laat het is.",
+        "example": "De klok hangt aan de muur."
+      },
+      {
+        "word": "het uur",
+        "explanation": "Een dag heeft vierentwintig uur.",
+        "example": "De les duurt een uur."
+      },
+      {
+        "word": "de minuut",
+        "explanation": "Een uur heeft zestig minuten.",
+        "example": "Wacht een minuut, ik kom eraan."
+      },
+      {
+        "word": "de dag",
+        "explanation": "Een week heeft zeven dagen.",
+        "example": "Vandaag is een mooie dag."
+      },
+      {
+        "word": "de week",
+        "explanation": "Een week is maandag tot en met zondag.",
+        "example": "Volgende week ga ik naar school."
+      },
+      {
+        "word": "vroeg",
+        "explanation": "Vroeg is aan het begin van de dag.",
+        "example": "Ik sta vroeg op, om zes uur."
+      },
+      {
+        "word": "laat",
+        "explanation": "Laat is niet op tijd of aan het eind van de dag.",
+        "example": "Het is al laat, ik ga naar bed."
+      },
+      {
+        "word": "hoe laat",
+        "explanation": "Dit vraag je als je de tijd wilt weten.",
+        "example": "Hoe laat is het nu?"
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Hoe laat is het?",
+        "body": "Je zegt de tijd met 'het is' en dan het uur. Voorbeeld: Het is drie uur. Het is half acht. Voor kwart gebruik je: Het is kwart over vier."
+      },
+      {
+        "heading": "Getallen als woord",
+        "body": "Kleine getallen schrijf je vaak als woord. Voorbeeld: een, twee, drie, vier, vijf. Grotere getallen ook: tien, twintig, dertig."
+      }
+    ],
+    "exampleSentences": [
+      "Het is nu acht uur.",
+      "De winkel gaat om negen uur open.",
+      "Een week heeft zeven dagen.",
+      "Ik werk vijf dagen per week.",
+      "De bus komt om half tien."
+    ]
+  },
+  "readingText": "Anna staat elke dag vroeg op. Om zeven uur begint haar dag. Zij eet brood en drinkt koffie. Om half negen gaat zij naar de les. De les duurt twee uur. Anna leert Nederlands van maandag tot en met vrijdag. In het weekend heeft zij geen les. Op zaterdag en zondag is zij vrij. Na de les eet zij om twaalf uur. Dan gaat zij naar huis. Om drie uur doet zij boodschappen. De winkel is open tot zes uur. 's Avonds kookt Anna eten. Om tien uur gaat zij naar bed. Anna heeft altijd genoeg tijd voor alles.",
+  "questions": [
+    {
+      "question": "Hoe laat begint de dag van Anna?",
+      "options": ["Om zes uur", "Om zeven uur", "Om acht uur", "Om negen uur"],
+      "correctIndex": 1,
+      "explanation": "In de tekst staat: 'Om zeven uur begint haar dag.'"
+    },
+    {
+      "question": "Wanneer heeft Anna geen les?",
+      "options": ["Op maandag", "Op vrijdag", "In het weekend", "Op woensdag"],
+      "correctIndex": 2,
+      "explanation": "In de tekst staat: 'In het weekend heeft zij geen les.'"
+    },
+    {
+      "question": "Hoe lang duurt de les van Anna?",
+      "options": ["Een uur", "Twee uur", "Drie uur", "Vier uur"],
+      "correctIndex": 1,
+      "explanation": "In de tekst staat: 'De les duurt twee uur.'"
+    }
+  ]
+}

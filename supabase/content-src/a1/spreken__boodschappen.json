@@ -1,0 +1,94 @@
+{
+  "skill": "spreken",
+  "topic": "Boodschappen doen",
+  "slug": "boodschappen",
+  "title": "Boodschappen doen in de winkel",
+  "description": "Je leert eenvoudige zinnen om boodschappen te doen en te betalen in een winkel.",
+  "content": {
+    "intro": "In deze les leer je praten in de winkel. Je leert vragen naar producten en de prijs. Ook leer je hoe je netjes betaalt en dank je wel zegt.",
+    "learningGoals": [
+      "Je kunt vragen waar een product is.",
+      "Je kunt vragen hoeveel iets kost.",
+      "Je kunt een product bestellen bij de kassa of de balie.",
+      "Je kunt netjes groeten en bedanken."
+    ],
+    "vocabulary": [
+      {
+        "word": "de winkel",
+        "explanation": "een plek waar je dingen koopt",
+        "example": "Ik ga naar de winkel."
+      },
+      {
+        "word": "boodschappen doen",
+        "explanation": "eten en drinken kopen in de winkel",
+        "example": "Op zaterdag doe ik boodschappen."
+      },
+      {
+        "word": "de prijs",
+        "explanation": "hoeveel geld iets kost",
+        "example": "Wat is de prijs van de melk?"
+      },
+      {
+        "word": "kosten",
+        "explanation": "hoeveel geld je moet betalen",
+        "example": "Hoeveel kost het brood?"
+      },
+      {
+        "word": "betalen",
+        "explanation": "geld geven voor iets",
+        "example": "Ik wil met de pin betalen."
+      },
+      {
+        "word": "de kassa",
+        "explanation": "de plek waar je betaalt",
+        "example": "Ik sta bij de kassa."
+      },
+      {
+        "word": "het geld",
+        "explanation": "waarmee je dingen koopt",
+        "example": "Ik heb geen geld bij me."
+      },
+      {
+        "word": "de zak",
+        "explanation": "iets waarin je de boodschappen doet",
+        "example": "Mag ik een zak?"
+      },
+      {
+        "word": "graag",
+        "explanation": "een net woord dat je zegt als je iets wilt",
+        "example": "Ik wil graag een kilo appels."
+      },
+      {
+        "word": "alstublieft",
+        "explanation": "een net woord als je iets vraagt of geeft",
+        "example": "Een brood, alstublieft."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Vragen met 'hoeveel' en 'wat'",
+        "body": "Met 'hoeveel' vraag je naar een aantal of een prijs. Met 'wat' vraag je naar een ding. Voorbeeld: Hoeveel kost de kaas? Wat is dat?"
+      },
+      {
+        "heading": "Ik wil / ik wil graag",
+        "body": "Met 'ik wil graag' bestel je iets op een nette manier. Na 'ik wil' komt het werkwoord of het product. Voorbeeld: Ik wil graag twee broodjes. Ik wil betalen."
+      }
+    ],
+    "exampleSentences": [
+      "Goedemiddag, waar is de melk?",
+      "Hoeveel kost een kilo appels?",
+      "Ik wil graag drie broodjes, alstublieft.",
+      "Kan ik met de pin betalen?",
+      "Dank u wel, tot ziens."
+    ]
+  },
+  "speaking": {
+    "scenario": "Je bent in de supermarkt. Je zoekt brood en appels. Je vraagt aan de medewerker waar de appels zijn en hoeveel ze kosten. Daarna ga je naar de kassa en betaal je.",
+    "expectedPoints": [
+      "Groet de medewerker, bijvoorbeeld: Goedemiddag.",
+      "Vraag waar een product is, bijvoorbeeld: Waar zijn de appels?",
+      "Vraag naar de prijs, bijvoorbeeld: Hoeveel kosten de appels?",
+      "Bedank en groet, bijvoorbeeld: Dank u wel, tot ziens."
+    ]
+  }
+}

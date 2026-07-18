@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
-import { streamChat } from "@/lib/ai/gemini";
+import { streamChat, isAiConfigured } from "@/lib/ai/llm";
 
 const COACH_SYSTEM_PROMPT = `Je bent de AI-examencoach van InNederland.ai: een vriendelijke, geduldige en
 motiverende docent Nederlands als tweede taal (NT2) die cursisten helpt zich voor te bereiden op het
@@ -38,6 +38,13 @@ export async function POST(request: Request) {
 
   if (!user) {
     return NextResponse.json({ error: "Niet ingelogd." }, { status: 401 });
+  }
+
+  if (!isAiConfigured()) {
+    return new Response(
+      "De AI-coach is nu niet beschikbaar. Neem contact op met de beheerder om de AI-backend in te stellen.",
+      { headers: { "Content-Type": "text/plain; charset=utf-8" } },
+    );
   }
 
   let conversationId: string;

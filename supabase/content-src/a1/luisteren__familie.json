@@ -1,0 +1,137 @@
+{
+  "skill": "luisteren",
+  "topic": "Familie",
+  "slug": "familie",
+  "title": "Luisteren: Mijn familie",
+  "description": "Je leert luisteren naar een simpel gesprek over familie en familieleden.",
+  "content": {
+    "intro": "In deze les luister je naar mensen die over hun familie praten. Je leert woorden voor familieleden. Daarna beantwoord je een paar vragen.",
+    "learningGoals": [
+      "Je begrijpt woorden voor familieleden.",
+      "Je verstaat een kort gesprek over familie.",
+      "Je kunt vragen over familie beantwoorden.",
+      "Je hoort het verschil tussen mijn en jouw familie."
+    ],
+    "vocabulary": [
+      {
+        "word": "de familie",
+        "explanation": "alle mensen die bij elkaar horen, zoals je ouders en kinderen.",
+        "example": "Mijn familie is groot."
+      },
+      {
+        "word": "de moeder",
+        "explanation": "de vrouw die jouw ouder is.",
+        "example": "Mijn moeder heet Anna."
+      },
+      {
+        "word": "de vader",
+        "explanation": "de man die jouw ouder is.",
+        "example": "Mijn vader werkt in de stad."
+      },
+      {
+        "word": "de broer",
+        "explanation": "een jongen of man met dezelfde ouders als jij.",
+        "example": "Ik heb een broer van tien jaar."
+      },
+      {
+        "word": "de zus",
+        "explanation": "een meisje of vrouw met dezelfde ouders als jij.",
+        "example": "Mijn zus woont in Utrecht."
+      },
+      {
+        "word": "het kind",
+        "explanation": "een jonge zoon of dochter.",
+        "example": "Het kind speelt in de tuin."
+      },
+      {
+        "word": "de oma",
+        "explanation": "de moeder van je vader of moeder.",
+        "example": "Mijn oma maakt lekkere soep."
+      },
+      {
+        "word": "de opa",
+        "explanation": "de vader van je vader of moeder.",
+        "example": "Opa leest een boek."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Bezittelijke woorden: mijn en jouw",
+        "body": "Met mijn zeg je dat iets van jou is. Met jouw zeg je dat iets van de ander is. Voorbeeld: Mijn moeder is aardig. Is dat jouw broer?"
+      },
+      {
+        "heading": "Het werkwoord hebben",
+        "body": "Met hebben zeg je wat je hebt. Ik heb een zus. Jij hebt een broer. Wij hebben een grote familie."
+      }
+    ],
+    "exampleSentences": [
+      "Ik heb een broer en een zus.",
+      "Mijn moeder heet Els.",
+      "Woont jouw oma in Nederland?",
+      "Wij hebben een klein gezin.",
+      "Mijn vader en ik spelen samen voetbal."
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Hoi Tom, heb jij een grote familie?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Ja, ik heb twee zussen en een broer. En jij?"
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Ik heb alleen een broer. Hij heet Daan."
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Leuk! Woont jouw broer ook hier?"
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Nee, Daan woont in Amsterdam met mijn oma."
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "En jouw ouders? Waar wonen zij?"
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Mijn moeder en vader wonen dichtbij, in Delft."
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Wat fijn. Mijn familie woont ook allemaal dichtbij."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Hoeveel zussen heeft Tom?",
+      "options": ["Een zus", "Twee zussen", "Drie zussen", "Geen zus"],
+      "correctIndex": 1,
+      "explanation": "Tom zegt: ik heb twee zussen en een broer."
+    },
+    {
+      "question": "Hoe heet de broer van Sanne?",
+      "options": ["Tom", "Daan", "Els", "Sanne"],
+      "correctIndex": 1,
+      "explanation": "Sanne zegt: ik heb alleen een broer. Hij heet Daan."
+    },
+    {
+      "question": "Waar wonen de ouders van Sanne?",
+      "options": ["In Amsterdam", "In Delft", "Bij de oma", "In de stad van Tom"],
+      "correctIndex": 1,
+      "explanation": "Sanne zegt: mijn moeder en vader wonen dichtbij, in Delft."
+    }
+  ]
+}

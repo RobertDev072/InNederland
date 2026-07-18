@@ -1,0 +1,152 @@
+{
+  "skill": "luisteren",
+  "topic": "Boodschappen doen",
+  "slug": "boodschappen",
+  "title": "Boodschappen doen in de winkel",
+  "description": "Je leert luisteren naar eenvoudige gesprekken over boodschappen in de supermarkt.",
+  "content": {
+    "intro": "In deze les leer je luisteren naar mensen die boodschappen doen. Je hoort woorden over eten en drinken. Je leert ook hoe je iets vraagt en hoe je betaalt.",
+    "learningGoals": [
+      "Je begrijpt woorden over boodschappen.",
+      "Je verstaat vragen in de winkel.",
+      "Je begrijpt de prijs van een product.",
+      "Je hoort waar iets in de supermarkt is."
+    ],
+    "vocabulary": [
+      {
+        "word": "de boodschappen",
+        "explanation": "het eten en drinken dat je koopt in de winkel",
+        "example": "Ik doe elke week boodschappen."
+      },
+      {
+        "word": "de supermarkt",
+        "explanation": "een grote winkel waar je eten koopt",
+        "example": "De supermarkt is open tot acht uur."
+      },
+      {
+        "word": "het brood",
+        "explanation": "eten dat je vaak eet bij het ontbijt",
+        "example": "Ik koop een vers brood."
+      },
+      {
+        "word": "de melk",
+        "explanation": "witte drank, vaak in een pak",
+        "example": "De melk staat in de koeling."
+      },
+      {
+        "word": "de kassa",
+        "explanation": "de plek in de winkel waar je betaalt",
+        "example": "Ik sta bij de kassa."
+      },
+      {
+        "word": "betalen",
+        "explanation": "geld geven voor iets dat je koopt",
+        "example": "Ik wil met mijn pinpas betalen."
+      },
+      {
+        "word": "de prijs",
+        "explanation": "hoeveel geld iets kost",
+        "example": "Wat is de prijs van de kaas?"
+      },
+      {
+        "word": "het schap",
+        "explanation": "de plank in de winkel waar de producten liggen",
+        "example": "Het brood ligt in het schap."
+      },
+      {
+        "word": "goedkoop",
+        "explanation": "iets kost weinig geld",
+        "example": "De appels zijn vandaag goedkoop."
+      },
+      {
+        "word": "het mandje",
+        "explanation": "een kleine bak waarin je de boodschappen doet",
+        "example": "Ik pak een mandje bij de deur."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Lidwoorden: de en het",
+        "body": "In het Nederlands gebruik je 'de' of 'het' bij een woord. Bijvoorbeeld: de melk, de kassa, het brood, het mandje. Je moet per woord leren of het 'de' of 'het' is."
+      },
+      {
+        "heading": "Vragen met 'waar' en 'wat'",
+        "body": "Met 'waar' vraag je naar een plek: Waar is de melk? Met 'wat' vraag je naar een ding of een prijs: Wat kost het brood?"
+      }
+    ],
+    "exampleSentences": [
+      "Ik ga vandaag boodschappen doen.",
+      "Waar is de melk?",
+      "Het brood ligt in het schap.",
+      "Ik betaal bij de kassa.",
+      "De appels zijn goedkoop."
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Hallo, ik zoek melk. Waar is de melk?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "De melk staat achterin, in de koeling."
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Dank je wel. En waar ligt het brood?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Het brood ligt in het schap bij de kassa."
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Oké. Wat kost een brood?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Een brood kost twee euro. Het is vandaag goedkoop."
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Fijn. Ik pak melk en brood. Kan ik hier betalen?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Ja, u kunt bij de kassa betalen. Met pin of contant."
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Ik betaal met pin. Dank u wel."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Wat zoekt Sanne eerst?",
+      "options": ["Brood", "Melk", "Kaas", "Appels"],
+      "correctIndex": 1,
+      "explanation": "Sanne vraagt eerst: Waar is de melk?"
+    },
+    {
+      "question": "Wat kost een brood?",
+      "options": ["Een euro", "Drie euro", "Twee euro", "Vijf euro"],
+      "correctIndex": 2,
+      "explanation": "Tom zegt dat een brood twee euro kost."
+    },
+    {
+      "question": "Hoe betaalt Sanne?",
+      "options": ["Met pin", "Contant", "Met een bon", "Ze betaalt niet"],
+      "correctIndex": 0,
+      "explanation": "Sanne zegt: Ik betaal met pin."
+    }
+  ]
+}

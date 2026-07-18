@@ -1,0 +1,89 @@
+{
+  "skill": "schrijven",
+  "topic": "Openbaar vervoer",
+  "slug": "vervoer",
+  "title": "Met de bus en de trein",
+  "description": "In deze les leer je eenvoudige zinnen schrijven over reizen met het openbaar vervoer.",
+  "content": {
+    "intro": "In deze les leer je woorden over het openbaar vervoer. Je leert schrijven over de bus, de trein en de tram. Je oefent korte zinnen over waar je naartoe gaat en hoe laat.",
+    "learningGoals": [
+      "Je kent woorden over het openbaar vervoer.",
+      "Je kunt schrijven hoe je reist.",
+      "Je kunt schrijven waar je naartoe gaat.",
+      "Je kunt een kort bericht schrijven over je reis."
+    ],
+    "vocabulary": [
+      {
+        "word": "de bus",
+        "explanation": "Een groot voertuig op de weg voor veel mensen.",
+        "example": "Ik ga met de bus naar de stad."
+      },
+      {
+        "word": "de trein",
+        "explanation": "Een lang voertuig op het spoor.",
+        "example": "De trein naar Amsterdam vertrekt om negen uur."
+      },
+      {
+        "word": "de tram",
+        "explanation": "Een voertuig op rails in de stad.",
+        "example": "De tram stopt voor het station."
+      },
+      {
+        "word": "het station",
+        "explanation": "De plek waar de trein stopt.",
+        "example": "Ik wacht op het station op mijn vriendin."
+      },
+      {
+        "word": "de halte",
+        "explanation": "De plek waar de bus of tram stopt.",
+        "example": "De halte is naast de winkel."
+      },
+      {
+        "word": "het kaartje",
+        "explanation": "Papier of een kaart die je koopt om te reizen.",
+        "example": "Ik koop een kaartje voor de trein."
+      },
+      {
+        "word": "instappen",
+        "explanation": "In de bus, tram of trein gaan.",
+        "example": "Wij stappen in bij de halte."
+      },
+      {
+        "word": "uitstappen",
+        "explanation": "Uit de bus, tram of trein gaan.",
+        "example": "Ik stap uit op het station."
+      },
+      {
+        "word": "vertrekken",
+        "explanation": "Weggaan van een plek.",
+        "example": "De bus vertrekt om acht uur."
+      },
+      {
+        "word": "aankomen",
+        "explanation": "Op een plek komen.",
+        "example": "Ik kom om tien uur aan in Utrecht."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "met de + vervoer",
+        "body": "Je zegt hoe je reist met 'met de' of 'met het'. Bijvoorbeeld: Ik ga met de bus. Ik ga met de trein. Ik ga met het openbaar vervoer."
+      },
+      {
+        "heading": "naar + plaats",
+        "body": "Je zegt waar je naartoe gaat met 'naar'. Bijvoorbeeld: Ik ga naar het station. Wij gaan naar Rotterdam."
+      }
+    ],
+    "exampleSentences": [
+      "Ik ga met de trein naar mijn werk.",
+      "De bus vertrekt om half negen.",
+      "Wij stappen in bij de halte voor het huis.",
+      "Ik koop een kaartje bij de automaat.",
+      "De tram komt om drie uur aan bij het station."
+    ]
+  },
+  "writing": {
+    "instructions": "Schrijf een kort bericht aan een vriend of vriendin. Vertel hoe je naar de stad reist. Schrijf met welk vervoer je gaat (de bus, de trein of de tram), hoe laat je vertrekt en waar je uitstapt. Gebruik korte, eenvoudige zinnen.",
+    "minWords": 35
+  }
+}

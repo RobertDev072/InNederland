@@ -1,0 +1,94 @@
+{
+  "skill": "spreken",
+  "topic": "Wonen",
+  "slug": "wonen",
+  "title": "Praten over jouw huis",
+  "description": "Je leert vertellen waar en hoe je woont in eenvoudig Nederlands.",
+  "content": {
+    "intro": "In deze les leer je praten over waar je woont. Je leert vertellen over jouw huis en jouw kamers. Je oefent met simpele zinnen over wonen.",
+    "learningGoals": [
+      "Ik kan vertellen waar ik woon.",
+      "Ik kan de kamers in mijn huis noemen.",
+      "Ik kan zeggen met wie ik woon.",
+      "Ik kan een vraag stellen over het huis van iemand anders."
+    ],
+    "vocabulary": [
+      {
+        "word": "het huis",
+        "explanation": "de plek waar je woont en slaapt",
+        "example": "Mijn huis is niet groot."
+      },
+      {
+        "word": "de kamer",
+        "explanation": "een ruimte in het huis",
+        "example": "Ik heb een mooie kamer."
+      },
+      {
+        "word": "de keuken",
+        "explanation": "de kamer waar je eten maakt",
+        "example": "In de keuken kook ik soep."
+      },
+      {
+        "word": "de slaapkamer",
+        "explanation": "de kamer waar je slaapt",
+        "example": "Mijn slaapkamer is klein."
+      },
+      {
+        "word": "de badkamer",
+        "explanation": "de kamer waar je doucht en je wast",
+        "example": "De badkamer is naast de keuken."
+      },
+      {
+        "word": "de flat",
+        "explanation": "een woning in een groot gebouw met veel woningen",
+        "example": "Ik woon in een flat op de derde verdieping."
+      },
+      {
+        "word": "de tuin",
+        "explanation": "de ruimte buiten bij het huis met planten",
+        "example": "Wij hebben een kleine tuin achter het huis."
+      },
+      {
+        "word": "huren",
+        "explanation": "elke maand geld betalen voor een woning",
+        "example": "Ik huur een kamer in de stad."
+      },
+      {
+        "word": "de buurman",
+        "explanation": "de man die naast jou woont",
+        "example": "Mijn buurman is heel aardig."
+      },
+      {
+        "word": "wonen",
+        "explanation": "op een plek zijn waar je slaapt en leeft",
+        "example": "Ik woon in Utrecht."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Het werkwoord 'wonen'",
+        "body": "Het werkwoord 'wonen' gebruik je om te zeggen waar je bent. Je zegt: ik woon, jij woont, hij/zij woont, wij wonen. Voorbeeld: Ik woon in Amsterdam. Jij woont in een flat."
+      },
+      {
+        "heading": "Voorzetsels: in en op",
+        "body": "Je gebruikt 'in' voor een plaats of stad en vaak 'op' voor een verdieping of adres. Voorbeeld: Ik woon in Rotterdam. Ik woon op de tweede verdieping."
+      }
+    ],
+    "exampleSentences": [
+      "Ik woon in een kleine flat.",
+      "Mijn huis heeft drie kamers.",
+      "Ik woon samen met mijn familie.",
+      "De keuken is groot en licht.",
+      "Waar woon jij?"
+    ]
+  },
+  "speaking": {
+    "scenario": "Je ontmoet een nieuwe klasgenoot op de taalschool. Vertel waar je woont en hoe jouw huis is. Stel ook een vraag over het huis van de ander.",
+    "expectedPoints": [
+      "Ik woon in ... (stad of wijk).",
+      "Ik woon in een huis / een flat.",
+      "Mijn huis heeft ... kamers.",
+      "Waar woon jij?"
+    ]
+  }
+}

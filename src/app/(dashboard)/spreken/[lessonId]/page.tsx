@@ -1,7 +1,8 @@
 import { notFound, redirect } from "next/navigation";
 import { getLessonWithExercises } from "@/lib/exercises/queries";
 import { getCurrentProfile, hasFullAccess } from "@/lib/profile/queries";
-import { asContent } from "@/types/exercise-content";
+import { asContent, asLessonContent } from "@/types/exercise-content";
+import { LessonSections } from "@/components/exercises/lesson-sections";
 import { SprekenLessonClient } from "../_components/lesson-client";
 
 export default async function SprekenLessonPage({
@@ -36,12 +37,17 @@ export default async function SprekenLessonPage({
         <h1 className="text-2xl font-bold text-navy-900">{lesson.title}</h1>
         {lesson.description ? <p className="mt-1 text-navy-500">{lesson.description}</p> : null}
       </div>
+      <LessonSections
+        content={asLessonContent(lesson.content)}
+        nativeLanguage={profile?.nativeLanguage ?? null}
+      />
       <SprekenLessonClient
         exerciseId={primary.id}
         scenario={content.scenario}
         expectedPoints={content.expectedPoints}
         youtubeVideoId={content.youtubeVideoId}
         imageUrl={content.imageUrl}
+        modelAnswer={content.modelAnswer}
       />
     </div>
   );

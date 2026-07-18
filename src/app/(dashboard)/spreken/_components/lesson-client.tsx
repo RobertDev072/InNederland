@@ -18,12 +18,14 @@ export function SprekenLessonClient({
   expectedPoints,
   youtubeVideoId,
   imageUrl,
+  modelAnswer,
 }: {
   exerciseId: string;
   scenario: string;
   expectedPoints?: string[];
   youtubeVideoId?: string;
   imageUrl?: string;
+  modelAnswer?: string;
 }) {
   const t = useTranslations("Spreken");
   const { transcript, isListening, isSupported, start, stop, reset } = useSpeechRecognition("nl-NL");
@@ -31,6 +33,7 @@ export function SprekenLessonClient({
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [feedback, setFeedback] = useState<SpeakingFeedback | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [showModel, setShowModel] = useState(false);
 
   const currentTranscript = isSupported ? transcript : manualText;
   const canSubmit = currentTranscript.trim().length > 0 && !isSubmitting;
@@ -155,6 +158,25 @@ export function SprekenLessonClient({
               </Button>
             ) : null}
           </div>
+
+          {modelAnswer ? (
+            showModel ? (
+              <div className="rounded-lg bg-navy-50 p-3 text-sm">
+                <p className="mb-1 font-medium text-navy-700">Voorbeeldantwoord</p>
+                <p className="whitespace-pre-line text-navy-700">{modelAnswer}</p>
+              </div>
+            ) : (
+              <Button
+                type="button"
+                size="sm"
+                variant="outline"
+                className="w-fit"
+                onClick={() => setShowModel(true)}
+              >
+                Bekijk voorbeeldantwoord
+              </Button>
+            )
+          ) : null}
         </CardContent>
       </Card>
 

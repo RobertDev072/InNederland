@@ -54,12 +54,17 @@ export interface Database {
           description: string | null;
           sort_order: number;
           is_free: boolean;
+          content: Json | null;
           created_at: string;
         };
-        Insert: Omit<Database["public"]["Tables"]["lessons"]["Row"], "id" | "created_at" | "is_free"> & {
+        Insert: Omit<
+          Database["public"]["Tables"]["lessons"]["Row"],
+          "id" | "created_at" | "is_free" | "content"
+        > & {
           id?: string;
           created_at?: string;
           is_free?: boolean;
+          content?: Json | null;
         };
         Update: Partial<Database["public"]["Tables"]["lessons"]["Row"]>;
         Relationships: [];

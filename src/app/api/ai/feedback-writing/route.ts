@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { generateJson } from "@/lib/ai/gemini";
+import { generateJson, isAiConfigured } from "@/lib/ai/llm";
 import { checkDutchText, type LanguageToolMatch } from "@/lib/ai/languagetool";
 import type { WritingFeedback } from "@/types/feedback";
 
@@ -25,6 +25,16 @@ export async function POST(request: Request) {
 
   if (!instructions || !text) {
     return NextResponse.json({ error: "Ongeldige aanvraag." }, { status: 400 });
+  }
+
+  if (!isAiConfigured()) {
+    return NextResponse.json(
+      {
+        error:
+          "Automatische AI-beoordeling is nu niet beschikbaar. Je kunt je tekst wel schrijven en zelf vergelijken met de voorbeeldzinnen in de les.",
+      },
+      { status: 503 },
+    );
   }
 
   let matches: LanguageToolMatch[] = [];

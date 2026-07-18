@@ -1,0 +1,116 @@
+{
+  "skill": "lezen",
+  "topic": "Wonen",
+  "slug": "wonen",
+  "title": "Wonen in Nederland",
+  "description": "In deze les lees je eenvoudige teksten over het huis en de kamers.",
+  "content": {
+    "intro": "In deze les leer je woorden over wonen. Je leest over een huis en de kamers. De zinnen zijn kort en makkelijk.",
+    "learningGoals": [
+      "Je leert woorden over het huis.",
+      "Je leert de namen van kamers.",
+      "Je leest een korte tekst over wonen.",
+      "Je beantwoordt vragen over de tekst."
+    ],
+    "vocabulary": [
+      {
+        "word": "het huis",
+        "explanation": "Hier woon je. Een huis heeft kamers.",
+        "example": "Wij wonen in een groot huis."
+      },
+      {
+        "word": "de kamer",
+        "explanation": "Een deel van het huis, met muren en een deur.",
+        "example": "Mijn kamer is klein maar mooi."
+      },
+      {
+        "word": "de keuken",
+        "explanation": "Hier maak je eten en koffie.",
+        "example": "In de keuken staat een grote tafel."
+      },
+      {
+        "word": "de slaapkamer",
+        "explanation": "Hier slaap je. In de slaapkamer staat een bed.",
+        "example": "De slaapkamer is boven."
+      },
+      {
+        "word": "de badkamer",
+        "explanation": "Hier was je je handen en je gaat onder de douche.",
+        "example": "De badkamer is naast de slaapkamer."
+      },
+      {
+        "word": "de tuin",
+        "explanation": "Dit is buiten, naast of achter het huis. Hier groeien planten.",
+        "example": "In de zomer zit ik graag in de tuin."
+      },
+      {
+        "word": "de buren",
+        "explanation": "De mensen die naast jou wonen.",
+        "example": "Mijn buren zijn heel aardig."
+      },
+      {
+        "word": "de huur",
+        "explanation": "Het geld dat je elke maand voor het huis betaalt.",
+        "example": "Ik betaal de huur aan het begin van de maand."
+      },
+      {
+        "word": "het raam",
+        "explanation": "Van glas. Hier kijk je naar buiten.",
+        "example": "Het raam in de woonkamer is groot."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "de of het",
+        "body": "Bij elk woord hoort 'de' of 'het'. We zeggen 'de kamer' en 'de tuin', maar 'het huis' en 'het raam'. Je moet dit per woord leren."
+      },
+      {
+        "heading": "Wonen: ik woon, jij woont",
+        "body": "Het werkwoord is 'wonen'. Bijvoorbeeld: 'ik woon in Utrecht', 'jij woont in een flat', 'wij wonen samen'."
+      }
+    ],
+    "exampleSentences": [
+      "Ik woon in een klein huis.",
+      "De keuken is naast de woonkamer.",
+      "Mijn slaapkamer is boven.",
+      "In de tuin staat een boom.",
+      "De buren wonen naast ons."
+    ]
+  },
+  "readingText": "Sara woont in een flat in Rotterdam. De flat is niet groot, maar heel gezellig. Er zijn drie kamers. In de keuken maakt Sara elke dag eten. De woonkamer heeft een groot raam. Vanuit het raam kijkt zij naar de straat. De slaapkamer is klein. Daar staat een bed en een kast. De badkamer is naast de slaapkamer. Sara heeft geen tuin, maar zij heeft een klein balkon. Op het balkon staan veel planten. De buren zijn aardig. Elke maand betaalt Sara de huur. Zij woont hier al twee jaar en zij is heel blij met haar flat.",
+  "questions": [
+    {
+      "question": "Waar woont Sara?",
+      "options": [
+        "In een flat in Rotterdam",
+        "In een groot huis",
+        "In een tuin",
+        "In een winkel"
+      ],
+      "correctIndex": 0,
+      "explanation": "In de tekst staat dat Sara in een flat in Rotterdam woont."
+    },
+    {
+      "question": "Wat heeft Sara in plaats van een tuin?",
+      "options": [
+        "Een garage",
+        "Een balkon",
+        "Een keuken",
+        "Een auto"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sara heeft geen tuin, maar een klein balkon met veel planten."
+    },
+    {
+      "question": "Wat betaalt Sara elke maand?",
+      "options": [
+        "De koffie",
+        "De planten",
+        "De huur",
+        "De buren"
+      ],
+      "correctIndex": 2,
+      "explanation": "In de tekst staat dat Sara elke maand de huur betaalt."
+    }
+  ]
+}

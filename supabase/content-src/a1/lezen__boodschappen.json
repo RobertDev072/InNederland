@@ -1,0 +1,101 @@
+{
+  "skill": "lezen",
+  "topic": "Boodschappen doen",
+  "slug": "boodschappen",
+  "title": "Boodschappen doen in de winkel",
+  "description": "In deze les leer je eenvoudige woorden en zinnen over boodschappen doen.",
+  "content": {
+    "intro": "In deze les lees je over boodschappen doen. Je leert woorden over eten en drinken. Je leert ook zinnen die je in de winkel kunt gebruiken.",
+    "learningGoals": [
+      "Je leert woorden over eten en drinken.",
+      "Je begrijpt een korte tekst over de supermarkt.",
+      "Je leert vragen over prijzen en producten.",
+      "Je oefent met lezen op A1-niveau."
+    ],
+    "vocabulary": [
+      {
+        "word": "de boodschappen",
+        "explanation": "het eten en drinken dat je in de winkel koopt",
+        "example": "Ik doe elke week boodschappen."
+      },
+      {
+        "word": "de supermarkt",
+        "explanation": "een grote winkel met veel eten en drinken",
+        "example": "De supermarkt is dichtbij mijn huis."
+      },
+      {
+        "word": "de winkelwagen",
+        "explanation": "een wagen op wielen voor je boodschappen",
+        "example": "Ik doe het brood in de winkelwagen."
+      },
+      {
+        "word": "het geld",
+        "explanation": "hiermee betaal je in de winkel",
+        "example": "Ik betaal het geld bij de kassa."
+      },
+      {
+        "word": "de kassa",
+        "explanation": "de plek in de winkel waar je betaalt",
+        "example": "Bij de kassa staat een rij."
+      },
+      {
+        "word": "goedkoop",
+        "explanation": "iets kost weinig geld",
+        "example": "De appels zijn vandaag goedkoop."
+      },
+      {
+        "word": "duur",
+        "explanation": "iets kost veel geld",
+        "example": "De vis is duur."
+      },
+      {
+        "word": "het boodschappenlijstje",
+        "explanation": "een papiertje met wat je wilt kopen",
+        "example": "Ik schrijf melk op mijn boodschappenlijstje."
+      },
+      {
+        "word": "de prijs",
+        "explanation": "hoeveel geld iets kost",
+        "example": "Wat is de prijs van de kaas?"
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Lidwoord: de of het",
+        "body": "Bij een woord hoort 'de' of 'het'. Bijvoorbeeld: de winkel, de melk, het brood, het geld. Je moet dit gewoon leren bij het woord."
+      },
+      {
+        "heading": "Ik wil / ik heb nodig",
+        "body": "Je zegt wat je wilt kopen met 'ik wil' of 'ik heb ... nodig'. Bijvoorbeeld: Ik wil brood. Ik heb melk nodig."
+      }
+    ],
+    "exampleSentences": [
+      "Ik ga naar de supermarkt.",
+      "Waar is het brood?",
+      "Ik koop melk, kaas en appels.",
+      "Wat kost dit?",
+      "Ik betaal bij de kassa."
+    ]
+  },
+  "readingText": "Anna doet vandaag boodschappen. Ze gaat naar de supermarkt in de buurt. Eerst maakt ze een boodschappenlijstje. Ze wil brood, melk, kaas en appels kopen. In de winkel pakt ze een winkelwagen. Het brood is vers en niet duur. De appels zijn vandaag goedkoop. Anna zoekt ook melk en kaas. Ze vindt alles snel. Dan loopt ze naar de kassa. Bij de kassa staat een korte rij. Anna wacht even. Ze betaalt met haar pinpas. De vrouw bij de kassa is aardig. Anna doet de boodschappen in haar tas. Daarna gaat ze weer naar huis. Ze is blij.",
+  "questions": [
+    {
+      "question": "Waar gaat Anna naartoe?",
+      "options": ["Naar de school", "Naar de supermarkt", "Naar het werk", "Naar de dokter"],
+      "correctIndex": 1,
+      "explanation": "In de tekst staat dat Anna naar de supermarkt gaat om boodschappen te doen."
+    },
+    {
+      "question": "Wat wil Anna kopen?",
+      "options": ["Brood, melk, kaas en appels", "Vis en vlees", "Alleen brood", "Koffie en thee"],
+      "correctIndex": 0,
+      "explanation": "Op haar boodschappenlijstje staan brood, melk, kaas en appels."
+    },
+    {
+      "question": "Hoe betaalt Anna bij de kassa?",
+      "options": ["Met geld", "Met een cadeaubon", "Met haar pinpas", "Ze betaalt niet"],
+      "correctIndex": 2,
+      "explanation": "In de tekst staat dat Anna met haar pinpas betaalt."
+    }
+  ]
+}

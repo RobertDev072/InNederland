@@ -1,0 +1,89 @@
+{
+  "skill": "spreken",
+  "topic": "Bij de dokter",
+  "slug": "dokter",
+  "title": "Bij de dokter praten",
+  "description": "Je leert vertellen wat er mis is en een afspraak maken bij de dokter.",
+  "content": {
+    "intro": "In deze les leer je praten bij de dokter. Je leert zeggen wat er mis is. Je leert ook een afspraak maken.",
+    "learningGoals": [
+      "Je kunt zeggen dat je ziek bent.",
+      "Je kunt vertellen waar je pijn hebt.",
+      "Je kunt een afspraak maken bij de dokter.",
+      "Je kunt de dokter begrijpen en antwoord geven."
+    ],
+    "vocabulary": [
+      {
+        "word": "de dokter",
+        "explanation": "Een dokter helpt jou als je ziek bent.",
+        "example": "Ik ga naar de dokter."
+      },
+      {
+        "word": "ziek",
+        "explanation": "Je voelt je niet goed.",
+        "example": "Ik ben ziek en blijf thuis."
+      },
+      {
+        "word": "de pijn",
+        "explanation": "Iets doet zeer aan je lichaam.",
+        "example": "Ik heb pijn in mijn been."
+      },
+      {
+        "word": "de afspraak",
+        "explanation": "Een tijd waarop je bij de dokter mag komen.",
+        "example": "Ik wil een afspraak maken."
+      },
+      {
+        "word": "de koorts",
+        "explanation": "Je lichaam is te warm als je ziek bent.",
+        "example": "Ik heb koorts en voel me warm."
+      },
+      {
+        "word": "hoofdpijn",
+        "explanation": "Pijn in je hoofd.",
+        "example": "Ik heb hoofdpijn en wil rusten."
+      },
+      {
+        "word": "de keel",
+        "explanation": "Het deel in je hals waarmee je slikt en praat.",
+        "example": "Mijn keel doet zeer."
+      },
+      {
+        "word": "het medicijn",
+        "explanation": "Iets dat je neemt om beter te worden.",
+        "example": "De dokter geeft mij een medicijn."
+      },
+      {
+        "word": "beter",
+        "explanation": "Weer gezond, niet meer ziek.",
+        "example": "Ik voel me nu weer beter."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Ik heb pijn in mijn ...",
+        "body": "Je vertelt waar je pijn hebt met 'Ik heb pijn in mijn ...'. Bijvoorbeeld: 'Ik heb pijn in mijn buik.' of 'Ik heb pijn in mijn arm.'"
+      },
+      {
+        "heading": "Ik wil / Ik kan (present tense)",
+        "body": "Met 'ik wil' zeg je wat je graag doet. Met 'ik kan' zeg je wat mogelijk is. Bijvoorbeeld: 'Ik wil een afspraak maken.' en 'Ik kan om drie uur komen.'"
+      }
+    ],
+    "exampleSentences": [
+      "Ik ben ziek en heb koorts.",
+      "Ik heb pijn in mijn keel.",
+      "Ik wil graag een afspraak maken.",
+      "Kan ik vandaag komen?",
+      "De dokter geeft mij een medicijn."
+    ]
+  },
+  "speaking": {
+    "scenario": "Je belt de huisarts omdat je ziek bent. Je maakt een afspraak en vertelt kort wat er mis is.",
+    "expectedPoints": [
+      "Zeg goedendag en je naam.",
+      "Vertel dat je ziek bent en waar je pijn hebt.",
+      "Vraag om een afspraak.",
+      "Zeg wanneer je kunt komen."
+    ]
+  }
+}

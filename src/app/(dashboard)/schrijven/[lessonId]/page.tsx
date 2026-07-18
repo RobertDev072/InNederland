@@ -1,7 +1,8 @@
 import { notFound, redirect } from "next/navigation";
 import { getCurrentProfile, hasFullAccess } from "@/lib/profile/queries";
 import { getLessonWithExercises } from "@/lib/exercises/queries";
-import { asContent } from "@/types/exercise-content";
+import { asContent, asLessonContent } from "@/types/exercise-content";
+import { LessonSections } from "@/components/exercises/lesson-sections";
 import { LessonClient } from "../_components/lesson-client";
 
 export default async function SchrijvenLessonPage({
@@ -40,10 +41,16 @@ export default async function SchrijvenLessonPage({
         {lesson.description ? <p className="mt-1 text-navy-500">{lesson.description}</p> : null}
       </div>
 
+      <LessonSections
+        content={asLessonContent(lesson.content)}
+        nativeLanguage={profile?.nativeLanguage ?? null}
+      />
+
       <LessonClient
         exerciseId={writingExercise.id}
         instructions={content.instructions}
         minWords={content.minWords}
+        modelAnswer={content.modelAnswer}
         nativeLanguage={profile?.nativeLanguage ?? null}
       />
     </div>

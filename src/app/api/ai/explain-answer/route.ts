@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { generateText } from "@/lib/ai/gemini";
+import { generateText, isAiConfigured } from "@/lib/ai/llm";
 
 interface ExplainAnswerBody {
   question: string;
@@ -15,6 +15,13 @@ export async function POST(request: Request) {
 
   if (!question || !Array.isArray(options) || typeof correctIndex !== "number") {
     return NextResponse.json({ error: "Ongeldige aanvraag." }, { status: 400 });
+  }
+
+  if (!isAiConfigured()) {
+    return NextResponse.json(
+      { explanation: "Extra AI-uitleg is nu niet beschikbaar." },
+      { status: 200 },
+    );
   }
 
   const prompt = `Je bent een NT2-docent Nederlands (inburgeringsniveau). Een cursist beantwoordde een meerkeuzevraag fout.

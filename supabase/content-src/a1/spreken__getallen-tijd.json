@@ -1,0 +1,94 @@
+{
+  "skill": "spreken",
+  "topic": "Getallen en tijd",
+  "slug": "getallen-tijd",
+  "title": "Getallen en tijd: hoe laat is het?",
+  "description": "Je leert tellen en vertellen hoe laat het is in eenvoudig Nederlands.",
+  "content": {
+    "intro": "In deze les leer je getallen zeggen. Ook leer je vragen en zeggen hoe laat het is. Je oefent met spreken over tijd in het dagelijks leven.",
+    "learningGoals": [
+      "Je kunt tellen van 1 tot 20.",
+      "Je kunt vragen hoe laat het is.",
+      "Je kunt zeggen hoe laat het is.",
+      "Je kunt over jouw dag en tijden praten."
+    ],
+    "vocabulary": [
+      {
+        "word": "het getal",
+        "explanation": "Een teken voor tellen, zoals 1, 2 of 3.",
+        "example": "Het getal drie komt na twee."
+      },
+      {
+        "word": "tellen",
+        "explanation": "Getallen op volgorde zeggen: een, twee, drie.",
+        "example": "Ik tel tot tien."
+      },
+      {
+        "word": "de tijd",
+        "explanation": "Het uur van de dag, wat de klok zegt.",
+        "example": "Ik heb geen tijd, ik moet gaan."
+      },
+      {
+        "word": "de klok",
+        "explanation": "Een ding aan de muur dat de tijd laat zien.",
+        "example": "De klok hangt boven de deur."
+      },
+      {
+        "word": "het uur",
+        "explanation": "Een deel van de dag; een dag heeft 24 uur.",
+        "example": "Ik werk acht uur per dag."
+      },
+      {
+        "word": "de minuut",
+        "explanation": "Een klein stukje tijd; een uur heeft 60 minuten.",
+        "example": "Wacht een minuut, ik kom eraan."
+      },
+      {
+        "word": "half",
+        "explanation": "De helft; bij tijd is het 30 minuten.",
+        "example": "Het is half acht."
+      },
+      {
+        "word": "kwart",
+        "explanation": "Een kwart is 15 minuten.",
+        "example": "Het is kwart over drie."
+      },
+      {
+        "word": "vroeg",
+        "explanation": "Aan het begin van de dag of eerder dan normaal.",
+        "example": "Ik sta vroeg op, om zes uur."
+      },
+      {
+        "word": "laat",
+        "explanation": "Aan het einde van de dag of later dan normaal.",
+        "example": "Het is al laat, ik ga naar bed."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Hoe laat is het?",
+        "body": "Je vraagt de tijd met: Hoe laat is het? Je antwoordt met: Het is ... . Bijvoorbeeld: Het is drie uur. Het is half vijf."
+      },
+      {
+        "heading": "Over, voor, half en kwart",
+        "body": "Voor de tijd gebruik je 'over' en 'voor'. Bijvoorbeeld: tien over twee (2:10) en tien voor drie (2:50). Ook zeg je 'half' en 'kwart': half vier (3:30) en kwart over vier (4:15)."
+      }
+    ],
+    "exampleSentences": [
+      "Ik tel van een tot tien.",
+      "Hoe laat is het nu?",
+      "Het is kwart over negen.",
+      "De bus komt om half acht.",
+      "Ik sta elke dag om zeven uur op."
+    ]
+  },
+  "speaking": {
+    "scenario": "Je bent op het station. Je vraagt aan iemand hoe laat de trein naar Utrecht vertrekt. Je zegt ook hoe laat het nu is.",
+    "expectedPoints": [
+      "Zeg hallo en vraag: Hoe laat vertrekt de trein naar Utrecht?",
+      "Zeg hoe laat het nu is, bijvoorbeeld: Het is nu tien over twee.",
+      "Vraag van welk spoor de trein gaat.",
+      "Zeg dank je wel en tot ziens."
+    ]
+  }
+}

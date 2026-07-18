@@ -48,13 +48,14 @@ export async function getLessonWithExercises(lessonId: string): Promise<{
     levelCode: string;
     skillCode: string;
     isFree: boolean;
+    content: Json | null;
   };
   exercises: ExerciseView[];
 } | null> {
   const supabase = await createClient();
   const { data: lesson } = await supabase
     .from("lessons")
-    .select("id, title, description, level_code, skill_code, is_free")
+    .select("id, title, description, level_code, skill_code, is_free, content")
     .eq("id", lessonId)
     .single();
 
@@ -74,6 +75,7 @@ export async function getLessonWithExercises(lessonId: string): Promise<{
       levelCode: lesson.level_code,
       skillCode: lesson.skill_code,
       isFree: lesson.is_free,
+      content: lesson.content,
     },
     exercises: (exercises ?? []).map((exercise) => ({
       id: exercise.id,

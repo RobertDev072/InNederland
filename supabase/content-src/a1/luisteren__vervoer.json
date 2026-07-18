@@ -1,0 +1,172 @@
+{
+  "skill": "luisteren",
+  "topic": "Openbaar vervoer",
+  "slug": "vervoer",
+  "title": "Met de bus en de trein",
+  "description": "Je leert luisteren naar korte gesprekken over reizen met bus, tram en trein.",
+  "content": {
+    "intro": "In deze les leer je luisteren naar het openbaar vervoer. Je hoort woorden over de bus, de tram en de trein. Je leert ook hoe je vraagt hoe laat en waar iets vertrekt.",
+    "learningGoals": [
+      "Je herkent woorden over het openbaar vervoer.",
+      "Je begrijpt een kort gesprek over de bus en de trein.",
+      "Je verstaat tijden en haltes.",
+      "Je begrijpt een simpele vraag om hulp."
+    ],
+    "vocabulary": [
+      {
+        "word": "de bus",
+        "explanation": "Een groot voertuig op de weg met veel stoelen voor mensen.",
+        "example": "Ik ga met de bus naar het werk."
+      },
+      {
+        "word": "de trein",
+        "explanation": "Een lang voertuig dat op rails rijdt tussen steden.",
+        "example": "De trein naar Utrecht is snel."
+      },
+      {
+        "word": "de tram",
+        "explanation": "Een voertuig op rails in de stad.",
+        "example": "De tram stopt hier voor het station."
+      },
+      {
+        "word": "de halte",
+        "explanation": "De plek waar de bus of tram stopt en je kunt instappen.",
+        "example": "Ik wacht bij de halte op de bus."
+      },
+      {
+        "word": "het station",
+        "explanation": "De plek waar de treinen aankomen en vertrekken.",
+        "example": "Het station is dichtbij mijn huis."
+      },
+      {
+        "word": "het kaartje",
+        "explanation": "Papier of een chip waarmee je mag reizen.",
+        "example": "Ik koop een kaartje voor de trein."
+      },
+      {
+        "word": "instappen",
+        "explanation": "In de bus, tram of trein gaan.",
+        "example": "We moeten hier instappen."
+      },
+      {
+        "word": "uitstappen",
+        "explanation": "Uit de bus, tram of trein gaan.",
+        "example": "Ik stap bij het station uit."
+      },
+      {
+        "word": "vertrekken",
+        "explanation": "Weggaan; de trein of bus gaat rijden.",
+        "example": "De trein vertrekt om tien uur."
+      },
+      {
+        "word": "overstappen",
+        "explanation": "Van de ene bus of trein naar de andere gaan.",
+        "example": "In Amsterdam moet ik overstappen."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Met de bus / met de trein",
+        "body": "Je gebruikt 'met' om te zeggen hoe je reist. Bijvoorbeeld: 'Ik ga met de bus.' of 'Wij reizen met de trein.'"
+      },
+      {
+        "heading": "Hoe laat vertrekt de trein?",
+        "body": "Met 'hoe laat' vraag je naar de tijd. Bijvoorbeeld: 'Hoe laat vertrekt de bus?' Het antwoord is een tijd: 'De bus vertrekt om acht uur.'"
+      }
+    ],
+    "exampleSentences": [
+      "De bus komt om negen uur.",
+      "Waar is de halte?",
+      "Ik koop een kaartje bij het station.",
+      "We stappen hier uit.",
+      "De trein naar Rotterdam vertrekt van spoor twee."
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Hallo, gaat deze bus naar het station?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Ja, deze bus gaat naar het station."
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Fijn. Hoe laat vertrekt de bus?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "De bus vertrekt om half tien."
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "En hoeveel haltes is het?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Het is vier haltes. Dan stap je uit."
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Heb ik een kaartje nodig?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Ja, je koopt een kaartje bij de chauffeur."
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Dank je wel. Dat is duidelijk."
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Graag gedaan. Goede reis!"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Waar gaat de bus naartoe?",
+      "options": [
+        "Naar het station",
+        "Naar de school",
+        "Naar het ziekenhuis",
+        "Naar de winkel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tom zegt dat de bus naar het station gaat."
+    },
+    {
+      "question": "Hoe laat vertrekt de bus?",
+      "options": [
+        "Om negen uur",
+        "Om half tien",
+        "Om tien uur",
+        "Om half negen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tom zegt: de bus vertrekt om half tien."
+    },
+    {
+      "question": "Waar koopt Sanne een kaartje?",
+      "options": [
+        "Bij het station",
+        "Op internet",
+        "Bij de chauffeur",
+        "In de winkel"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tom zegt dat je een kaartje bij de chauffeur koopt."
+    }
+  ]
+}

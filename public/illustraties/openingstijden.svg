@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="Openingstijden bord">
+  <rect width="480" height="300" rx="16" fill="#eef4ff"/>
+  <rect x="24" y="24" width="432" height="252" rx="12" fill="#ffffff" stroke="#bfd7fd" stroke-width="2"/>
+  <rect x="24" y="24" width="432" height="52" rx="12" fill="#1c3a7d"/>
+  <text x="240" y="58" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Supermarkt De Markt</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#14264d">
+    <text x="48" y="120">Ma t/m vr</text><text x="432" y="120" text-anchor="end" fill="#1f469e" font-weight="600">08.00 – 20.00</text>
+    <text x="48" y="164">Zaterdag</text><text x="432" y="164" text-anchor="end" fill="#1f469e" font-weight="600">08.00 – 18.00</text>
+    <text x="48" y="208">Zondag</text><text x="432" y="208" text-anchor="end" fill="#1f469e" font-weight="600">12.00 – 17.00</text>
+  </g>
+  <line x1="48" y1="132" x2="432" y2="132" stroke="#dce9fe" stroke-width="2"/>
+  <line x1="48" y1="176" x2="432" y2="176" stroke="#dce9fe" stroke-width="2"/>
+  <circle cx="60" cy="250" r="10" fill="#f5821f"/>
+  <text x="82" y="256" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#5f95f5">Openingstijden</text>
+</svg>

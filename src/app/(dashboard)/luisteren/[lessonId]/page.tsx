@@ -1,6 +1,8 @@
 import { notFound, redirect } from "next/navigation";
 import { getLessonWithExercises } from "@/lib/exercises/queries";
 import { getCurrentProfile, hasFullAccess } from "@/lib/profile/queries";
+import { asLessonContent } from "@/types/exercise-content";
+import { LessonSections } from "@/components/exercises/lesson-sections";
 import { LessonClient } from "../_components/lesson-client";
 
 export default async function LuisterenLessonPage({
@@ -37,6 +39,10 @@ export default async function LuisterenLessonPage({
         <h1 className="text-2xl font-bold text-navy-900">{lesson.title}</h1>
         {lesson.description ? <p className="mt-1 text-navy-500">{lesson.description}</p> : null}
       </div>
+      <LessonSections
+        content={asLessonContent(lesson.content)}
+        nativeLanguage={profile?.nativeLanguage ?? null}
+      />
       <LessonClient
         clipExercise={clipExercise}
         questionExercises={questionExercises}

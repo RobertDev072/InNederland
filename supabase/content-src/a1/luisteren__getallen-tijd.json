@@ -1,0 +1,142 @@
+{
+  "skill": "luisteren",
+  "topic": "Getallen en tijd",
+  "slug": "getallen-tijd",
+  "title": "Getallen en tijd luisteren",
+  "description": "Je leert getallen en tijd verstaan in eenvoudige gesprekken.",
+  "content": {
+    "intro": "In deze les luister je naar getallen en tijd. Je hoort hoe laat het is en hoeveel iets kost. Je oefent met simpele zinnen die je elke dag hoort.",
+    "learningGoals": [
+      "Je verstaat de getallen van 0 tot 20.",
+      "Je begrijpt vragen over de tijd.",
+      "Je hoort hoe laat iets begint.",
+      "Je verstaat een prijs of een telefoonnummer."
+    ],
+    "vocabulary": [
+      {
+        "word": "hoe laat",
+        "explanation": "Je vraagt naar de tijd op de klok.",
+        "example": "Hoe laat is het nu?"
+      },
+      {
+        "word": "de klok",
+        "explanation": "Een klok laat de tijd zien.",
+        "example": "Ik kijk op de klok."
+      },
+      {
+        "word": "het uur",
+        "explanation": "Een dag heeft vierentwintig uur.",
+        "example": "De les duurt een uur."
+      },
+      {
+        "word": "half",
+        "explanation": "Half betekent dertig minuten voor het hele uur.",
+        "example": "Het is half acht."
+      },
+      {
+        "word": "getal",
+        "explanation": "Een getal is een cijfer, zoals een, twee of drie.",
+        "example": "Tien is een groot getal."
+      },
+      {
+        "word": "de euro",
+        "explanation": "In Nederland betaal je met euro.",
+        "example": "Het brood kost twee euro."
+      },
+      {
+        "word": "kosten",
+        "explanation": "Kosten zegt hoeveel geld je betaalt.",
+        "example": "Hoeveel kost de koffie?"
+      },
+      {
+        "word": "beginnen",
+        "explanation": "Iets start op een tijd.",
+        "example": "De film begint om acht uur."
+      },
+      {
+        "word": "de minuut",
+        "explanation": "Een uur heeft zestig minuten.",
+        "example": "Ik wacht vijf minuten."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Hoe laat is het?",
+        "body": "Je zegt de tijd met 'om' en het uur. Voorbeeld: 'Het is drie uur.' en 'De trein komt om half vier.'"
+      },
+      {
+        "heading": "Getallen 0 tot 20",
+        "body": "Je telt: een, twee, drie, vier, vijf... tot twintig. Voorbeeld: 'Ik heb tien euro.' en 'Er zijn vijftien mensen.'"
+      }
+    ],
+    "exampleSentences": [
+      "Het is nu half negen.",
+      "De winkel gaat om negen uur open.",
+      "De koffie kost twee euro vijftig.",
+      "Mijn nummer is nul zes, twaalf, drieënvijftig.",
+      "De bus komt over vijf minuten."
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Hoi Tom, hoe laat is het nu?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Het is half acht."
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Oké. Hoe laat begint de film?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "De film begint om acht uur."
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "En hoeveel kost een kaartje?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Een kaartje kost tien euro."
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Prima. De bus komt over vijf minuten."
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Goed, dan zijn we op tijd. We gaan!"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Hoe laat is het in het gesprek?",
+      "options": ["Half acht", "Acht uur", "Half negen", "Tien uur"],
+      "correctIndex": 0,
+      "explanation": "Tom zegt: 'Het is half acht.'"
+    },
+    {
+      "question": "Hoe laat begint de film?",
+      "options": ["Half acht", "Zeven uur", "Acht uur", "Negen uur"],
+      "correctIndex": 2,
+      "explanation": "Tom zegt: 'De film begint om acht uur.'"
+    },
+    {
+      "question": "Hoeveel kost een kaartje?",
+      "options": ["Vijf euro", "Tien euro", "Twaalf euro", "Twintig euro"],
+      "correctIndex": 1,
+      "explanation": "Tom zegt: 'Een kaartje kost tien euro.'"
+    }
+  ]
+}

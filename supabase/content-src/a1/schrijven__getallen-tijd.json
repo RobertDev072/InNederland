@@ -1,0 +1,89 @@
+{
+  "skill": "schrijven",
+  "topic": "Getallen en tijd",
+  "slug": "getallen-tijd",
+  "title": "Getallen en tijd: hoe laat is het?",
+  "description": "Je leert getallen en de tijd opschrijven in eenvoudig Nederlands.",
+  "content": {
+    "intro": "In deze les leer je getallen en de tijd. Je leert hoe laat het is en welke dag het is. Je oefent met korte zinnen over tijd.",
+    "learningGoals": [
+      "Je kunt getallen van 0 tot 20 opschrijven.",
+      "Je kunt zeggen en schrijven hoe laat het is.",
+      "Je kunt de dagen van de week noemen.",
+      "Je kunt een kort bericht over tijd schrijven."
+    ],
+    "vocabulary": [
+      {
+        "word": "hoe laat",
+        "explanation": "Je vraagt naar de tijd.",
+        "example": "Hoe laat is het nu?"
+      },
+      {
+        "word": "het uur",
+        "explanation": "Een dag heeft 24 uur.",
+        "example": "Ik werk acht uur per dag."
+      },
+      {
+        "word": "de minuut",
+        "explanation": "Een uur heeft 60 minuten.",
+        "example": "Ik ben over vijf minuten klaar."
+      },
+      {
+        "word": "half",
+        "explanation": "Dit is een half uur, dus 30 minuten.",
+        "example": "Het is half twee."
+      },
+      {
+        "word": "de dag",
+        "explanation": "Een week heeft zeven dagen.",
+        "example": "Welke dag is het vandaag?"
+      },
+      {
+        "word": "vandaag",
+        "explanation": "Dit is de dag van nu.",
+        "example": "Vandaag is het maandag."
+      },
+      {
+        "word": "morgen",
+        "explanation": "Dit is de dag na vandaag.",
+        "example": "Morgen ga ik naar school."
+      },
+      {
+        "word": "de week",
+        "explanation": "Een week heeft zeven dagen, van maandag tot zondag.",
+        "example": "Ik heb deze week een afspraak."
+      },
+      {
+        "word": "vroeg",
+        "explanation": "Vroeg is aan het begin van de dag.",
+        "example": "Ik sta vroeg op, om zeven uur."
+      },
+      {
+        "word": "laat",
+        "explanation": "Laat is aan het eind van de dag.",
+        "example": "Het is al laat, ik ga slapen."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Hoe laat is het? De tijd zeggen",
+        "body": "Je zegt eerst het uur en dan 'uur'. Voorbeeld: 'Het is drie uur.' Voor een half uur zeg je 'half' plus het volgende uur. Voorbeeld: half vier is 3:30. Voor kwart zeg je 'kwart over' of 'kwart voor'. Voorbeeld: 'Het is kwart over vijf' (5:15)."
+      },
+      {
+        "heading": "Getallen schrijven",
+        "body": "Je schrijft kleine getallen vaak als woord: een, twee, drie, vier, vijf. Grotere getallen kun je met cijfers schrijven: 12, 15, 20. Voorbeeld: 'Ik heb twee kinderen.' of 'De bus komt om 8 uur.'"
+      }
+    ],
+    "exampleSentences": [
+      "Het is nu tien uur.",
+      "De les begint om half negen.",
+      "Vandaag is het dinsdag.",
+      "Ik sta elke dag om zeven uur op.",
+      "De winkel is open van negen tot vijf uur."
+    ]
+  },
+  "writing": {
+    "instructions": "Schrijf een kort bericht aan een vriend. Vertel welke dag het vandaag is en hoe laat je afspreekt. Schrijf ook waar jullie elkaar zien en hoe laat je thuis bent. Gebruik minstens drie getallen of tijden.",
+    "minWords": 40
+  }
+}

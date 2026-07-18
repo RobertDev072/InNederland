@@ -1,0 +1,106 @@
+{
+  "skill": "lezen",
+  "topic": "Openbaar vervoer",
+  "slug": "vervoer",
+  "title": "Met de bus en de trein",
+  "description": "Je leert eenvoudige woorden en zinnen over het openbaar vervoer in Nederland.",
+  "content": {
+    "intro": "In deze les lees je over het openbaar vervoer. Je leert woorden over de bus, de trein en de tram. Je leert ook hoe je een kaartje koopt en naar de tijd vraagt.",
+    "learningGoals": [
+      "Je begrijpt eenvoudige woorden over het openbaar vervoer.",
+      "Je leest een korte tekst over reizen met de bus en de trein.",
+      "Je begrijpt hoe je een kaartje koopt.",
+      "Je vindt informatie over de tijd in een korte tekst."
+    ],
+    "vocabulary": [
+      {
+        "word": "de bus",
+        "explanation": "Een groot voertuig met veel stoelen. Veel mensen reizen samen.",
+        "example": "Ik ga met de bus naar de stad."
+      },
+      {
+        "word": "de trein",
+        "explanation": "Een lang voertuig dat op rails rijdt. De trein is snel.",
+        "example": "De trein naar Amsterdam vertrekt om acht uur."
+      },
+      {
+        "word": "de tram",
+        "explanation": "Een voertuig op rails in de stad. De tram stopt vaak.",
+        "example": "In Amsterdam pak ik de tram."
+      },
+      {
+        "word": "het station",
+        "explanation": "De plek waar de trein stopt. Hier stap je in en uit.",
+        "example": "Ik wacht op het station op mijn vriend."
+      },
+      {
+        "word": "de halte",
+        "explanation": "De plek waar de bus of de tram stopt.",
+        "example": "De bus stopt bij de halte voor de school."
+      },
+      {
+        "word": "het kaartje",
+        "explanation": "Papier of een pas voor de reis. Je betaalt voor het kaartje.",
+        "example": "Ik koop een kaartje bij de automaat."
+      },
+      {
+        "word": "instappen",
+        "explanation": "In de bus, de trein of de tram gaan.",
+        "example": "De mensen stappen in de trein."
+      },
+      {
+        "word": "uitstappen",
+        "explanation": "Uit de bus, de trein of de tram gaan.",
+        "example": "Bij het station stap ik uit."
+      },
+      {
+        "word": "vertrekken",
+        "explanation": "Weggaan. De bus of de trein rijdt weg.",
+        "example": "De trein vertrekt om negen uur."
+      },
+      {
+        "word": "op tijd",
+        "explanation": "Niet te laat. Precies goed met de tijd.",
+        "example": "De bus is vandaag op tijd."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Met de bus, met de trein",
+        "body": "Voor vervoer gebruik je het woord 'met'. Je zegt: 'Ik ga met de bus.' of 'Ik reis met de trein.' Ook goed: 'Wij gaan met de tram naar huis.'"
+      },
+      {
+        "heading": "Hoe laat? De tijd",
+        "body": "Je vraagt naar de tijd met 'Hoe laat?'. Bijvoorbeeld: 'Hoe laat vertrekt de trein?' Het antwoord is: 'De trein vertrekt om acht uur.' Je gebruikt 'om' voor de tijd."
+      }
+    ],
+    "exampleSentences": [
+      "Ik ga elke dag met de bus naar mijn werk.",
+      "Het station is dichtbij mijn huis.",
+      "Hoe laat vertrekt de trein naar Utrecht?",
+      "Ik koop een kaartje bij de automaat.",
+      "De tram stopt bij de halte in het centrum."
+    ]
+  },
+  "readingText": "Sara woont in Rotterdam. Elke dag gaat zij met de trein naar haar werk in Den Haag. Zij loopt naar het station. Het station is dichtbij. Bij de automaat koopt Sara een kaartje. De trein vertrekt om half acht. Sara wacht op het perron. De trein is op tijd. Zij stapt in en zoekt een stoel bij het raam. De reis duurt dertig minuten. In Den Haag stapt Sara uit. Dan pakt zij de tram naar het kantoor. De tram stopt bij de halte voor het gebouw. Sara is blij. Zij is nooit te laat op haar werk.",
+  "questions": [
+    {
+      "question": "Waar woont Sara?",
+      "options": ["In Den Haag", "In Rotterdam", "In Utrecht", "In Amsterdam"],
+      "correctIndex": 1,
+      "explanation": "In de tekst staat: 'Sara woont in Rotterdam.'"
+    },
+    {
+      "question": "Hoe gaat Sara naar haar werk?",
+      "options": ["Met de bus", "Met de auto", "Met de trein", "Met de fiets"],
+      "correctIndex": 2,
+      "explanation": "Sara gaat elke dag met de trein naar haar werk in Den Haag."
+    },
+    {
+      "question": "Wat doet Sara in Den Haag na de trein?",
+      "options": ["Zij pakt de tram", "Zij loopt naar huis", "Zij wacht op de bus", "Zij koopt een kaartje"],
+      "correctIndex": 0,
+      "explanation": "In de tekst staat: 'Dan pakt zij de tram naar het kantoor.'"
+    }
+  ]
+}

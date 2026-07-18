@@ -1,0 +1,157 @@
+{
+  "skill": "luisteren",
+  "topic": "Wonen",
+  "slug": "wonen",
+  "title": "Wonen: luisteren over jouw huis",
+  "description": "In deze les luister je naar een gesprek over waar mensen wonen.",
+  "content": {
+    "intro": "In deze les leer je luisteren naar mensen die over hun huis praten. Je hoort woorden over kamers en over waar je woont. De zinnen zijn kort en makkelijk.",
+    "learningGoals": [
+      "Je begrijpt woorden over het huis en de kamers.",
+      "Je kunt luisteren waar iemand woont.",
+      "Je verstaat een kort gesprek over wonen.",
+      "Je herkent de vraag 'Waar woon je?'"
+    ],
+    "vocabulary": [
+      {
+        "word": "het huis",
+        "explanation": "de plek waar je woont",
+        "example": "Ik woon in een groot huis."
+      },
+      {
+        "word": "de kamer",
+        "explanation": "een ruimte in het huis",
+        "example": "Mijn kamer is klein."
+      },
+      {
+        "word": "de keuken",
+        "explanation": "hier maak je eten",
+        "example": "In de keuken staat een tafel."
+      },
+      {
+        "word": "de slaapkamer",
+        "explanation": "hier slaap je",
+        "example": "Mijn slaapkamer is boven."
+      },
+      {
+        "word": "het appartement",
+        "explanation": "een huis in een groot gebouw",
+        "example": "Wij wonen in een appartement."
+      },
+      {
+        "word": "de straat",
+        "explanation": "hier staan de huizen",
+        "example": "Ik woon in een rustige straat."
+      },
+      {
+        "word": "de tuin",
+        "explanation": "een stuk grond bij het huis met planten",
+        "example": "In de tuin staat een boom."
+      },
+      {
+        "word": "huren",
+        "explanation": "je betaalt elke maand geld voor een huis",
+        "example": "Wij huren een appartement in de stad."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Het werkwoord 'wonen'",
+        "body": "Bij ik gebruik je 'woon'. Bij jij, hij en zij gebruik je 'woont'. Voorbeeld: Ik woon in Utrecht. Zij woont in Amsterdam."
+      },
+      {
+        "heading": "De of het",
+        "body": "Sommige woorden krijgen 'de' en andere 'het'. Voorbeeld: de keuken, de tuin, het huis, het appartement."
+      }
+    ],
+    "exampleSentences": [
+      "Ik woon in een klein huis.",
+      "Waar woon jij?",
+      "Mijn appartement heeft twee kamers.",
+      "De keuken is heel groot.",
+      "Wij hebben een mooie tuin."
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Hoi Tom, waar woon jij nu?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Ik woon in een appartement in de stad."
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Leuk! Is het appartement groot?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Nee, het is klein. Ik heb twee kamers."
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Heb je ook een tuin?"
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Nee, ik heb geen tuin. En jij, waar woon je?"
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Ik woon in een huis met een tuin. De tuin is heel mooi."
+    },
+    {
+      "speaker": "m",
+      "name": "Tom",
+      "text": "Wat fijn! Huur jij het huis?"
+    },
+    {
+      "speaker": "v",
+      "name": "Sanne",
+      "text": "Ja, ik huur het huis samen met mijn zus."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Waar woont Tom?",
+      "options": [
+        "In een appartement in de stad",
+        "In een huis met een tuin",
+        "In een groot huis",
+        "Bij zijn zus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tom zegt: 'Ik woon in een appartement in de stad.'"
+    },
+    {
+      "question": "Heeft Tom een tuin?",
+      "options": [
+        "Ja, een grote tuin",
+        "Nee, hij heeft geen tuin",
+        "Ja, een kleine tuin",
+        "Dat zegt hij niet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tom zegt: 'Nee, ik heb geen tuin.'"
+    },
+    {
+      "question": "Met wie huurt Sanne het huis?",
+      "options": [
+        "Met Tom",
+        "Alleen",
+        "Met haar zus",
+        "Met een vriend"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sanne zegt: 'Ik huur het huis samen met mijn zus.'"
+    }
+  ]
+}

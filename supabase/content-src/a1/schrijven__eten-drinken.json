@@ -1,0 +1,89 @@
+{
+  "skill": "schrijven",
+  "topic": "Eten en drinken",
+  "slug": "eten-drinken",
+  "title": "Wat eet en drink je?",
+  "description": "In deze les leer je korte zinnen schrijven over eten en drinken.",
+  "content": {
+    "intro": "In deze les leer je woorden over eten en drinken. Je leert schrijven wat je eet en wat je drinkt. Je oefent met korte, makkelijke zinnen.",
+    "learningGoals": [
+      "Je kent woorden over eten en drinken.",
+      "Je kunt schrijven wat je graag eet en drinkt.",
+      "Je gebruikt de werkwoorden 'eten' en 'drinken' in een zin.",
+      "Je schrijft een kort bericht over je eten."
+    ],
+    "vocabulary": [
+      {
+        "word": "het brood",
+        "explanation": "Brood eet je vaak bij het ontbijt.",
+        "example": "Ik eet een boterham met brood."
+      },
+      {
+        "word": "de kaas",
+        "explanation": "Kaas eet je vaak op je brood.",
+        "example": "Op mijn brood zit kaas."
+      },
+      {
+        "word": "de appel",
+        "explanation": "Een appel is fruit. Fruit is gezond.",
+        "example": "Ik eet elke dag een appel."
+      },
+      {
+        "word": "het water",
+        "explanation": "Water is een drankje. Je drinkt water uit een glas.",
+        "example": "Ik drink een glas water."
+      },
+      {
+        "word": "de koffie",
+        "explanation": "Koffie is een warm drankje. Veel mensen drinken het 's ochtends.",
+        "example": "Mijn vader drinkt koffie."
+      },
+      {
+        "word": "de melk",
+        "explanation": "Melk is wit. Je drinkt het of je doet het in je koffie.",
+        "example": "In mijn thee doe ik melk."
+      },
+      {
+        "word": "het ontbijt",
+        "explanation": "Het ontbijt is het eten in de ochtend.",
+        "example": "Ik eet mijn ontbijt om acht uur."
+      },
+      {
+        "word": "lekker",
+        "explanation": "Iets is lekker als het heel goed smaakt.",
+        "example": "De soep is lekker."
+      },
+      {
+        "word": "eten",
+        "explanation": "Eten doe je met je mond. Brood en fruit zijn eten.",
+        "example": "Wij eten samen aan tafel."
+      },
+      {
+        "word": "drinken",
+        "explanation": "Drinken doe je met een drankje, zoals water of thee.",
+        "example": "De kinderen drinken melk."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "De werkwoorden 'eten' en 'drinken'",
+        "body": "In de tegenwoordige tijd zeg je: ik eet, jij eet, hij/zij eet, wij eten. En: ik drink, jij drinkt, hij/zij drinkt, wij drinken. Voorbeeld: Ik eet een appel. Wij drinken water."
+      },
+      {
+        "heading": "Zeggen wat je fijn vindt met 'graag'",
+        "body": "Wil je zeggen dat je iets fijn vindt? Gebruik het woord 'graag'. Het komt na het werkwoord. Voorbeeld: Ik drink graag thee. Zij eet graag brood."
+      }
+    ],
+    "exampleSentences": [
+      "Ik eet 's ochtends een boterham met kaas.",
+      "Mijn zus drinkt graag koffie met melk.",
+      "Wil jij een glas water of een kopje thee?",
+      "De appel is heel lekker.",
+      "Wij eten om zes uur samen aan tafel."
+    ]
+  },
+  "writing": {
+    "instructions": "Schrijf een kort bericht aan een vriend of vriendin. Vertel wat je vandaag eet en drinkt. Schrijf wat je 's ochtends, 's middags en 's avonds eet en drinkt. Gebruik woorden uit de les. Begin met 'Hoi' en eindig met je naam. Schrijf hele zinnen.",
+    "minWords": 35
+  }
+}

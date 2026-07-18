@@ -1,0 +1,84 @@
+{
+  "skill": "schrijven",
+  "topic": "Familie",
+  "slug": "familie",
+  "title": "Schrijven over je familie",
+  "description": "Je leert eenvoudige zinnen schrijven over de mensen in je familie.",
+  "content": {
+    "intro": "In deze les leer je schrijven over je familie. Je leert woorden voor familieleden. Daarna schrijf je zelf een kort bericht over jouw familie.",
+    "learningGoals": [
+      "Je kent woorden voor familieleden.",
+      "Je kunt vertellen wie er in je familie is.",
+      "Je kunt de leeftijd en naam van een persoon opschrijven.",
+      "Je kunt een kort bericht over je familie schrijven."
+    ],
+    "vocabulary": [
+      {
+        "word": "de familie",
+        "explanation": "alle mensen die bij elkaar horen, zoals je vader en moeder",
+        "example": "Mijn familie is groot."
+      },
+      {
+        "word": "de vader",
+        "explanation": "de man, hij is jouw ouder",
+        "example": "Mijn vader werkt in een winkel."
+      },
+      {
+        "word": "de moeder",
+        "explanation": "de vrouw, zij is jouw ouder",
+        "example": "Mijn moeder kookt lekker eten."
+      },
+      {
+        "word": "de broer",
+        "explanation": "een jongen of man, hij heeft dezelfde ouders als jij",
+        "example": "Ik heb een broer van tien jaar."
+      },
+      {
+        "word": "de zus",
+        "explanation": "een meisje of vrouw, zij heeft dezelfde ouders als jij",
+        "example": "Mijn zus woont in Utrecht."
+      },
+      {
+        "word": "het kind",
+        "explanation": "een jongen of meisje, nog niet groot",
+        "example": "Wij hebben een kind."
+      },
+      {
+        "word": "de opa",
+        "explanation": "de vader van je vader of moeder",
+        "example": "Mijn opa is oud en aardig."
+      },
+      {
+        "word": "de oma",
+        "explanation": "de moeder van je vader of moeder",
+        "example": "Mijn oma maakt soep voor ons."
+      },
+      {
+        "word": "getrouwd",
+        "explanation": "je bent samen met een man of vrouw voor de wet",
+        "example": "Mijn broer is getrouwd."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Bezit: mijn, jouw, zijn, haar",
+        "body": "Je gebruikt 'mijn' voor jezelf en 'jouw' voor de ander. Voor een man gebruik je 'zijn' en voor een vrouw 'haar'. Voorbeeld: Mijn vader heet Ali. Zijn zus woont in Rotterdam. Haar moeder is aardig."
+      },
+      {
+        "heading": "Het werkwoord hebben",
+        "body": "Met 'hebben' zeg je wie er in je familie is. Ik heb, jij hebt, hij/zij heeft, wij hebben. Voorbeeld: Ik heb een broer. Wij hebben twee kinderen."
+      }
+    ],
+    "exampleSentences": [
+      "Mijn familie woont in Nederland.",
+      "Ik heb een broer en een zus.",
+      "Mijn moeder heet Fatima en zij is 45 jaar.",
+      "Mijn opa en oma wonen ver weg.",
+      "Wij hebben een klein kind van twee jaar."
+    ]
+  },
+  "writing": {
+    "instructions": "Schrijf een kort bericht aan een nieuwe vriend over jouw familie. Vertel wie er in je familie is. Schrijf de namen en de leeftijd van twee personen. Gebruik de woorden 'mijn', 'vader', 'moeder', 'broer' of 'zus'. Begin met 'Hoi' en eindig met je naam.",
+    "minWords": 40
+  }
+}

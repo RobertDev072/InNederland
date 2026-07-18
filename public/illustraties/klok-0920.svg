@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-label="Klok die 09:20 aangeeft">
+  <rect width="300" height="300" rx="16" fill="#eef4ff"/>
+  <circle cx="150" cy="150" r="118" fill="#ffffff" stroke="#1c3a7d" stroke-width="8"/>
+  <g stroke="#1c3a7d" stroke-width="4" stroke-linecap="round">
+    <line x1="150" y1="44" x2="150" y2="60"/>
+    <line x1="150" y1="240" x2="150" y2="256"/>
+    <line x1="44" y1="150" x2="60" y2="150"/>
+    <line x1="240" y1="150" x2="256" y2="150"/>
+  </g>
+  <!-- 09:20 -> hour hand between 9 and 10, minute hand at 4 (20 min) -->
+  <line x1="150" y1="150" x2="104" y2="126" stroke="#14264d" stroke-width="8" stroke-linecap="round"/>
+  <line x1="150" y1="150" x2="206" y2="196" stroke="#f5821f" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="150" cy="150" r="9" fill="#14264d"/>
+  <text x="150" y="290" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#1f469e">09:20</text>
+</svg>

@@ -1,0 +1,94 @@
+{
+  "skill": "spreken",
+  "topic": "Openbaar vervoer",
+  "slug": "vervoer",
+  "title": "Met de bus en de trein",
+  "description": "Je leert praten over het openbaar vervoer en een kaartje kopen.",
+  "content": {
+    "intro": "In deze les leer je praten over het openbaar vervoer. Je leert een kaartje kopen en de weg vragen. Je oefent met heel makkelijke zinnen.",
+    "learningGoals": [
+      "Je kunt een kaartje kopen bij het loket.",
+      "Je kunt vragen hoe laat de bus of de trein gaat.",
+      "Je kunt vragen waar je moet uitstappen.",
+      "Je kunt zeggen waar je naartoe wilt."
+    ],
+    "vocabulary": [
+      {
+        "word": "de bus",
+        "explanation": "Een grote auto voor veel mensen. De bus rijdt op de weg.",
+        "example": "Ik ga met de bus naar mijn werk."
+      },
+      {
+        "word": "de trein",
+        "explanation": "Die rijdt op het spoor en gaat heel snel.",
+        "example": "De trein naar Utrecht vertrekt om drie uur."
+      },
+      {
+        "word": "het kaartje",
+        "explanation": "Dit koop je om te mogen reizen. Zonder kaartje mag je niet mee.",
+        "example": "Ik koop een kaartje naar Amsterdam."
+      },
+      {
+        "word": "de halte",
+        "explanation": "De plek waar de bus stopt en waar je in- en uitstapt.",
+        "example": "Ik wacht bij de halte op de bus."
+      },
+      {
+        "word": "het station",
+        "explanation": "Het gebouw waar de treinen komen en vertrekken.",
+        "example": "Het station is dichtbij mijn huis."
+      },
+      {
+        "word": "instappen",
+        "explanation": "In de bus of de trein gaan.",
+        "example": "Wij stappen in bij het station."
+      },
+      {
+        "word": "uitstappen",
+        "explanation": "Uit de bus of de trein gaan.",
+        "example": "Ik stap uit bij de volgende halte."
+      },
+      {
+        "word": "overstappen",
+        "explanation": "Uit de ene bus of trein gaan en in een andere gaan.",
+        "example": "Ik moet in Den Haag overstappen."
+      },
+      {
+        "word": "vertrekken",
+        "explanation": "Weggaan. De trein gaat rijden.",
+        "example": "Hoe laat vertrekt de bus?"
+      },
+      {
+        "word": "het perron",
+        "explanation": "De plek op het station waar je op de trein wacht.",
+        "example": "De trein staat op perron twee."
+      }
+    ],
+    "grammar": [
+      {
+        "heading": "Reizen met 'met de'",
+        "body": "Je zegt hoe je reist met 'met de' of 'met het'. Bijvoorbeeld: 'Ik ga met de bus.' of 'Ik ga met de trein.' Je gebruikt dit voor elk vervoer."
+      },
+      {
+        "heading": "Vragen stellen met 'hoe laat' en 'waar'",
+        "body": "Een vraag begint vaak met een vraagwoord. Met 'hoe laat' vraag je naar de tijd: 'Hoe laat gaat de trein?' Met 'waar' vraag je naar een plek: 'Waar is de halte?'"
+      }
+    ],
+    "exampleSentences": [
+      "Ik ga met de bus naar het centrum.",
+      "Hoe laat vertrekt de trein naar Rotterdam?",
+      "Waar moet ik uitstappen?",
+      "Een kaartje naar Amsterdam, alstublieft.",
+      "Ik moet in Utrecht overstappen."
+    ]
+  },
+  "speaking": {
+    "scenario": "Je bent op het station. Je wilt met de trein naar Amsterdam. Je koopt een kaartje bij het loket en je vraagt hoe laat de trein gaat en van welk perron.",
+    "expectedPoints": [
+      "Zeg waar je naartoe wilt: 'Ik wil naar Amsterdam.'",
+      "Vraag om een kaartje: 'Een kaartje naar Amsterdam, alstublieft.'",
+      "Vraag naar de tijd: 'Hoe laat vertrekt de trein?'",
+      "Vraag naar het perron: 'Van welk perron vertrekt de trein?'"
+    ]
+  }
+}
