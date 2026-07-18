@@ -12,11 +12,15 @@ until curl -sf http://localhost:11434/api/tags >/dev/null 2>&1; do
   sleep 1
 done
 
-# Pull the model if it isn't already present (persisted via a Railway volume on /root/.ollama).
-if ! ollama list | grep -q "${MODEL%%:*}"; then
-  echo "Model ${MODEL} downloaden..."
-  ollama pull "${MODEL}"
-fi
+# Pull the model in the BACKGROUND so the web server (and the /health check) come up immediately.
+# On the first deploy the download takes a few minutes; the AI endpoints return an error until it
+# finishes, then start working. With a volume on /root/.ollama the model is cached for next time.
+(
+  if ! ollama list | grep -q "${MODEL%%:*}"; then
+    echo "Model ${MODEL} downloaden (op de achtergrond)..."
+    ollama pull "${MODEL}" && echo "Model ${MODEL} klaar."
+  fi
+) &
 
-# Start the FastAPI proxy on Railway's assigned port.
+# Start the FastAPI proxy right away on Railway's assigned port (so /health responds quickly).
 exec uvicorn main:app --host 0.0.0.0 --port "${PORT:-8000}"
